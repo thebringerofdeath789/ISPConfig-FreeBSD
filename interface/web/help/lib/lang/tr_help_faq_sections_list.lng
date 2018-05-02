@@ -1,0 +1,8 @@
+<?php
+$wb['faq_section_name_txt'] = 'Bölüm Adı';
+$wb['faq_delete_txt'] = 'Sil';
+$wb['faq_edit_txt'] = 'Düzenle';
+$wb['faq_sections_txt'] = 'Bölümler';
+$wb['faq_faq_sections_txt'] = 'SSS Bölümleri';
+$wb['faq_new_section_txt'] = 'Bölüm Ekle';
+?>

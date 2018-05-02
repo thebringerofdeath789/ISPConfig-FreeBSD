@@ -1,0 +1,35 @@
+<?php
+$wb['uid_txt'] = 'UID';
+$wb['gid_txt'] = 'GID';
+$wb['dir_txt'] = 'Direktorij';
+$wb['quota_files_txt'] = 'Kvota datoteka';
+$wb['quota_files_unity_txt'] = 'Datoteke';
+$wb['ul_ratio_txt'] = 'Uploadratio';
+$wb['dl_ratio_txt'] = 'Downloadratio';
+$wb['ul_bandwidth_txt'] = 'Uploadbandwidth';
+$wb['dl_bandwidth_txt'] = 'Downloadbandwidth';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Web stranica';
+$wb['username_txt'] = 'Korisničko ime';
+$wb['password_txt'] = 'Šifra';
+$wb['password_strength_txt'] = 'Jačina šifre';
+$wb['quota_size_txt'] = 'Kvota web stranice';
+$wb['active_txt'] = 'Aktivno';
+$wb['limit_ftp_user_txt'] = 'Iskoristili ste maksimalan broj FTP računa. ';
+$wb['username_error_empty'] = 'Nije upisano korisničko ime.';
+$wb['username_error_unique'] = 'Izabrano korisničko ime već postoji.';
+$wb['username_error_regex'] = 'Korisničko ime sadrži znakove koji nisu dopušteni.';
+$wb['quota_size_error_empty'] = 'Nije upisana kvota web stranice.';
+$wb['uid_error_empty'] = 'Prazan GID.';
+$wb['directory_error_empty'] = 'Prazan direktorij.';
+$wb['directory_error_notinweb'] = 'Direktorij nije unutar početne web stranice.';
+$wb['parent_domain_id_error_empty'] = 'Nije izabrana web stranica.';
+$wb['quota_size_error_regex'] = 'Kvota: unesi -1 za neograničeno ili broj > 0';
+$wb['dir_dot_error'] = '.. nije dozvoljen u putanji.';
+$wb['dir_slashdot_error'] = './ nije dozvoljen u putanji.';
+$wb['generate_password_txt'] = 'Generiraj šifru';
+$wb['repeat_password_txt'] = 'Ponovi šifru';
+$wb['password_mismatch_txt'] = 'Šifre nisu identične.';
+$wb['password_match_txt'] = 'Šifre su identične.';
+$wb['expires_txt'] = 'Expire at';
+?>

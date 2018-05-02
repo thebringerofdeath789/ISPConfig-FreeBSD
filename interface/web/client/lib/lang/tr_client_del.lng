@@ -1,0 +1,7 @@
+<?php
+$wb['confirm_action_txt'] = 'İşlemi onaylayın';
+$wb['delete_explanation'] = 'Bu işlem bu müşteri ile ilgili şu kayıtları silecek';
+$wb['btn_save_txt'] = 'Müşteriyi sil';
+$wb['btn_cancel_txt'] = 'Müşteriyi silmeden iptal et';
+$wb['confirm_client_delete_txt'] = 'Bu müşteriyi silmek istediğinize emin misiniz?';
+?>

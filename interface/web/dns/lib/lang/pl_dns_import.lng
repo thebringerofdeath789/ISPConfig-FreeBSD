@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['client_txt'] = 'Klient';
+$wb['btn_save_txt'] = 'Import pliku strefy';
+$wb['btn_cancel_txt'] = 'Anuluj';
+$wb['domain_txt'] = 'Domena';
+$wb['zone_file_successfully_imported_txt'] = 'Strefa została poprawnie zaimportowana';
+$wb['error_no_valid_zone_file_txt'] = 'Struktura pliku strefy jest nieprawidłowa';
+$wb['zonefile_to_import_txt'] = 'Plik strefy';
+$wb['domain_field_desc_txt'] = 'Może być puste jeżeli nazwa domeny jest w nazwie pliku lub w treści pliku';
+$wb['title'] = 'Importuj pliki strefy';
+$wb['no_file_uploaded_error'] = 'Nie załadowany żaden plik';
+$wb['zone_file_import_txt'] = 'Import pliku strefy';
+$wb['error_no_server_id'] = 'No server provided.';
+$wb['error_not_allowed_server_id'] = 'The selected server is not allowed for this account.';
+?>

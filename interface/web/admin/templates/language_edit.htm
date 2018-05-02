@@ -1,0 +1,25 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+
+        <fieldset id="wf_area_language_edit"><legend>Language File Edit: {tmpl_var name="file_path"}</legend>
+            <span class="wf_oneField">
+                <tmpl_loop name="records">
+                    <span class="wf_oneField">
+                        <label for="records[{tmpl_var name="key"}]" class="wf_preField col-sm-3">{tmpl_var name="key"}</label>
+                        <div class="col-sm-9"><input class="form-control" type="text" id="records[{tmpl_var name="key"}]" name="records[{tmpl_var name="key"}]" value="{tmpl_var name='val'}" ></div></span> 
+                </tmpl_loop>
+            </span>
+        </fieldset>  
+                
+        <input type="hidden" name="id" value="{tmpl_var name='id'}">
+        <input type="hidden" name="lang" value="{tmpl_var name='lang'}">
+        <input type="hidden" name="lang_file" value="{tmpl_var name='lang_file'}">
+        <input type="hidden" name="module" value="{tmpl_var name='module'}">
+            
+        <div class="wf_actions buttons">
+            <button class="btn btn-default formbutton-success" type="button" value="{tmpl_var name='btn_save_txt'}" data-submit-form="pageForm" data-form-action="admin/language_edit.php">{tmpl_var name='btn_save_txt'}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="{tmpl_var name='btn_cancel_txt'}" data-load-content="admin/language_list.php?lng_select={tmpl_var name='lang'}">{tmpl_var name='btn_cancel_txt'}</button>
+        </div>

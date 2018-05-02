@@ -1,0 +1,35 @@
+<?php
+$wb['username_txt'] = 'Nome utente';
+$wb['username_err'] = 'Nome utente troppo lungo o avente caratteri non validi.';
+$wb['username_empty'] = 'Nome utente mancante.';
+$wb['username_unique'] = 'Nome utente già utilizzato.';
+$wb['passwort_txt'] = 'Password';
+$wb['password_strength_txt'] = 'Solidità password';
+$wb['modules_txt'] = 'Modulo';
+$wb['startmodule_txt'] = 'Startmodule';
+$wb['app_theme_txt'] = 'Aspetto';
+$wb['typ_txt'] = 'Tipo';
+$wb['active_txt'] = 'Attiva';
+$wb['language_txt'] = 'Lingua';
+$wb['name_txt'] = 'Nome';
+$wb['vorname_txt'] = 'Cognome';
+$wb['unternehmen_txt'] = 'Azienda';
+$wb['strasse_txt'] = 'Via';
+$wb['ort_txt'] = 'Città';
+$wb['plz_txt'] = 'CAP';
+$wb['land_txt'] = 'Stato';
+$wb['email_txt'] = 'Email';
+$wb['url_txt'] = 'Url';
+$wb['telefon_txt'] = 'Telefono';
+$wb['fax_txt'] = 'Fax';
+$wb['groups_txt'] = 'Gruppi';
+$wb['default_group_txt'] = 'Gruppo predefinito';
+$wb['startmodule_err'] = 'Start module is not within modules.';
+$wb['generate_password_txt'] = 'Genera Password';
+$wb['repeat_password_txt'] = 'Ripeti Password';
+$wb['password_mismatch_txt'] = 'Le password non coincidono.';
+$wb['password_match_txt'] = 'Le password coincidono.';
+$wb['username_error_collision'] = 'The username may not be web or web plus a number.\\"';
+$wb['client_not_admin_err'] = 'A user that belongs to a client can not be set to type: admin';
+$wb['lost_password_function_txt'] = 'Forgot password function is available';
+?>

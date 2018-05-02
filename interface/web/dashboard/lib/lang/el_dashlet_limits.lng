@@ -1,0 +1,31 @@
+<?php
+$wb['limits_txt'] = 'Όρια Λογαριασμών';
+$wb['of_txt'] = 'από';
+$wb['unlimited_txt'] = 'Απεριόριστα';
+$wb['limit_maildomain_txt'] = 'Αριθμός email domains';
+$wb['limit_mailbox_txt'] = 'Αριθμός θυρίδων';
+$wb['limit_mailalias_txt'] = 'Αριθμός ψευδωνύμων email';
+$wb['limit_mailaliasdomain_txt'] = 'Αριθμός ψευδωνύμων domain';
+$wb['limit_mailforward_txt'] = 'Αριθμός email forwarders';
+$wb['limit_mailcatchall_txt'] = 'Αριθμός λογαριασμών email catchall';
+$wb['limit_mailrouting_txt'] = 'Αριθμός δρομολογήσεων email';
+$wb['limit_mailfilter_txt'] = 'Αριθμός φίλτρων email';
+$wb['limit_fetchmail_txt'] = 'Αριθμός λογαριασμών fetchmail';
+$wb['limit_spamfilter_wblist_txt'] = 'Αριθμός φίλτρων spamfilter white / blacklist';
+$wb['limit_spamfilter_user_txt'] = 'Αριθμός χρηστών spamfilter';
+$wb['limit_spamfilter_policy_txt'] = 'Αριθμός πολιτικών spamfilter';
+$wb['limit_cron_txt'] = 'Αριθμός εργασιών cron';
+$wb['limit_web_domain_txt'] = 'Αριθμός web domains';
+$wb['limit_web_aliasdomain_txt'] = 'Αριθμός ψευδωνύμων web domain';
+$wb['limit_web_subdomain_txt'] = 'Αριθμός web subdomains';
+$wb['limit_ftp_user_txt'] = 'Αριθμός χρηστών FTP';
+$wb['limit_dns_zone_txt'] = 'Αριθμός ζωνών DNS';
+$wb['limit_dns_slave_zone_txt'] = 'Αριθμός δευτερεύουσων ζωνών DNS';
+$wb['limit_dns_record_txt'] = 'Αριθμός εγγραφών DNS';
+$wb['limit_shell_user_txt'] = 'Αριθμός χρηστών Shell';
+$wb['limit_webdav_user_txt'] = 'Αριθμός χρηστών Webdav';
+$wb['limit_client_txt'] = 'Αριθμός Πελατών';
+$wb['limit_database_txt'] = 'Αριθμός Databases';
+$wb['limit_mailmailinglist_txt'] = 'Αριθμός λιστών ηλ. αλληλογραφίας';
+$wb['limit_domain_txt'] = 'Number of Domains';
+?>

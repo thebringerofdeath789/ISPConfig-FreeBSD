@@ -1,0 +1,13 @@
+<?php
+$wb['User Settings'] = 'Uživatelská nastavení';
+$wb['Settings'] = 'Nastavení';
+$wb['ISPConfig Tools'] = 'ISPConfig nástroje';
+$wb['Password and Language'] = 'Heslo a jazyk';
+$wb['ispconfig_tools_note'] = 'Tento modul umožňuje změnit heslo a jazyk pro zahájení resynchronizace DNS záznamů.';
+$wb['Resync'] = 'Resynchronizace';
+$wb['Sync Tools'] = 'Synchronizační nástroje';
+$wb['Import'] = 'Importovat';
+$wb['ISPConfig 3 mail'] = 'ISPConfig 3 vzdalený e-mail server';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+$wb['Interface'] = 'Rozhraní';
+?>

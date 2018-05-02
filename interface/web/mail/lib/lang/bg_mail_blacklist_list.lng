@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Емайл Blacklist';
+$wb['active_txt'] = 'Активен';
+$wb['server_id_txt'] = 'Сървър';
+$wb['source_txt'] = 'Адреси в черния лист';
+$wb['type_txt'] = 'Тип';
+$wb['recipient_txt'] = 'Получател';
+$wb['add_new_record_txt'] = 'Добави запис за Черен списък';
+$wb['access_txt'] = 'access';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Mailbox квота';
+$wb['quota_txt'] = 'Квота';
+$wb['name_txt'] = 'Име';
+$wb['email_txt'] = 'Емайл адрес';
+$wb['used_txt'] = 'Използвано място';
+$wb['percentage_txt'] = 'Used %';
+?>

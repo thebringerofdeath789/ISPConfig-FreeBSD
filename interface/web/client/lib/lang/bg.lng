@@ -1,0 +1,29 @@
+<?php
+$wb['Client'] = 'Клиент';
+$wb['Address'] = 'Адрес';
+$wb['Limits'] = 'Ограничения';
+$wb['Add Client'] = 'Добавяне на клиент';
+$wb['Edit Client'] = 'Редактиране на клиент';
+$wb['Clients'] = 'Клиенти';
+$wb['Templates'] = 'Templates';
+$wb['Limit-Templates'] = 'Limit-Templates';
+$wb['Add Reseller'] = 'Добави дистрибутор';
+$wb['Edit Reseller'] = 'Редактирай дистрибутор';
+$wb['Resellers'] = 'Дистрибутори';
+$wb['error_has_clients'] = 'This reseller has clients. Delete the clients of the reseller first.';
+$wb['add_additional_template_txt'] = 'Добави допулнителен шаблон';
+$wb['delete_additional_template_txt'] = 'Изтрий допулнителният шаблон';
+$wb['Messaging'] = 'Messaging';
+$wb['Send email'] = 'Send Email';
+$wb['Edit Client Circle'] = 'Edit Client Circle';
+$wb['Domains'] = 'Domains';
+$wb['domain_txt'] = 'Domain';
+$wb['client_txt'] = 'Client';
+$wb['error_domain_in mailuse'] = 'This domain cannot be deleted, because it is in use as mail-domain';
+$wb['error_domain_in webuse'] = 'This domain cannot be deleted, because it is in use as web-domain';
+$wb['error_client_can_not_add_domain'] = 'You cannot add a new domain';
+$wb['error_client_group_id_empty'] = 'You have to select a customer<br>';
+$wb['error_domain_in dnsuse'] = 'This domain cannot be deleted, because it is in use as dns zone';
+$wb['error_domain_in dnsslaveuse'] = 'This domain cannot be deleted, because it is in use as secondary dns zone';
+$wb['Email-Templates'] = 'Email-Templates';
+?>

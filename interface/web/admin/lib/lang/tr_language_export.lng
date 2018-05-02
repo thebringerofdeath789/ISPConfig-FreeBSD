@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'Dil Paketi İndirme';
+$wb['language_select_txt'] = 'Dili Seçin';
+$wb['btn_save_txt'] = 'Dil Paketini İndir';
+$wb['btn_cancel_txt'] = 'Geri';
+?>

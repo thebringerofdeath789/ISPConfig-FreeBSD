@@ -1,0 +1,26 @@
+<?php
+$wb['server_id_txt'] = 'Palvelin';
+$wb['parent_domain_id_txt'] = 'Omistava verkkotunnus';
+$wb['active_txt'] = 'Käytössä';
+$wb['client_txt'] = 'Asiakas';
+$wb['run_min_txt'] = 'Minuutit';
+$wb['run_hour_txt'] = 'Tunnit';
+$wb['run_mday_txt'] = 'Päivämäärät';
+$wb['run_month_txt'] = 'Kuukaudet';
+$wb['run_wday_txt'] = 'Viikonpäivät';
+$wb['command_txt'] = 'Suoritettava komento (komennot suoritetaan käyttäen ohjelmaa sh, url-tehtävät ohjelmalla wget)';
+$wb['limit_cron_txt'] = 'Käyttäjätunnuksen sallittu ajastettujen tehtävien määrä on saavutettu.';
+$wb['limit_cron_frequency_txt'] = 'Ajastettujen tehtävien suoritusväli on pienenmpi kuin sallittu.';
+$wb['run_min_error_format'] = 'Minuutti-asetus on vääranlainen.';
+$wb['run_hour_error_format'] = 'Tunti-asetus on vääranlainen';
+$wb['run_mday_error_format'] = 'Päivämäärä-asetus on vääranlainen';
+$wb['run_month_error_format'] = 'Kuukausi-asetus on vääranlainen';
+$wb['run_wday_error_format'] = 'Viikonpäivä-asetus on vääranlainen';
+$wb['command_error_format'] = 'Komento-asetus on vääranlainen. Huomaa että url-komennoissa vain http/https-osoitteet ovat sallittuja.';
+$wb['unknown_fieldtype_error'] = 'Käytetty tuntematonta kenttätyyppiä.';
+$wb['server_id_error_empty'] = 'The server ID is empty.';
+$wb['limit_cron_url_txt'] = 'URL cron only. Please enter a URL starting with http:// as cron command.';
+$wb['command_error_empty'] = 'Command is empty.';
+$wb['command_hint_txt'] = 'e.g. /var/www/clients/clientX/webY/myscript.sh or http://www.mydomain.com/path/script.php, you can use [web_root] placeholder that is replaced by /var/www/clients/clientX/webY/web.';
+$wb['log_output_txt'] = 'Log output';
+?>

@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Sistem Kullanıcısı Grupları';
+$wb['description_txt'] = 'Açıklama';
+$wb['name_txt'] = 'Grup';
+$wb['add_new_record_txt'] = 'Yeni Grup';
+$wb['warning_txt'] = '<b>UYARI:</b> Buradan herhangi bir kullanıcı ayarını değiştirmeyin. Bunun yerine Müşteri modülünden Müşteri ya da Bayi ayarlarını değiştirin. Kullanıcı ya da gruplar değiştirildiğinde veri kaybı oluşabilir!';
+?>

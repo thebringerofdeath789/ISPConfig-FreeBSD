@@ -1,0 +1,9 @@
+<?php
+$wb['access_txt'] = 'acceso';
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir recipiente de retransmisión';
+$wb['list_head_txt'] = 'Recipientes de retransmisión';
+$wb['recipient_txt'] = 'Recipiente';
+$wb['server_id_txt'] = 'Servidor';
+$wb['source_txt'] = 'Dirección del recipiente';
+?>

@@ -1,0 +1,11 @@
+<?php
+$wb['template_type_txt'] = 'Тип письма';
+$wb['template_name_txt'] = 'Имя шаблона';
+$wb['subject_txt'] = 'Тема';
+$wb['message_txt'] = 'Сообщение';
+$wb['Email template'] = 'Почтовый шаблон';
+$wb['Settings'] = 'Параметры';
+$wb['variables_txt'] = 'Переменные:';
+$wb['variables_description_txt'] = '(Переменные <b>username</b> и <b>password</b> доступны только в приветственных письмах.)';
+$wb['duplicate_welcome_error'] = 'Там может быть только один почтовый шаблон приветствия по умолчанию. Пожалуйста, измените существующий шаблон вместо добавления нового.';
+?>

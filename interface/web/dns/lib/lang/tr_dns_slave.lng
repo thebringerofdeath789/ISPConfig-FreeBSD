@@ -1,0 +1,17 @@
+<?php
+$wb['server_id_txt'] = 'Sunucu';
+$wb['origin_txt'] = 'DNS Bölgesi';
+$wb['secondary_zone_txt'] = 'İkincil DNS Bölgesi';
+$wb['ns_txt'] = 'NS';
+$wb['active_txt'] = 'Etkin';
+$wb['limit_dns_slave_zone_txt'] = 'Hesabınıza ekleyebileceğiniz en fazla ikincil DNS kaydı sınırına ulaştınız.';
+$wb['client_txt'] = 'Müşteri';
+$wb['xfer_txt'] = 'Şu IP adreslerine (virgülle ayrılmış)<br />bölge aktarımı yapılabilsin';
+$wb['server_id_error_empty'] = 'Bir sunucu seçilmemiş';
+$wb['origin_error_empty'] = 'Bölge boş olamaz.';
+$wb['origin_error_unique'] = 'Bu bölge için zaten bir kayıt var.';
+$wb['origin_error_regex'] = 'Bölge biçimi geçersiz.';
+$wb['ns_error_regex'] = 'NS biçimi geçersiz.';
+$wb['eg_domain_tld'] = 'Örnek: domain.tld.';
+$wb['ipv4_form_txt'] = 'Separate multiple IPs with commas';
+?>

@@ -1,0 +1,4 @@
+
+Please see issue tracker for feature requests and bug reports.
+
+http://git.ispconfig.org/ispconfig/ispconfig3/issues

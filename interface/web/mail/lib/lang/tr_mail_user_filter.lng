@@ -1,0 +1,30 @@
+<?php
+$wb['rulename_txt'] = 'Ad';
+$wb['action_txt'] = 'İşlem';
+$wb['target_txt'] = 'Klasör';
+$wb['active_txt'] = 'Etkin';
+$wb['rulename_error_empty'] = 'Ad boş olamaz.';
+$wb['searchterm_is_empty'] = 'Aranacak ifade boş olamaz.';
+$wb['source_txt'] = 'Kaynak';
+$wb['target_error_regex'] = 'Hedef için yalnız şu karakterler kullanılabilir: a-z, 0-9, -, ., _, ve {boşluk}';
+$wb['limit_mailfilter_txt'] = 'Hesabınıza ekleyebileceğiniz en fazla posta süzgeci sayısına ulaştınız.';
+$wb['subject_txt'] = 'Konu';
+$wb['from_txt'] = 'Kimden';
+$wb['to_txt'] = 'Kime';
+$wb['contains_txt'] = 'Şunu içeren';
+$wb['is_txt'] = 'Şununla aynı';
+$wb['begins_with_txt'] = 'Şununla başlayan';
+$wb['ends_with_txt'] = 'Şununla biten';
+$wb['move_stop_txt'] = 'Şuraya taşı';
+$wb['delete_txt'] = 'Sil';
+$wb['header_txt'] = 'Başlık';
+$wb['size_over_txt'] = 'E-posta boyutu (KB)üzerinde';
+$wb['size_under_txt'] = 'E-posta boyutu (KB) altında';
+$wb['localpart_txt'] = 'Yerel bölüm';
+$wb['domain_txt'] = 'Etki alanı';
+$wb['keep_txt'] = 'Tut';
+$wb['reject_txt'] = 'Reddet';
+$wb['stop_txt'] = 'Durdur';
+$wb['move_to_txt'] = 'Move to';
+$wb['mark_read_txt'] = 'Mark as read';
+?>

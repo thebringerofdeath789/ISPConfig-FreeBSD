@@ -1,0 +1,34 @@
+<?php
+$wb['error_user_password_empty'] = 'Gebruikersnaam of wachtwoord is niet ingevuld.';
+$wb['error_user_password_incorrect'] = 'Gebruikersnaam of wachtwoord onjuist.';
+$wb['error_user_blocked'] = 'Gebruiker is geblokkeerd.';
+$wb['error_user_too_many_logins'] = 'Teveel onjuiste login pogingen, Probeer het nogmaals na 15 minutes';
+$wb['pass_reset_txt'] = 'Een nieuw wachtwoord zal worden gegenereerd en per e-mail naar u worden toegezonden op voorwaarde dat het onderstaande e-mailadres overeenkomt met het e-mailadres in uw klantgegevens.';
+$wb['pw_reset'] = 'Het wachtwoord is gereset en is verzonden naar uw e-mailadres.';
+$wb['pw_error'] = 'Gebruikersnaam of e-mailadres komt niet overeen.';
+$wb['pw_error_noinput'] = 'Voer a.u.b. een e-mailadres en gebruikersnaam in.';
+$wb['pw_reset_mail_msg'] = 'Het wachtwoord  dat toegang biedt tot uw ISPConfig 3 control panel account is gereset. Het nieuwe wachtwoord is: ';
+$wb['pw_reset_mail_title'] = 'ISPConfig 3 Control panel wachtwoord is gereset.';
+$wb['user_regex_error'] = 'Gebruikersnaam bevat karakters die niet zijn toegestaan of is langer dan 64 karakters.';
+$wb['pw_error_length'] = 'De lengte van het wachtwoord is > 256 karakters.';
+$wb['username_txt'] = 'Gebruikersnaam';
+$wb['password_txt'] = 'Wachtwoord';
+$wb['login_button_txt'] = 'Inloggen';
+$wb['pw_lost_txt'] = 'Wachtwoord vergeten';
+$wb['error_maintenance_mode'] = 'This ISPConfig installation is currently under maintenance. We should be back shortly. Thank you for your patience.';
+$wb['login_txt'] = 'Inloggen';
+$wb['pw_reset_txt'] = 'Wachtwoord herstellen';
+$wb['pw_button_txt'] = 'Wachtwoord versturen';
+$wb['email_txt'] = 'Email';
+$wb['theme_not_compatible'] = 'The chosen theme is not compatible with the current ISPConfig version. Please check for a new version of the theme.<br />The default theme as been activated automatically.';
+$wb['back_txt'] = 'Back';
+$wb['email_error'] = 'Email contains unallowed characters or has a invalid format.';
+$wb['stay_logged_in_txt'] = 'Keep me logged in';
+$wb['lost_password_function_disabled_txt'] = 'The lost password function is not available for this user.';
+$wb['pw_reset_act'] = 'You have been sent an activation link. Please visit the link to confirm your password request.';
+$wb['pw_reset_act_mail_title'] = 'Confirm ISPConfig 3 Control panel password reset';
+$wb['pw_reset_act_mail_msg'] = 'Please confirm that your want to reset your ISPConfig 3 control panel account password by visiting the following activation link: ';
+$wb['lost_password_function_wait_txt'] = 'You cannot request a new password, yet. Please wait a few minutes.';
+$wb['lost_password_function_expired_txt'] = 'This activation link has expired. Please request a new one.';
+$wb['lost_password_function_denied_txt'] = 'This activation link is not valid.';
+?>

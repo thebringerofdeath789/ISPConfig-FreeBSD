@@ -1,0 +1,8 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir alias de correo';
+$wb['destination_txt'] = 'Destino';
+$wb['email_txt'] = 'Correo';
+$wb['list_head_txt'] = 'Alias de correo';
+$wb['source_txt'] = 'Origen';
+?>

@@ -1,0 +1,21 @@
+<?php
+$wb['list_head_txt'] = 'Stávající zálohy';
+$wb['date_txt'] = 'Datum';
+$wb['backup_type_txt'] = 'Verze';
+$wb['filename_txt'] = 'Záloha souborů';
+$wb['restore_backup_txt'] = 'Obnovit zálohu';
+$wb['download_backup_txt'] = 'Stažení zálohy';
+$wb['download_info_txt'] = 'Soubor se zálohou bude k dispozici ke stažení v kořenové složce /backup webové stránky přes FTP během několika minut.';
+$wb['restore_info_txt'] = 'Obnovení ze zálohy bylo zahájeno. Tato akce trvá několik minut než bude dokončena.';
+$wb['restore_confirm_txt'] = 'Obnovení přepíše existující soubory na Vaší webové stránce. Opravdu chcete obnovit tuto zálohu ?';
+$wb['download_pending_txt'] = 'Shodný požadavek na vytvoření zálohy pro stažení již čeká ve frontě na serveru ke zpracování.';
+$wb['restore_pending_txt'] = 'Shodný požadavek na obnovu dat ze zálohy již čeká ve frontě na serveru ke zpracování.';
+$wb['backup_type_mysql'] = 'MySQL Databáze';
+$wb['backup_type_web'] = 'Soubory webových stránek';
+$wb['filesize_txt'] = 'Velikost souboru';
+$wb['delete_backup_txt'] = 'Smazat zálohu';
+$wb['delete_info_txt'] = 'Bylo zahájeno odstranění zálohy. Tato akce může trvat několik minut než bude dokončena.';
+$wb['delete_confirm_txt'] = 'Opravdu chcete smazat tuto zálohu ?';
+$wb['delete_pending_txt'] = 'There is already a pending backup delete job.';
+$wb['backup_type_mongodb'] = 'MongoDB Database';
+?>

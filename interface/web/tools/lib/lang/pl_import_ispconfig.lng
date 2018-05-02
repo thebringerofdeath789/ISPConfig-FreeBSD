@@ -1,0 +1,23 @@
+<?php
+$wb['head_txt'] = 'Import konfiguracji poczty z serwera ISPConfig 3';
+$wb['legend_txt'] = 'Szczegóły połączenia ze zdalnym serwerem';
+$wb['legend2_txt'] = 'Domena importowanej poczty';
+$wb['resync_sites_txt'] = 'Resynchronizuj strony www';
+$wb['resync_ftp_txt'] = 'Resynchronizuj konta FTP';
+$wb['resync_shell_txt'] = 'Resynchronizuj konta shell';
+$wb['resync_cron_txt'] = 'Resynchronizuj zadania cron';
+$wb['resync_db_txt'] = 'Resynchronizuj użytkowników bazy';
+$wb['resync_mailbox_txt'] = 'Resynchronizuj skrzynki pocztowe';
+$wb['resync_dns_txt'] = 'Resynchronizuj rekordy DNS';
+$wb['btn_start_txt'] = 'Uruchom import';
+$wb['btn_connect_txt'] = 'Połączenie do zdalnego serwera';
+$wb['btn_cancel_txt'] = 'Anuluj';
+$wb['client_group_id_txt'] = 'Klient lokalny';
+$wb['mail_domain_txt'] = 'Zdalna domena poczty';
+$wb['import_mailbox_txt'] = 'Import skrzynek pocztowych';
+$wb['import_aliasdomain_txt'] = 'Import aliasów domen';
+$wb['import_alias_txt'] = 'Import aliasów email';
+$wb['import_forward_txt'] = 'Import przekierowań';
+$wb['import_user_filter_txt'] = 'Import filtrów użytkownika';
+$wb['import_spamfilter_txt'] = 'Import filtrów spamu';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['faq_section_name_txt'] = 'Όνομα Ενότητας';
+$wb['faq_delete_txt'] = 'Διαγραφή';
+$wb['faq_edit_txt'] = 'Επεξεργασία';
+$wb['faq_sections_txt'] = 'Ενότητες';
+$wb['faq_faq_sections_txt'] = 'Ενότητες Ερωτήσεων';
+$wb['faq_new_section_txt'] = 'Προσθήκη Ενότητας';
+?>

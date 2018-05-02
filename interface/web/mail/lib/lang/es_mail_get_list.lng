@@ -1,0 +1,9 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir cuenta';
+$wb['destination_txt'] = 'Destino';
+$wb['list_head_txt'] = 'Obtener correos POP3 / IMAP de cuentas alojadas en servidores externos';
+$wb['server_id_txt'] = 'Servidor';
+$wb['source_server_txt'] = 'Servidor externo';
+$wb['source_username_txt'] = 'Nombre de usuario';
+?>

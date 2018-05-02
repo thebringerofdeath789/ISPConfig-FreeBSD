@@ -1,0 +1,10 @@
+<?php
+$wb['add_new_record_txt'] = 'Añadir usuario del filtro de spam';
+$wb['email_txt'] = 'Correo';
+$wb['fullname_txt'] = 'Nombre';
+$wb['list_head_txt'] = 'Usuarios del filtro de spam';
+$wb['local_txt'] = 'Local';
+$wb['policy_id_txt'] = 'Política';
+$wb['priority_txt'] = 'Prioridad';
+$wb['server_id_txt'] = 'Servidor';
+?>

@@ -1,0 +1,29 @@
+<?php
+$wb['Client'] = 'Klant';
+$wb['Address'] = 'Adres';
+$wb['Limits'] = 'Limieten';
+$wb['Add Client'] = 'Toevoegen klant';
+$wb['Edit Client'] = 'Wijzigen klant';
+$wb['Clients'] = 'klanten';
+$wb['Templates'] = 'Sjablonen';
+$wb['Limit-Templates'] = 'Limiet sjablonen';
+$wb['Add Reseller'] = 'Toevoegen reseller';
+$wb['Edit Reseller'] = 'Wijzigen reseller';
+$wb['Resellers'] = 'Resellers';
+$wb['error_has_clients'] = 'Deze reseller heeft klanten. Verwijder eerst de klanten van de reseller';
+$wb['add_additional_template_txt'] = 'Additioneel sjabloon toevoegen';
+$wb['delete_additional_template_txt'] = 'Verwijder additioneel sjabloon';
+$wb['Messaging'] = 'Berichten';
+$wb['Send email'] = 'Verstuur e-mail';
+$wb['Edit Client Circle'] = 'Klanten collectie bewerken';
+$wb['Domains'] = 'Domeinen';
+$wb['domain_txt'] = 'Domein';
+$wb['client_txt'] = 'Klant';
+$wb['error_domain_in mailuse'] = 'This domain cannot be deleted, because it is in use as mail-domain';
+$wb['error_domain_in webuse'] = 'This domain cannot be deleted, because it is in use as web-domain';
+$wb['error_client_can_not_add_domain'] = 'You cannot add a new domain';
+$wb['error_client_group_id_empty'] = 'You have to select a customer<br>';
+$wb['error_domain_in dnsuse'] = 'This domain cannot be deleted, because it is in use as dns zone';
+$wb['error_domain_in dnsslaveuse'] = 'This domain cannot be deleted, because it is in use as secondary dns zone';
+$wb['Email-Templates'] = 'Email-Templates';
+?>

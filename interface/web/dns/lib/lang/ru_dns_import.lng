@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Сервер';
+$wb['client_txt'] = 'Клиент';
+$wb['btn_save_txt'] = 'Импорт файла зоны';
+$wb['btn_cancel_txt'] = 'Отменить';
+$wb['domain_txt'] = 'Домен';
+$wb['zone_file_successfully_imported_txt'] = 'Файл зоны успешно импортирован!';
+$wb['error_no_valid_zone_file_txt'] = 'Вы предоставили не правильный файл зоны!';
+$wb['zonefile_to_import_txt'] = 'Файл зоны';
+$wb['domain_field_desc_txt'] = 'Можно оставить пустым, если имя файла или содержимое файла содержит имя домена.';
+$wb['title'] = 'Импорт файлов зоны';
+$wb['no_file_uploaded_error'] = 'Файл зоны не загружен.';
+$wb['zone_file_import_txt'] = 'Импорт файла зоны';
+$wb['error_no_server_id'] = 'Не указан сервер.';
+$wb['error_not_allowed_server_id'] = 'Выбранный сервер не доступен для этой учетной записи.';
+?>

@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Сървър';
+$wb['zone_txt'] = 'Зона';
+$wb['name_txt'] = 'Име на хост';
+$wb['type_txt'] = 'type';
+$wb['data_txt'] = 'Лице за контакти';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Активен';
+$wb['limit_dns_record_txt'] = 'Максималният брой за DNS записите на твоят профил е достигнат.';
+$wb['no_zone_perm'] = 'Нямате право да добавяте запис за DNS зона.';
+$wb['name_error_empty'] = 'Името на хоста е празно.';
+$wb['name_error_regex'] = 'Името на хоста е в грешен формат.';
+$wb['data_error_empty'] = 'Полето с лице за контакти е празно';
+$wb['data_error_regex'] = 'Полето с лице за контакти е в грешен формат';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds.';
+?>

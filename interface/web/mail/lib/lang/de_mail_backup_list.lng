@@ -1,0 +1,16 @@
+<?php
+$wb['list_head_txt'] = 'Vorhandene Backups';
+$wb['date_txt'] = 'Datum';
+$wb['backup_type_txt'] = 'Art';
+$wb['filename_txt'] = 'Dateiname';
+$wb['restore_backup_txt'] = 'Wiederherstellen';
+$wb['restore_info_txt'] = 'Wiederherstellung begonnen. Dieser Vorgang kann einige Minuten dauern.';
+$wb['restore_confirm_txt'] = 'Die Wiederherstellung kann bestehende Dateien in Ihrem Postfach überschreiben. Möchten Sie das Backup wiederherstellen?';
+$wb['download_pending_txt'] = 'Es läuft bereits ein Backup-Download.';
+$wb['restore_pending_txt'] = 'Es steht bereits ein Backup zur Wiederherstellung an.';
+$wb['delete_backup_txt'] = 'Backup löschen';
+$wb['delete_info_txt'] = 'Das Backup wird gelöscht. Dieser Vorgang kann einige Minuten dauern.';
+$wb['delete_confirm_txt'] = 'Möchten Sie dieses Backup wirklich löschen?';
+$wb['delete_pending_txt'] = 'Es wird bereits ein Backup gelöscht.';
+$wb['filesize_txt'] = 'Dateigröße';
+?>

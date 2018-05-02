@@ -1,0 +1,66 @@
+<div class='page-header'>
+	<h1><tmpl_if name='vhostdomain_type' op='==' value='domain'>{tmpl_var name="domain_list_head_txt"}</tmpl_if><tmpl_if name='vhostdomain_type' op='==' value='subdomain'>{tmpl_var name="subdomain_list_head_txt"}</tmpl_if><tmpl_if name='vhostdomain_type' op='==' value='aliasdomain'>{tmpl_var name="aliasdomain_list_head_txt"}</tmpl_if></h1>
+</div>
+
+
+        <p class="fieldset-legend">{tmpl_var name="toolsarea_head_txt"}</p>
+            
+                <button class="btn btn-default formbutton-success" type="button" data-load-content="sites/web_vhost_domain_edit.php?type={tmpl_var name='vhostdomain_type'}"><tmpl_if name='vhostdomain_type' op='==' value='domain'>{tmpl_var name="add_new_record_txt"}</tmpl_if><tmpl_if name='vhostdomain_type' op='==' value='subdomain'>{tmpl_var name="add_new_subdomain_txt"}</tmpl_if><tmpl_if name='vhostdomain_type' op='==' value='aliasdomain'>{tmpl_var name="add_new_aliasdomain_txt"}</tmpl_if></button>
+            
+        
+
+    
+        <p class="fieldset-legend"><tmpl_var name="list_head_txt"></p>
+            <div class="table-wrapper marginTop15">
+<table class="table">
+                <thead class="dark form-group-sm">
+                <tr>
+                    <tmpl_if name="vhostdomain_type" value="domain"><th class="small-col" data-column="domain_id"><tmpl_var name="domain_id_txt"></th></tmpl_if>
+                    <th class="tiny-col" data-column="active"><tmpl_var name="active_txt"></th>
+                    <tmpl_if name="vhostdomain_type" value="domain"><th data-column="sys_groupid"><tmpl_var name="sys_groupid_txt"></th></tmpl_if>
+                    <th data-column="server_id"><tmpl_var name="server_id_txt"></th>
+					<tmpl_if name="vhostdomain_type" op="!=" value="domain"><th data-column="parent_domain_id"><tmpl_var name="parent_domain_id_txt"></th></tmpl_if>
+                    <th data-column="domain"><tmpl_if name='vhostdomain_type' op='==' value='domain'>{tmpl_var name="domain_txt"}</tmpl_if><tmpl_if name='vhostdomain_type' op='==' value='subdomain'>{tmpl_var name="subdomain_txt"}</tmpl_if><tmpl_if name='vhostdomain_type' op='==' value='aliasdomain'>{tmpl_var name="aliasdomain_txt"}</tmpl_if></th>
+                    <th class="small-col text-right">{tmpl_var name='search_limit'}</th>
+                </tr>
+                <tr>
+                    <tmpl_if name="vhostdomain_type" value="domain"><td><input class="form-control" type="text" name="search_domain_id" value="{tmpl_var name='search_domain_id'}" /></td></tmpl_if>
+                    <td><select class="form-control" name="search_active">{tmpl_var name='search_active'}</select></td>
+                    <tmpl_if name="vhostdomain_type" value="domain"><td><select class="form-control" name="search_sys_groupid">{tmpl_var name='search_sys_groupid'}</select></td></tmpl_if>
+                    <td><select class="form-control" name="search_server_id">{tmpl_var name='search_server_id'}</select></td>
+					<tmpl_if name="vhostdomain_type" op="!=" value="domain"><td><select class="form-control" name="search_parent_domain_id">{tmpl_var name='search_parent_domain_id'}</select></td></tmpl_if>
+                    <td><input class="form-control" type="text" name="search_domain" value="{tmpl_var name='search_domain'}" /></td>
+                    <td class="text-right">
+                        <button type="button" class="btn btn-default formbutton-default formbutton-narrow" name="Filter" id="Filter" value="{tmpl_var name="filter_txt"}" data-submit-form="pageForm" data-form-action="sites/web_vhost_domain_list.php"><span class="icon icon-filter"></span></button>
+                    </td>
+                </tr>
+                </thead>
+                <tbody>
+                <tmpl_loop name="records">
+                    <tr>
+                    	<tmpl_if name="vhostdomain_type" value="domain"><td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}&type={tmpl_var name='vhostdomain_type'}">{tmpl_var name="domain_id"}</a></td></tmpl_if>
+                        <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}&type={tmpl_var name='vhostdomain_type'}">{tmpl_var name="active"}</a></td>
+                        <tmpl_if name="vhostdomain_type" value="domain"><td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}&type={tmpl_var name='vhostdomain_type'}">{tmpl_var name="sys_groupid"}</a></td></tmpl_if>
+                        <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}&type={tmpl_var name='vhostdomain_type'}">{tmpl_var name="server_id"}</a></td>
+						<tmpl_if name="vhostdomain_type" op="!=" value="domain"><td><a href="#" data-load-content="sites/web_vhost_aliasdomain_edit.php?id={tmpl_var name='id'}" data-toggle="tooltip" data-placement="bottom" title="{tmpl_var name='parent_domain_id'}">{tmpl_var name="parent_domain_id"}</a></td></tmpl_if>
+                        <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}&type={tmpl_var name='vhostdomain_type'}" data-toggle="tooltip" data-placement="bottom" title="{tmpl_var name='domain'}">{tmpl_var name="domain"}</a></td>
+                        <td class="text-right">
+							<a href="http://{tmpl_var name="domain"}" target="_blank" class="btn btn-default formbutton-default formbutton-narrow"><span class="icon icon-link"></span></a>
+							<a href="http://{tmpl_var name="domain"}/stats/" target="_blank" class="btn btn-default formbutton-default formbutton-narrow"><span class="glyphicon glyphicon-signal"></span></a>
+                            <a class="btn btn-default formbutton-danger formbutton-narrow" href="javascript: ISPConfig.confirm_action('sites/web_vhost_domain_del.php?id={tmpl_var name='id'}&phpsessid={tmpl_var name='phpsessid'}','{tmpl_var name='delete_confirmation'}');"><span class="icon icon-delete"></span></a>
+                        </td>
+                    </tr>
+                </tmpl_loop>
+                <tmpl_unless name="records">
+                    <tr class="tbl_row_noresults tbl_row_<tmpl_if name='__EVEN__'}even<tmpl_else>uneven</tmpl_if>">
+                        <td colspan="{tmpl_if name="vhostdomain_type" value="domain"}6{/tmpl_else}5{/tmpl_if}">{tmpl_var name='globalsearch_noresults_text_txt'}</td>
+                    </tr>
+                </tmpl_unless>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="{tmpl_if name="vhostdomain_type" value="domain"}6{/tmpl_else}5{/tmpl_if}"><tmpl_var name="paging"></td>
+                    </tr>
+                </tfoot>
+            </table>
+</div>

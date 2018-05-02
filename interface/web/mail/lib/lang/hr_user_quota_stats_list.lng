@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Limiti sandučića';
+$wb['quota_txt'] = 'Limit';
+$wb['name_txt'] = 'Ime';
+$wb['email_txt'] = 'Email adresa';
+$wb['used_txt'] = 'Prostor';
+$wb['percentage_txt'] = 'Koristi %';
+?>

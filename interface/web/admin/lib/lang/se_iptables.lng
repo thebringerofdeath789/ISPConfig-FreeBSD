@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['multiport_txt'] = 'Multiport';
+$wb['singleport_txt'] = 'Singleport';
+$wb['protocol_txt'] = 'Protokoll';
+$wb['table_txt'] = 'Tabell';
+$wb['target_txt'] = 'Mål';
+$wb['state_txt'] = 'Status';
+$wb['destination_ip_txt'] = 'Destinationsadress';
+$wb['source_ip_txt'] = 'Källadress';
+$wb['active_txt'] = 'Aktiv';
+$wb['iptables_error_unique'] = 'Det finns redan brandväggsinlägg för den här servern';
+?>

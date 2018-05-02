@@ -1,0 +1,60 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+
+
+        <p class="fieldset-legend"><tmpl_var name="list_head_txt"></p>
+            <div class="table-wrapper marginTop15">
+<table class="table">
+                <thead class="dark form-group-sm">
+                <tr>
+                    <th class="col-md-4" data-column="domain"><tmpl_var name="domain_txt"></th>
+                    <th class="col-md-1" data-column="system_user"><tmpl_var name="system_user_txt"></th>
+                    <th class="col-md-1" data-column="used_sort"><tmpl_var name="used_txt"></th>
+                    <th class="col-md-1" data-column="soft_sort"><tmpl_var name="soft_txt"></th>
+                    <!--<th class="col-md-1" data-column="hard_sort"><tmpl_var name="hard_txt"></th>-->
+                    <th class="col-md-1" data-column="files"><tmpl_var name="files_txt"></th>
+		    <th class="col-md-2" data-column="percentage"><tmpl_var name="percentage_txt"></th>
+                    <th class="col-md-1 text-right">{tmpl_var name='search_limit'}</th>
+                </tr>
+                <tr>
+                    <td><input class="form-control" type="text" name="search_domain" value="{tmpl_var name='search_domain'}" /></td>
+                    <td><input class="form-control" type="text" name="search_system_user" value="{tmpl_var name='search_system_user'}" /></td>
+                    <td class="used">&nbsp;</td>
+                    <td class="soft">&nbsp;</td>
+                    <td class="hard">&nbsp;</td>
+                    <td class="files">&nbsp;</td>
+                    <td class="text-right">
+                        <button type="button" class="btn btn-default formbutton-default formbutton-narrow" name="Filter" id="Filter" value="{tmpl_var name="filter_txt"}" data-submit-form="pageForm" data-form-action="sites/user_quota_stats.php"><span class="icon icon-filter"></span></button>
+                    </td>
+                </tr>
+                </thead>
+                <tbody>
+                    <tmpl_loop name="records">
+                        <tr>
+                            <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}">{tmpl_var name="domain"}</a></td>
+                            <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}">{tmpl_var name="system_user"}</a></td>
+                            <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}">{tmpl_var name="used"}</a></td>
+                            <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}">{tmpl_var name="soft"}</a></td>
+                            <!--<td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}">{tmpl_var name="hard"}</a></td>-->
+                            <td><a href="#" data-load-content="sites/web_vhost_domain_edit.php?id={tmpl_var name='id'}">{tmpl_var name="files"}</a></td>
+			    <td colspan="2">{tmpl_if name="progressbar" op="!=" value="-1"}<div class="progress" style="height: 20px">
+                                        <div class='progress-bar-striped progress-bar-{tmpl_if name="percentage" op="<" value="50"}success{tmpl_elseif name="percentage" op="<" value="75"}warning{tmpl_else}danger{/tmpl_if}' role="progressbar" style="width: {tmpl_var name="progressbar"}%;" aria-valuenow="{tmpl_var name="percentage"}" aria-valuemin="0" aria-valuemax="100"><span{tmpl_if name="progressbar" op="<" value="25"} class="pbvaluemargin"{/tmpl_if}>{tmpl_var name="percentage"}%</span></div>
+                                </div>{/tmpl_if}</td>
+                        </tr>
+                    </tmpl_loop>
+                    <tmpl_unless name="records">
+                        <tr class="tbl_row_noresults tbl_row_<tmpl_if name='__EVEN__'}even<tmpl_else>uneven</tmpl_if>">
+                            <td colspan="7">{tmpl_var name='globalsearch_noresults_text_txt'}</td>
+                        </tr>
+                    </tmpl_unless>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7"><tmpl_var name="paging"></td>
+                    </tr>
+                </tfoot>
+            </table>
+</div>
+        
+    </div>

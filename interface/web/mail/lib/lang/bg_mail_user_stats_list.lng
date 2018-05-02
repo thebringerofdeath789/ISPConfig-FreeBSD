@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Mail трафик';
+$wb['email_txt'] = 'Email';
+$wb['this_month_txt'] = 'Този месец';
+$wb['last_month_txt'] = 'Последен месец';
+$wb['this_year_txt'] = 'Тази година';
+$wb['last_year_txt'] = 'Последната година';
+?>

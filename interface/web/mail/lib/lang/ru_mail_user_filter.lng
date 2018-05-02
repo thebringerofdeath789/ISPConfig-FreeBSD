@@ -1,0 +1,29 @@
+<?php
+$wb['rulename_txt'] = 'Имя';
+$wb['action_txt'] = 'Действие';
+$wb['target_txt'] = 'Каталог';
+$wb['active_txt'] = 'Активно';
+$wb['rulename_error_empty'] = 'Имя пустое.';
+$wb['searchterm_is_empty'] = 'Поле поиска пустое.';
+$wb['source_txt'] = 'Источник';
+$wb['target_error_regex'] = 'Назначение может содержать только следующие символы: "a-z", "0-9", "-", ".", "_" и {пробел}';
+$wb['limit_mailfilter_txt'] = 'Максимальное число почтовых фильтров достигнуто.';
+$wb['subject_txt'] = 'Тема';
+$wb['from_txt'] = 'От';
+$wb['to_txt'] = 'Кому';
+$wb['contains_txt'] = 'Содержит';
+$wb['is_txt'] = 'Равно';
+$wb['begins_with_txt'] = 'Начинается с';
+$wb['ends_with_txt'] = 'Заканчивается на';
+$wb['delete_txt'] = 'Удалить';
+$wb['move_stop_txt'] = 'Переместить в';
+$wb['header_txt'] = 'Заголовок';
+$wb['size_over_txt'] = 'Электронная почта больше (KB)';
+$wb['size_under_txt'] = 'Электронная почта меньше (KB)';
+$wb['localpart_txt'] = 'Localpart';
+$wb['domain_txt'] = 'Домен';
+$wb['keep_txt'] = 'Хранить';
+$wb['reject_txt'] = 'Отклонить';
+$wb['stop_txt'] = 'Блокировать';
+$wb['move_to_txt'] = 'Переместить в';
+?>

@@ -1,0 +1,13 @@
+<?php
+$wb['User Settings'] = 'Användarinstälningar';
+$wb['Settings'] = 'Inställnignar';
+$wb['ISPConfig Tools'] = 'ISPConfig Verktyg';
+$wb['Password and Language'] = 'Lösenord och språk';
+$wb['ispconfig_tools_note'] = 'This module allows you to change the password and language and to start a resync of the DNS records.';
+$wb['Resync'] = 'Synka';
+$wb['Sync Tools'] = 'Synkverktyg';
+$wb['Import'] = 'Importera';
+$wb['ISPConfig 3 mail'] = 'ISPConfig 3 epost';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa';
+$wb['Interface'] = 'Interface';
+?>

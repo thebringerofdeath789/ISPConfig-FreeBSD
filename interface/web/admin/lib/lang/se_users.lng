@@ -1,0 +1,35 @@
+<?php
+$wb['username_txt'] = 'Användarnamn';
+$wb['username_err'] = 'användarnamn_fel';
+$wb['passwort_txt'] = 'Lösenord';
+$wb['modules_txt'] = 'Modul';
+$wb['startmodule_txt'] = 'Startmodul';
+$wb['app_theme_txt'] = 'Design';
+$wb['typ_txt'] = 'Typ';
+$wb['active_txt'] = 'Aktiv';
+$wb['language_txt'] = 'Språk';
+$wb['name_txt'] = 'Namn';
+$wb['vorname_txt'] = 'Förnamn';
+$wb['unternehmen_txt'] = 'Företag';
+$wb['strasse_txt'] = 'Gata';
+$wb['ort_txt'] = 'Stad';
+$wb['plz_txt'] = 'Postnr';
+$wb['land_txt'] = 'Land';
+$wb['email_txt'] = 'Epost';
+$wb['url_txt'] = 'Url';
+$wb['telefon_txt'] = 'Telefon';
+$wb['fax_txt'] = 'Fax';
+$wb['groups_txt'] = 'Grupp';
+$wb['default_group_txt'] = 'Standardgrupp';
+$wb['username_empty'] = 'Användarnamnet är tomt';
+$wb['username_unique'] = 'Det finns redan en användare med detta användarnamn';
+$wb['password_strength_txt'] = 'Lösenordsstyrka';
+$wb['startmodule_err'] = 'Startmodulen finns inte balnd modulerna';
+$wb['generate_password_txt'] = 'Generera lösenord';
+$wb['repeat_password_txt'] = 'Upprepa lösenord';
+$wb['password_mismatch_txt'] = 'Lösenorden matchar inte';
+$wb['password_match_txt'] = 'Lösenorden matchar';
+$wb['username_error_collision'] = 'Användarnamnet får inte vara web  eller web och ett nummer';
+$wb['client_not_admin_err'] = 'En användare som tillhör en kund kan inte sättas som admin';
+$wb['lost_password_function_txt'] = 'Forgot password function is available';
+?>

@@ -1,0 +1,22 @@
+<?php
+$wb['DNS'] = 'DNS';
+$wb['Zones'] = 'Зони';
+$wb['DNS A'] = 'DNS A';
+$wb['DNS ALIAS'] = 'DNS ALIAS';
+$wb['DNS CNAME'] = 'DNS CNAME';
+$wb['DNS hinfo'] = 'DNS HINFO';
+$wb['DNS mx'] = 'DNS MX';
+$wb['DNS ns'] = 'DNS NS';
+$wb['DNS ptr'] = 'DNS PTR';
+$wb['DNS RP'] = 'DNS RP';
+$wb['DNS Zone'] = 'DNS Зона';
+$wb['Records'] = 'Записи';
+$wb['DNS SRV'] = 'DNS SRV';
+$wb['DNS TXT Record'] = 'DNS TXT Запис';
+$wb['DNS TXT'] = 'DNS TXT';
+$wb['DNS Wizard'] = 'DNS Помощник';
+$wb['Add DNS Zone'] = 'Добави DNS зона';
+$wb['Templates'] = 'Темплейт';
+$wb['Secondary Zones'] = 'Вторична зона';
+$wb['Import Zone File'] = 'Импортирай зонов файл';
+?>

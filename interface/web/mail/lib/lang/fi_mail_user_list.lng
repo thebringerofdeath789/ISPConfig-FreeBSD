@@ -1,0 +1,12 @@
+<?php
+$wb['list_head_txt'] = 'Postilaatikko';
+$wb['email_txt'] = 'Sähköpostiosoite';
+$wb['autoresponder_txt'] = 'Lomavastaaja';
+$wb['add_new_record_txt'] = 'Lisää uusi postilaatikko';
+$wb['name_txt'] = 'Oikea nimi';
+$wb['login_txt'] = 'Login';
+$wb['postfix_txt'] = 'Receiving';
+$wb['disablesmtp_txt'] = 'SMTP (sending)';
+$wb['disableimap_txt'] = 'IMAP';
+$wb['disablepop3_txt'] = 'POP3';
+?>

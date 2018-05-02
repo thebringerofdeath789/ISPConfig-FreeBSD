@@ -1,0 +1,14 @@
+<?php
+$wb['Support Message'] = 'Destek İletisi';
+$wb['Message'] = 'İleti';
+$wb['Send message'] = 'İleti Gönderme';
+$wb['View messages'] = 'İletilere Bakma';
+$wb['Support'] = 'Destek';
+$wb['About ISPConfig'] = 'ISPConfig Hakkında';
+$wb['Version'] = 'Sürüm';
+$wb['Frequently Asked Questions'] = 'Sık Sorulan Sorular';
+$wb['FAQ Sections'] = 'SSS Bölümleri';
+$wb['Manage Sections'] = 'Bölüm Yönetimi';
+$wb['Add a Question & Answer Pair'] = 'Soru-Yanıt Ekle';
+$wb['Manage Questions'] = 'Soru Yönetimi';
+?>

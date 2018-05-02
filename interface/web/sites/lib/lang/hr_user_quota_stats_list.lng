@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Kvota (prostor)';
+$wb['domain_txt'] = 'Domena / Web stranica';
+$wb['system_user_txt'] = 'Linux korisnik';
+$wb['used_txt'] = 'Prostor';
+$wb['hard_txt'] = 'Hard limit';
+$wb['soft_txt'] = 'Soft limit';
+$wb['files_txt'] = 'Broj datoteka';
+?>

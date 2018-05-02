@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Статистика резервного копирования';
+$wb['active_txt'] = 'Активно';
+$wb['domain_txt'] = 'Адрес эл. почты';
+$wb['backup_count_txt'] = 'Количество резервных копий';
+$wb['backup_server_txt'] = 'Сервер';
+$wb['backup_interval_txt'] = 'Интервал/Кол-во.';
+$wb['backup_size_txt'] = 'Размер копии';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['server_id_txt'] = 'Сервер';
+$wb['parent_domain_id_txt'] = 'Web-сайт';
+$wb['path_txt'] = 'Путь';
+$wb['active_txt'] = 'Активно';
+$wb['path_error_regex'] = 'Некорректный путь к папке.';
+$wb['error_folder_already_protected_txt'] = 'Уже существует запись для этой папки.';
+?>

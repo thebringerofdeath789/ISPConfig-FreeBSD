@@ -1,0 +1,29 @@
+<?php
+$wb['Address'] = 'Adresa';
+$wb['Limits'] = 'Limiti';
+$wb['Add Client'] = 'Dodaj klijenta';
+$wb['Edit Client'] = 'Editiraj klijenta';
+$wb['Clients'] = 'Klijenti';
+$wb['Templates'] = 'Predlošci';
+$wb['Limit-Templates'] = 'Limiti-Predlošci';
+$wb['Add Reseller'] = 'Dodaj preprodavača';
+$wb['Edit Reseller'] = 'Editiraj preprodavača';
+$wb['Resellers'] = 'Preprodavači';
+$wb['error_has_clients'] = 'Ovaj preprodavač ima klijente. Prvo morate obrisati klijente preprodavača.';
+$wb['add_additional_template_txt'] = 'Dodaj dodatni predložak';
+$wb['delete_additional_template_txt'] = 'Obriši dodatni predložak';
+$wb['Messaging'] = 'Slanje poruka';
+$wb['Send email'] = 'Pošalji email';
+$wb['Edit Client Circle'] = 'Promijeni krug klijenata';
+$wb['Domains'] = 'Domene';
+$wb['domain_txt'] = 'Domena';
+$wb['client_txt'] = 'Klijent';
+$wb['error_domain_in mailuse'] = 'Ova domena ne može biti obrisana jer se koristi kao mail domena';
+$wb['error_domain_in webuse'] = 'Ova domena ne može biti obrisana jer se koristi kao web domena';
+$wb['error_client_can_not_add_domain'] = 'Ne možete dodati novu domenu';
+$wb['error_client_group_id_empty'] = 'Morate izabrati klijenta<br>';
+$wb['Client'] = 'Client';
+$wb['error_domain_in dnsuse'] = 'This domain cannot be deleted, because it is in use as dns zone';
+$wb['error_domain_in dnsslaveuse'] = 'This domain cannot be deleted, because it is in use as secondary dns zone';
+$wb['Email-Templates'] = 'Email-Templates';
+?>

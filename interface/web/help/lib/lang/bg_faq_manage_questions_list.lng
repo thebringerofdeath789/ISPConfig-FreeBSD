@@ -1,0 +1,9 @@
+<?php
+$wb['faq_question_txt'] = 'Въпрос';
+$wb['faq_section_name_txt'] = 'Секция';
+$wb['faq_delete_txt'] = 'Изтрии';
+$wb['faq_edit_txt'] = 'Редактирай';
+$wb['faq_sections_txt'] = 'Секция';
+$wb['faq_faq_questions_txt'] = 'Често Задавани Въпроси';
+$wb['faq_new_question_txt'] = 'Добави нов въпрос и отговор';
+?>

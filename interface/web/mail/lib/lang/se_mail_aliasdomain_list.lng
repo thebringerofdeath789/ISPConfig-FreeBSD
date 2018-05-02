@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Domänalias';
+$wb['active_txt'] = 'Aktiv';
+$wb['source_txt'] = 'Källa';
+$wb['destination_txt'] = 'Destination';
+$wb['add_new_record_txt'] = 'Lägg till nytt domänalias';
+?>

@@ -1,0 +1,7 @@
+<?php
+$wb['mailbox_spamfilter_txt'] = 'Ustawienia filtra spamu';
+$wb['spamfilter_txt'] = 'Filtr spamu';
+$wb['email_txt'] = 'E-mail';
+$wb['no_policy'] = '- nie włączony -';
+$wb['policy_txt'] = 'Polityka';
+?>

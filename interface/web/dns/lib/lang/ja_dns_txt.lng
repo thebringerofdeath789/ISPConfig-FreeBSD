@@ -1,0 +1,19 @@
+<?php
+$wb['server_id_txt'] = 'サーバー';
+$wb['zone_txt'] = 'ゾーン';
+$wb['name_txt'] = 'ホスト名';
+$wb['type_txt'] = '種別';
+$wb['data_txt'] = 'Text';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = '有効';
+$wb['limit_dns_record_txt'] = 'DNSレコードが最大数に達しました。';
+$wb['no_zone_perm'] = 'このDNSゾーンにレコードを追加する権限がありません。';
+$wb['name_error_empty'] = 'ホスト名を入力してください。';
+$wb['name_error_regex'] = 'ホスト名の形式が不正です。';
+$wb['data_error_empty'] = 'TXT を入力してください。';
+$wb['data_error_regex'] = 'TXT の形式が不正です。';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds.';
+$wb['invalid_type_dkim'] = 'DKIM is not allowed. Use the DKIM button';
+$wb['invalid_type_dmarc'] = 'DMARC is not allowed. Use the DMARC button';
+$wb['invalid_type_spf'] = 'SPF is not allowed. Use the SPF button.';
+?>

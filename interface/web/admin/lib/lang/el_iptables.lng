@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['multiport_txt'] = 'Πολλαπλές Θύρες';
+$wb['singleport_txt'] = 'Μία Θύρα';
+$wb['protocol_txt'] = 'Πρωτόκολλο';
+$wb['table_txt'] = 'Πίνακας';
+$wb['target_txt'] = 'Στόχος';
+$wb['state_txt'] = 'Κατάσταση';
+$wb['destination_ip_txt'] = 'Διεύθυνση Προορισμού';
+$wb['source_ip_txt'] = 'Διεύθυνση Αφετηρίας';
+$wb['active_txt'] = 'Ενεργή';
+$wb['iptables_error_unique'] = 'Υπάρχει ήδη μια εγγραφή του firewall για αυτόν τον server.';
+?>

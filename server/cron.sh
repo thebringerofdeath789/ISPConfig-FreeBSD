@@ -1,0 +1,18 @@
+#!/bin/bash
+
+PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/X11R6/bin
+
+if [ -f /usr/local/ispconfig/server/lib/php.ini ]; then
+        PHPINIOWNER=`stat -c %U /usr/local/ispconfig/server/lib/php.ini`
+        if [ $PHPINIOWNER == 'root' ] || [ $PHPINIOWNER == 'ispconfig'  ]; then
+                export PHPRC=/usr/local/ispconfig/server/lib
+        fi
+fi
+
+cd /usr/local/ispconfig/server
+$(which php) -q \
+    -d disable_classes= \
+    -d disable_functions= \
+    -d open_basedir= \
+    /usr/local/ispconfig/server/cron.php
+    

@@ -1,0 +1,34 @@
+<?php
+$wb['error_user_password_empty'] = 'Korisničko ime ili šifra nisu upisani.';
+$wb['error_user_password_incorrect'] = 'Pogrešno korisničko ime ili šifra.';
+$wb['error_user_blocked'] = 'Korisnik je blokiran.';
+$wb['error_user_too_many_logins'] = 'Previše pogrešnih logiranja , molimo pokušajte ponovno za 15 minuta.';
+$wb['pass_reset_txt'] = 'Nova šifra će biti generirana i poslana na email ako je email adresa unešena ispod jednaka onoj u bazi klijenata..';
+$wb['pw_reset'] = 'Šifra je resetirana i poslana na vašu email adresu.';
+$wb['pw_error'] = 'Korisničko ime ili šifra nisu ispravni.';
+$wb['pw_error_noinput'] = 'Unesite email adresu i korisničko ime.';
+$wb['pw_reset_mail_msg'] = 'Šifra za ISPConfig 3 control panel račun je resetirana. Vaša nova šifra je: ';
+$wb['pw_reset_mail_title'] = 'Resetirana ISPConfig 3 control panel šifra.';
+$wb['user_regex_error'] = 'Korisničko ime sadrži nedozvoljene znakove ili je dulje od 64 znaka.';
+$wb['pw_error_length'] = 'Duljina šifre je > 256 znakova.';
+$wb['username_txt'] = 'Korisničko ime';
+$wb['password_txt'] = 'Šifra';
+$wb['login_button_txt'] = 'Prijava';
+$wb['pw_lost_txt'] = 'Izgubljena šifra';
+$wb['error_maintenance_mode'] = 'This ISPConfig installation is currently under maintenance. We should be back shortly. Thank you for your patience.';
+$wb['login_txt'] = 'Prijava';
+$wb['pw_reset_txt'] = 'Resetiraj šifru';
+$wb['pw_button_txt'] = 'Pošalji šifru';
+$wb['email_txt'] = 'Email';
+$wb['theme_not_compatible'] = 'The chosen theme is not compatible with the current ISPConfig version. Please check for a new version of the theme.<br />The default theme as been activated automatically.';
+$wb['back_txt'] = 'Natrag';
+$wb['email_error'] = 'Email contains unallowed characters or has a invalid format.';
+$wb['stay_logged_in_txt'] = 'Keep me logged in';
+$wb['lost_password_function_disabled_txt'] = 'The lost password function is not available for this user.';
+$wb['pw_reset_act'] = 'You have been sent an activation link. Please visit the link to confirm your password request.';
+$wb['pw_reset_act_mail_title'] = 'Confirm ISPConfig 3 Control panel password reset';
+$wb['pw_reset_act_mail_msg'] = 'Please confirm that your want to reset your ISPConfig 3 control panel account password by visiting the following activation link: ';
+$wb['lost_password_function_wait_txt'] = 'You cannot request a new password, yet. Please wait a few minutes.';
+$wb['lost_password_function_expired_txt'] = 'This activation link has expired. Please request a new one.';
+$wb['lost_password_function_denied_txt'] = 'This activation link is not valid.';
+?>

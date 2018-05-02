@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Importera språkfil';
+$wb['language_import_txt'] = 'Välj språkfil';
+$wb['btn_save_txt'] = 'Importera den valda språkfilen';
+$wb['language_overwrite_txt'] = 'Skriv över fil om den existerar';
+$wb['btn_cancel_txt'] = 'Tillbaka';
+$wb['ignore_version_txt'] = 'Hoppa över ISPConfig versionskontroll';
+$wb['list_desc_txt'] = 'VARNING: Importera inte språkfiler från opålitliga källor!';
+?>

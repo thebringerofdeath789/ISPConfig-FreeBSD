@@ -1,0 +1,12 @@
+<?php
+$wb['page_head_txt'] = 'Inställningar epostkonto';
+$wb['page_desc_txt'] = 'Här kan du redigera inställningar för epostkontot.';
+$wb['email_txt'] = 'Epostadress';
+$wb['login_txt'] = 'Logga in';
+$wb['server_address_txt'] = 'Epostserverns adress';
+$wb['cc_txt'] = 'Skicka kopia till (CC)';
+$wb['quota_txt'] = 'Epostkontots strlek';
+$wb['unlimited_txt'] = 'Obegränsat';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'Inget';
+?>

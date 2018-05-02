@@ -1,0 +1,36 @@
+<?php
+$wb['shell_txt'] = 'Shell';
+$wb['dir_txt'] = 'Könyvtár';
+$wb['server_id_txt'] = 'Szerver';
+$wb['parent_domain_id_txt'] = 'Weboldal';
+$wb['username_txt'] = 'Felhasználónév';
+$wb['password_txt'] = 'Jelszó';
+$wb['chroot_txt'] = 'Chroot Shell';
+$wb['quota_size_txt'] = 'Kvóta';
+$wb['active_txt'] = 'Aktív';
+$wb['username_error_empty'] = 'A Felhasználónév üres';
+$wb['username_error_unique'] = 'A Felhasználónév már foglalt.';
+$wb['username_error_regex'] = 'Felhasználónév illegális karaktereket tartalmaz.';
+$wb['quota_size_error_empty'] = 'A kvóta üres.';
+$wb['uid_error_empty'] = 'GID üres.';
+$wb['directory_error_empty'] = 'Könyvtár üres.';
+$wb['limit_shell_user_txt'] = 'The max number of shell users is reached.';
+$wb['password_strength_txt'] = 'Jelszó erőssége';
+$wb['parent_domain_id_error_empty'] = 'Nincs webhely kiválasztva.';
+$wb['puser_txt'] = 'Web Felhasználónév';
+$wb['pgroup_txt'] = 'Web Csoportnév';
+$wb['ssh_rsa_txt'] = 'SSH-RSA Public Key (for key-based logins)';
+$wb['dir_dot_error'] = 'No .. in path allowed.';
+$wb['dir_slashdot_error'] = 'No ./ in path allowed.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['username_must_not_exceed_32_chars_txt'] = 'The username must not exceed 32 characters.';
+$wb['username_not_allowed_txt'] = 'The username is not allowed.';
+$wb['invalid_system_user_or_group_txt'] = 'Invalid system user or group';
+$wb['directory_error_regex'] = 'Invalid directory';
+$wb['shell_error_regex'] = 'Invalid shell';
+$wb['invalid_username_txt'] = 'Invalid Username';
+$wb['directory_error_notinweb'] = 'The directory has to be inside the web root.';
+?>

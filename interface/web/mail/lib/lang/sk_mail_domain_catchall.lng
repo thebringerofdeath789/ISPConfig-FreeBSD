@@ -1,0 +1,11 @@
+<?php
+$wb['domain_txt'] = 'Doména';
+$wb['destination_txt'] = 'Cieľ';
+$wb['active_txt'] = 'Aktívne';
+$wb['domain_error_unique'] = 'V súčasnosti už existuje záznam Doménový kôš pre túto doménu.';
+$wb['no_domain_perm'] = 'Nemáte žiadne povolenie pre túto doménu.';
+$wb['domain_error_regex'] = 'Neplatný názov domény alebo doména obsahuje nepovolené znaky.';
+$wb['limit_mailcatchall_txt'] = 'Max. počet e-mailových doménových košov pre Váš účet je dosiahnutý.';
+$wb['source_txt'] = 'Source';
+$wb['destination_error_isemail'] = 'Destination is no valid email address.';
+?>

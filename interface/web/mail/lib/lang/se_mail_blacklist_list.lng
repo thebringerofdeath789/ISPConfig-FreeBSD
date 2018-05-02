@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Epost svartlista';
+$wb['server_id_txt'] = 'Server';
+$wb['add_new_record_txt'] = 'Lägg till ny svartlistad epostadress';
+$wb['active_txt'] = 'Aktiv';
+$wb['source_txt'] = 'Svartlistad adress';
+$wb['type_txt'] = 'Typ';
+$wb['recipient_txt'] = 'Mottagare';
+$wb['access_txt'] = 'åtkomst';
+?>

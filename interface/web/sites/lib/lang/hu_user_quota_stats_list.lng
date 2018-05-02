@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Webhely merevlemez kvóta';
+$wb['domain_txt'] = 'Domain/Webhely';
+$wb['system_user_txt'] = 'Linux felhasználó';
+$wb['used_txt'] = 'Felhasznált hely';
+$wb['hard_txt'] = 'Hard limit';
+$wb['soft_txt'] = 'Soft limit';
+$wb['files_txt'] = 'Single files';
+?>

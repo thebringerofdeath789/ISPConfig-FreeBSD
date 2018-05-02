@@ -1,0 +1,82 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+
+        
+            <div class="form-group">
+                <label for="name" class="col-sm-3 control-label">{tmpl_var name='name_txt'}</label>
+                <tmpl_if name='is_master'><div class="col-sm-9 col-text">{tmpl_var name='name'}</div></tmpl_else><div class="col-sm-9"><input type="text" name="name" id="name" value="{tmpl_var name='name'}" class="form-control" /></div></tmpl_if>
+            </div>
+			<div class="form-group">
+                <label for="type" class="col-sm-3 control-label">{tmpl_var name='type_txt'}</label>
+                <tmpl_if name='is_master'><div class="col-sm-9 col-text">{tmpl_var name='type'}</div></tmpl_else><div class="col-sm-9"><select name="type" id="type" class="form-control">
+                    {tmpl_var name='type'}
+                </select></div></tmpl_if>
+            </div>
+			<div class="form-group">
+                <label for="snippet" class="col-sm-3 control-label">{tmpl_var name='snippet_txt'}</label>
+                <tmpl_if name='is_master'><div class="col-sm-9 col-text"><pre>{tmpl_var name='snippet'}</pre></div></tmpl_else><div class="col-sm-9"><textarea class="form-control" name="snippet" id="snippet" rows='10' cols='50'>{tmpl_var name='snippet'}</textarea>
+                &nbsp; Nginx {tmpl_var name='variables_txt'}: <a href="javascript:void(0);" class="addPlaceholder">{DOCROOT}</a>, <a href="javascript:void(0);" class="addPlaceholder">{FASTCGIPASS}</a>, <a href="javascript:void(0);" class="addPlaceholder">{PHPFALLBACKFASTCGIPASS}</a></div></tmpl_if>
+            </div>
+            <tmpl_if name='is_master'></tmpl_else>
+			<div class="form-group php">
+                <label class="col-sm-3 control-label">{tmpl_var name='required_php_snippets_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='required_php_snippets'}
+                </div>
+            </div>
+            </tmpl_if>
+			<div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='customer_viewable_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='customer_viewable'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='active_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='active'}
+                </div>
+            </div>
+        
+            
+        <input type="hidden" name="id" value="{tmpl_var name='id'}">
+            
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="{tmpl_var name='btn_save_txt'}" data-submit-form="pageForm" data-form-action="admin/directive_snippets_edit.php">{tmpl_var name='btn_save_txt'}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="{tmpl_var name='btn_cancel_txt'}" data-load-content="admin/directive_snippets_list.php">{tmpl_var name='btn_cancel_txt'}</button>
+        </div></div>
+<script language="JavaScript" type="text/javascript">
+		
+    if(jQuery('#type').val() == 'nginx'){
+        jQuery('.nginx:hidden').show();
+    } else {
+        jQuery('.nginx:visible').hide();
+    }
+	
+	if (jQuery('#type').val() != 'nginx' && jQuery('#type').val() != 'apache') {
+		jQuery('#customer_viewable').closest('div.ctrlHolder:visible').hide();
+		jQuery('.php:visible').hide();
+	} else {
+		jQuery('#customer_viewable').closest('div.ctrlHolder:hidden').show();
+		jQuery('.php:hidden').show();
+	}
+    
+    jQuery('#type').change(function(){
+		if (jQuery(this).val() != 'nginx' && jQuery(this).val() != 'apache') {
+			jQuery('#customer_viewable').closest('div.ctrlHolder:visible').hide();
+			jQuery('.php:visible').hide();
+		} else {
+			jQuery('#customer_viewable').closest('div.ctrlHolder:hidden').show();
+			jQuery('.php:hidden').show();
+		}
+        if(jQuery(this).val() == 'nginx'){
+            jQuery('.nginx:hidden').show();
+        } else {
+            jQuery('.nginx:visible').hide();
+        }
+    });
+			
+</script>

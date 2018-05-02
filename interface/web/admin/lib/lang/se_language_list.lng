@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Språkfilsredigering';
+$wb['language_select_txt'] = 'Välj språk';
+$wb['module_txt'] = 'Modul';
+$wb['lang_file_txt'] = 'Språkfil';
+$wb['lang_file_date_txt'] = 'Senast ändrad';
+?>

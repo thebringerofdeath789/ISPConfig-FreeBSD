@@ -1,0 +1,13 @@
+<?php
+$wb['mailbox_autoresponder_txt'] = 'Автоответчик';
+$wb['autoresponder_subject'] = 'Ответ об отсутствии';
+$wb['autoresponder_text_txt'] = 'Текст';
+$wb['autoresponder_txt'] = 'Активно';
+$wb['autoresponder_start_date_txt'] = 'Запускать';
+$wb['autoresponder_start_date_isfuture'] = 'Дата запуска не может быть в прошлом.';
+$wb['autoresponder_end_date_txt'] = 'Останавливать';
+$wb['autoresponder_end_date_isgreater'] = 'Дата окончания должна быть позже даты запуска.';
+$wb['autoresponder_active'] = 'Включить автоответчик';
+$wb['now_txt'] = 'Сейчас';
+$wb['autoresponder_subject_txt'] = 'Тема';
+?>

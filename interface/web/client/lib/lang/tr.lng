@@ -1,0 +1,29 @@
+<?php
+$wb['Client'] = 'Müşteri';
+$wb['Address'] = 'Adres';
+$wb['Limits'] = 'Sınırlar';
+$wb['Add Client'] = 'Müşteri Ekleme';
+$wb['Edit Client'] = 'Müşteri Düzenleme';
+$wb['Clients'] = 'Müşteriler';
+$wb['Templates'] = 'Kalıplar';
+$wb['Limit-Templates'] = 'Sınır Kalıpları';
+$wb['Add Reseller'] = 'Bayi Ekleme';
+$wb['Edit Reseller'] = 'Bayi Düzenleme';
+$wb['Resellers'] = 'Bayi İşlemleri';
+$wb['error_has_clients'] = 'Bu bayi, müşterileri bulunduğundan silinemez.';
+$wb['add_additional_template_txt'] = 'Ek Kalıbı Ekle';
+$wb['delete_additional_template_txt'] = 'Ek Kalıbı Sil';
+$wb['Messaging'] = 'İletişim';
+$wb['Send email'] = 'E-posta Gönderimi';
+$wb['Edit Client Circle'] = 'Müşteri Grubu Düzenleme';
+$wb['Domains'] = 'Alan Adları';
+$wb['domain_txt'] = 'Alan Adı';
+$wb['client_txt'] = 'Müşteri';
+$wb['error_domain_in mailuse'] = 'Bu alan adı e-posta alan adı olarak kullanıldığından silinemez';
+$wb['error_domain_in webuse'] = 'Bu alan adı web alan adı olarak kullanıldığından silinemez';
+$wb['error_client_can_not_add_domain'] = 'Yeni bir alan adı ekleyemezsiniz';
+$wb['error_client_group_id_empty'] = 'Bir müşteri seçmelisiniz<br>';
+$wb['error_domain_in dnsuse'] = 'This domain cannot be deleted, because it is in use as dns zone';
+$wb['error_domain_in dnsslaveuse'] = 'This domain cannot be deleted, because it is in use as secondary dns zone';
+$wb['Email-Templates'] = 'Email-Templates';
+?>

@@ -1,0 +1,37 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+
+        
+            <div class="form-group">
+                <label for="server_id" class="col-sm-3 control-label">{tmpl_var name='server_id_txt'}</label>
+                <div class="col-sm-9"><select name="server_id" id="server_id" class="form-control">
+                    {tmpl_var name='server_id'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label for="source" class="col-sm-3 control-label">{tmpl_var name='source_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="source" id="source" value="{tmpl_var name='source'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="type" class="col-sm-3 control-label">{tmpl_var name='type_txt'}</label>
+                <div class="col-sm-9"><select name="type" id="type" class="form-control">
+                    {tmpl_var name='type'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='active_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='active'}
+                </div>
+            </div>
+        
+
+        <input type="hidden" name="id" value="{tmpl_var name='id'}">
+        <input name="access" type="hidden" value="{tmpl_var name='access'}">
+
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="{tmpl_var name='btn_save_txt'}" data-submit-form="pageForm" data-form-action="mail/mail_blacklist_edit.php">{tmpl_var name='btn_save_txt'}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="{tmpl_var name='btn_cancel_txt'}" data-load-content="mail/mail_blacklist_list.php">{tmpl_var name='btn_cancel_txt'}</button>
+        </div></div>

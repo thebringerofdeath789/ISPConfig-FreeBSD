@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['priority_txt'] = 'Priorität';
+$wb['policy_id_txt'] = 'Richtlinie';
+$wb['email_txt'] = 'E-Mail (Zeichenkette)';
+$wb['fullname_txt'] = 'Name';
+$wb['local_txt'] = 'Lokal';
+$wb['email_error_notempty'] = 'Die E-Mail-Adresse darf nicht leer sein.';
+$wb['fullname_error_notempty'] = 'Der Name darf nicht leer sein.';
+$wb['10 - highest'] = '10 - h&ouml;chste';
+$wb['5 - medium'] = '5 - normal';
+$wb['1 - lowest'] = '1 - niedrigste';
+?>

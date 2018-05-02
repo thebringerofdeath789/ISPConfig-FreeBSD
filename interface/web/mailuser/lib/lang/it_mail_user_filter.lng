@@ -1,0 +1,21 @@
+<?php
+$wb['rulename_txt'] = 'Nome';
+$wb['action_txt'] = 'Azione';
+$wb['target_txt'] = 'Cartella';
+$wb['active_txt'] = 'Attivo';
+$wb['rulename_error_empty'] = 'Nome vuoto.';
+$wb['searchterm_is_empty'] = 'Termine di ricerca vuoto.';
+$wb['source_txt'] = 'Sorgente';
+$wb['target_error_regex'] = 'Il target può contenere solo i seguenti caratteri: a-z, 0-9, -, ., _, e {space}';
+$wb['limit_mailfilter_txt'] = 'Numero filtri mail raggiunto.';
+$wb['subject_txt'] = 'Soggetto';
+$wb['from_txt'] = 'Da';
+$wb['to_txt'] = 'A';
+$wb['contains_txt'] = 'Contiene';
+$wb['is_txt'] = 'è';
+$wb['begins_with_txt'] = 'Inizia con';
+$wb['ends_with_txt'] = 'Termina con';
+$wb['move_to_txt'] = 'Sposta in';
+$wb['delete_txt'] = 'Elimina';
+$wb['mailbox_filter_txt'] = 'Mailbox filter';
+?>

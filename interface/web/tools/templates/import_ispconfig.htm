@@ -1,0 +1,87 @@
+<div class='page-header'>
+	<h1><tmpl_var name="head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+<div class="panel panel_language_import" style="padding:20px;">
+  
+    <div class="pnl_formsarea">
+        <legend>{tmpl_var name="legend_txt"}</legend>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Remote API URL</label>
+                <div class="col-sm-9"><input class="form-control" type="text" id="remote_server" value="{tmpl_var name='remote_server'}" placeholder="https://www.example.com:8080/remote/" name="remote_server" /></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Remote User</label>
+                <div class="col-sm-9"><input class="form-control" type="text" id="remote_user" value="{tmpl_var name='remote_user'}" name="remote_user" /></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">Remote password</label>
+                <div class="col-sm-9"><input class="form-control" type="text" id="remote_password" value="{tmpl_var name='remote_password'}" name="remote_password" /></div>
+            </div>
+        
+    </div>
+    <tmpl_if name="connected">
+        <div class="pnl_formsarea">
+            <legend>{tmpl_var name="legend2_txt"}</legend>
+                <div class="form-group">
+                    <label for="mail_domain" class="col-sm-3 control-label">{tmpl_var name='mail_domain_txt'}</label>
+                    <div class="col-sm-9"><select name="mail_domain" id="mail_domain" class="form-control">
+                        {tmpl_var name='mail_domain'}
+                    </select></div>
+                </div>
+                <div class="form-group">
+                    <label for="client_group_id" class="col-sm-3 control-label">{tmpl_var name='client_group_id_txt'}</label>
+                    <div class="col-sm-9"><select name="client_group_id" id="client_group_id" class="form-control">
+                        {tmpl_var name='client_group_id'}
+                    </select></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">{tmpl_var name="import_mailbox_txt"}</label>
+                    <div class="col-sm-9"><input class="form-control" type="checkbox" id="import_mailbox" value="1" name="import_mailbox" checked="checked" /></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">{tmpl_var name="import_user_filter_txt"}</label>
+                    <div class="col-sm-9"><input class="form-control" type="checkbox" id="import_user_filter" value="1" name="import_user_filter" checked="checked" /></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">{tmpl_var name="import_spamfilter_txt"}</label>
+                    <div class="col-sm-9"><input class="form-control" type="checkbox" id="import_spamfilter" value="1" name="import_spamfilter" checked="checked" /></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">{tmpl_var name="import_alias_txt"}</label>
+                    <div class="col-sm-9"><input class="form-control" type="checkbox" id="import_alias" value="1" name="import_alias" checked="checked" /></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">{tmpl_var name="import_forward_txt"}</label>
+                    <div class="col-sm-9"><input class="form-control" type="checkbox" id="import_forward" value="1" name="import_forward" checked="checked" /></div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">{tmpl_var name="import_aliasdomain_txt"}</label>
+                    <div class="col-sm-9"><input class="form-control" type="checkbox" id="import_aliasdomain" value="1" name="import_aliasdomain" checked="checked" /></div>
+                </div>
+            
+        </div>
+    </tmpl_if>
+	 
+    <tmpl_if name="msg">
+        <div id="OKMsg"><p><tmpl_var name="msg"></p></div>
+    </tmpl_if>
+    <tmpl_if name="error">
+        <div id="errorMsg"><h3><tmpl_var name="error_txt"></h3><ol><tmpl_var name="error"></ol></div>
+    </tmpl_if>
+	
+    <input type="hidden" name="remote_session_id" value="{tmpl_var name='remote_session_id'}">
+    <input type="hidden" name="connected" value="{tmpl_var name='connected'}">
+    <tmpl_if name="connected">
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="Import" data-submit-form="pageForm" data-form-action="tools/import_ispconfig.php">{tmpl_var name="btn_start_txt"}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="Cancel" data-load-content="tools/index.php">{tmpl_var name="btn_cancel_txt"}</button>
+        </div></div>
+    <tmpl_else>
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="Import" data-submit-form="pageForm" data-form-action="tools/import_ispconfig.php">{tmpl_var name="btn_connect_txt"}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="Cancel" data-load-content="tools/index.php">{tmpl_var name="btn_cancel_txt"}</button>
+        </div></div>
+    </tmpl_if>
+  </div>

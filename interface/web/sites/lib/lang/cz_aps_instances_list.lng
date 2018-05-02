@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'Nainstalované balíčky';
+$wb['name_txt'] = 'Jméno';
+$wb['version_txt'] = 'Verze';
+$wb['customer_txt'] = 'Klient';
+$wb['status_txt'] = 'Status';
+$wb['install_location_txt'] = 'Umístění instalace';
+$wb['pkg_delete_confirmation'] = 'Opravdu chcete smazat tuto instalaci ?';
+$wb['filter_txt'] = 'Hledat';
+$wb['delete_txt'] = 'Smazat';
+?>

@@ -1,0 +1,6 @@
+<?php
+$wb['name_txt'] = 'Namn';
+$wb['fields_txt'] = 'Fält';
+$wb['template_txt'] = 'Mall';
+$wb['visible_txt'] = 'Synlig';
+?>

@@ -1,0 +1,57 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+        
+            <div class="form-group">
+                <label for="server_id" class="col-sm-3 control-label">{tmpl_var name='server_id_txt'}</label>
+                <div class="col-sm-9"><select name="server_id" id="server_id" class="form-control">
+                    {tmpl_var name='server_id'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label for="table" class="col-sm-3 control-label">{tmpl_var name='table_txt'}</label>
+                <div class="col-sm-9"><select name="table" id="table" class="form-control">
+                    {tmpl_var name='table'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label for="protocol" class="col-sm-3 control-label">{tmpl_var name='protocol_txt'}</label>
+                <div class="col-sm-9"><select name="protocol" id="protocol" class="form-control">
+                    {tmpl_var name='protocol'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label for="singleport" class="col-sm-3 control-label">{tmpl_var name='singleport_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="singleport" id="singleport" value="{tmpl_var name='singleport'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="multiport" class="col-sm-3 control-label">{tmpl_var name='multiport_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="multiport" id="multiport" value="{tmpl_var name='multiport'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="destination_ip" class="col-sm-3 control-label">{tmpl_var name='destination_ip_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="destination_ip" id="destination_ip" value="{tmpl_var name='destination_ip'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="source_ip" class="col-sm-3 control-label">{tmpl_var name='source_ip_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="source_ip" id="source_ip" value="{tmpl_var name='source_ip'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="state" class="col-sm-3 control-label">{tmpl_var name='state_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="state" id="state" value="{tmpl_var name='state'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="target" class="col-sm-3 control-label">{tmpl_var name='target_txt'}</label>
+                <div class="col-sm-9"><select name="target" id="target" class="form-control">
+                    {tmpl_var name='target'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='active_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='active'}
+                </div>
+            </div>
+        
+        <input type="hidden" name="id" value="{tmpl_var name='id'}">
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="{tmpl_var name='btn_save_txt'}" data-submit-form="pageForm" data-form-action="admin/iptables_edit.php">{tmpl_var name='btn_save_txt'}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="{tmpl_var name='btn_cancel_txt'}" data-load-content="admin/iptables_list.php">{tmpl_var name='btn_cancel_txt'}</button>
+        </div></div>

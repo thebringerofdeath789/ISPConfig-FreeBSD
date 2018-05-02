@@ -1,0 +1,30 @@
+<?php
+$wb['rulename_txt'] = 'Име';
+$wb['action_txt'] = 'Действие';
+$wb['target_txt'] = 'Folder';
+$wb['active_txt'] = 'Активен';
+$wb['rulename_error_empty'] = 'Name is empty.';
+$wb['searchterm_is_empty'] = 'Search term is empty.';
+$wb['source_txt'] = 'Source';
+$wb['target_error_regex'] = 'Позволените символи са: a-z, 0-9, -, ., _, и {интервал}';
+$wb['limit_mailfilter_txt'] = 'Максималният брой на емайл филтрите е достигнат.';
+$wb['subject_txt'] = 'Тема';
+$wb['from_txt'] = 'От';
+$wb['to_txt'] = 'До';
+$wb['contains_txt'] = 'Описание';
+$wb['is_txt'] = 'е';
+$wb['begins_with_txt'] = 'Начало с';
+$wb['ends_with_txt'] = 'Край с';
+$wb['delete_txt'] = 'Изтрий';
+$wb['move_stop_txt'] = 'Move to';
+$wb['header_txt'] = 'Header';
+$wb['size_over_txt'] = 'Email size over (KB)';
+$wb['size_under_txt'] = 'Email size under (KB)';
+$wb['localpart_txt'] = 'Localpart';
+$wb['domain_txt'] = 'Domain';
+$wb['keep_txt'] = 'Keep';
+$wb['reject_txt'] = 'Reject';
+$wb['stop_txt'] = 'Stop';
+$wb['move_to_txt'] = 'Move to';
+$wb['mark_read_txt'] = 'Mark as read';
+?>

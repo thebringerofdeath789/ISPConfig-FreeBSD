@@ -1,0 +1,7 @@
+<?php
+$wb['head_txt'] = 'Actualizar lista de paquetes';
+$wb['list_desc_txt'] = '';
+$wb['btn_start_txt'] = 'Actualizar lista de paquetes';
+$wb['btn_cancel_txt'] = 'Cancelar';
+$wb['legend_txt'] = 'Aquí puede actualizar la lista de paquetes. Por favor tenga presente que esto podría tardar más de 5 minutos. Puede abandonar esta página si lo desea; el proceso continuará en segundo plano.';
+?>

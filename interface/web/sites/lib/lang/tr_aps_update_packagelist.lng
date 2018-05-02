@@ -1,0 +1,7 @@
+<?php
+$wb['head_txt'] = 'Güncelleme Paketleri Listesi';
+$wb['list_desc_txt'] = '';
+$wb['btn_start_txt'] = 'Güncelleme Paketleri Listesi';
+$wb['btn_cancel_txt'] = 'Geri';
+$wb['legend_txt'] = 'Kullanılabilecek paketlerin listesi buradan güncellenebilir. Bu işlem 5 dakika kadar sürebilir. İsterseniz işlemi başlattıktan sonra sayfadan ayrılabilirsiniz. İşlem artalanda tamamlanır.';
+?>

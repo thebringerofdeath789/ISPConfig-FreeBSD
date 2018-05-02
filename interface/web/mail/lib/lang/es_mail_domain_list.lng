@@ -1,0 +1,7 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir dominio';
+$wb['domain_txt'] = 'Dominio';
+$wb['list_head_txt'] = 'Dominio de correo';
+$wb['server_id_txt'] = 'Servidor';
+?>

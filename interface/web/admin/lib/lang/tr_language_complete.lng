@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Dil Birleştirme';
+$wb['list_desc_txt'] = 'Seçilmiş dil dosyasını İngilizce dil dosyası ile birleştirir. <br />Böylece dil dosyasındaki eksik metinler İngilizce dil dosyasından tamamlanır.';
+$wb['language_select_txt'] = 'Dil Seçin';
+$wb['btn_save_txt'] = 'Dosyaları Birleştir';
+$wb['btn_cancel_txt'] = 'Geri';
+?>

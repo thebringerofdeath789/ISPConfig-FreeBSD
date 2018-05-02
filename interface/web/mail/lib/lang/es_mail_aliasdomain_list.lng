@@ -1,0 +1,7 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir alias de dominio';
+$wb['destination_txt'] = 'Destino';
+$wb['list_head_txt'] = 'Alias de dominio';
+$wb['source_txt'] = 'Origen';
+?>

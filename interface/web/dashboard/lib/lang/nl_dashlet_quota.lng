@@ -1,0 +1,8 @@
+<?php
+$wb['quota_txt'] = 'Website harddisk Quota';
+$wb['domain_txt'] = 'Domein / Website';
+$wb['used_txt'] = 'Gebruikte ruimte';
+$wb['hard_txt'] = 'Harde limiet';
+$wb['soft_txt'] = 'Zachte limiet';
+$wb['no_sites_txt'] = 'Geen websites gevonden.';
+?>

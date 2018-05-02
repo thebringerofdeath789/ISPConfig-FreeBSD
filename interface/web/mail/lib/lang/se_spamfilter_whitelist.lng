@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['wb_txt'] = 'wb';
+$wb['rid_txt'] = 'Användare';
+$wb['email_txt'] = 'Epost';
+$wb['priority_txt'] = 'Prioritet';
+$wb['active_txt'] = 'Aktiv';
+$wb['limit_spamfilter_wblist_txt'] = 'The max. number of White- or Blacklist records for your account is reached.';
+$wb['10 - highest'] = '10 - högsta';
+$wb['5 - medium'] = '5 - medium';
+$wb['1 - lowest'] = '1 - lägsta';
+?>

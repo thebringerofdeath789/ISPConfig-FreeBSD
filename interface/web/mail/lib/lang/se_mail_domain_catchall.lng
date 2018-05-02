@@ -1,0 +1,11 @@
+<?php
+$wb['domain_txt'] = 'Domän';
+$wb['destination_txt'] = 'Mål';
+$wb['active_txt'] = 'Aktiv';
+$wb['domain_error_unique'] = 'Det finns redan en catchall för denna domän.';
+$wb['no_domain_perm'] = 'Du har inga rättigheter för denna domän.';
+$wb['domain_error_regex'] = 'Ogiltig domän eller domänen innehåller ogiltiga tecken.';
+$wb['limit_mailcatchall_txt'] = 'Det maximala antalet catchall-adresser för ditt konto är uppnått.';
+$wb['source_txt'] = 'Källa';
+$wb['destination_error_isemail'] = 'Destinationen när inte en giltig epostadress.';
+?>

@@ -1,0 +1,10 @@
+<?php
+$wb['access_txt'] = 'acceso';
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir registro a la lista blanca';
+$wb['list_head_txt'] = 'Lista blanca de correos';
+$wb['recipient_txt'] = 'Recipiente';
+$wb['server_id_txt'] = 'Servidor';
+$wb['source_txt'] = 'Direcciones en la lista blanca';
+$wb['type_txt'] = 'Tipo';
+?>

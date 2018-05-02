@@ -1,0 +1,30 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+			<div class="form-group">
+                <label for="email_domain" class="col-sm-3 control-label">{tmpl_var name='source_txt'}</label>
+                <div class="col-sm-9">
+					<div class="input-group">
+						<span class="input-group-addon" id="domain-desc">* @</span>
+						<select name="email_domain" id="email_domain" class="form-control" aria-describedby="domain-desc">{tmpl_var name='email_domain'}</select>
+					</div>
+				</div>
+            </div>
+            <div class="form-group">
+                <label for="destination" class="col-sm-3 control-label">{tmpl_var name='destination_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="destination" id="destination" value="{tmpl_var name='destination'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='active_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='active'}
+                </div>
+            </div>
+        
+        <input type="hidden" name="id" value="{tmpl_var name='id'}">
+        <input type="hidden" name="type" value="catchall">
+
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="{tmpl_var name='btn_save_txt'}" data-submit-form="pageForm" data-form-action="mail/mail_domain_catchall_edit.php">{tmpl_var name='btn_save_txt'}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="{tmpl_var name='btn_cancel_txt'}" data-load-content="mail/mail_domain_catchall_list.php">{tmpl_var name='btn_cancel_txt'}</button>
+        </div></div>

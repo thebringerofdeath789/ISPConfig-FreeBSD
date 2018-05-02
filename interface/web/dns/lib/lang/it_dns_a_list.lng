@@ -1,0 +1,15 @@
+<?php
+$wb['list_head_txt'] = 'A-Record';
+$wb['active_txt'] = 'Attivo';
+$wb['server_id_txt'] = 'Server';
+$wb['zone_txt'] = 'Zone';
+$wb['name_txt'] = 'Nome';
+$wb['data_txt'] = 'Data';
+$wb['aux_txt'] = 'Priorita';
+$wb['ttl_txt'] = 'TTL';
+$wb['type_txt'] = 'Type';
+$wb['add_new_record_txt'] = 'Aggiungi un nuovo  DNS A-Record';
+$wb['page_txt'] = 'Page';
+$wb['page_of_txt'] = 'of';
+$wb['delete_confirmation'] = 'Vuoi davvero eliminare questo record?';
+?>

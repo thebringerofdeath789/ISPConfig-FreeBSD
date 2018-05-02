@@ -1,0 +1,21 @@
+<?php
+$wb['dir_txt'] = 'Direktori';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Situs Web';
+$wb['username_txt'] = 'Nama Pengguna';
+$wb['password_txt'] = 'Kata Sandi';
+$wb['password_strength_txt'] = 'Kekuatan Sandi';
+$wb['active_txt'] = 'Aktif';
+$wb['limit_webdav_user_txt'] = 'Jumlah maks pengguna webdav untuk akun Anda telah tercapai.';
+$wb['username_error_empty'] = 'Nama Pengguna kosong.';
+$wb['username_error_unique'] = 'Nama Pengguna harus unik.';
+$wb['username_error_regex'] = 'Nama Pengguna mengandung karakter yang tidak diperbolehkan.';
+$wb['directory_error_empty'] = 'Direktori kosong.';
+$wb['parent_domain_id_error_empty'] = 'Tak ada situs web yang dipilih.';
+$wb['dir_dot_error'] = 'No .. in path allowed.';
+$wb['dir_slashdot_error'] = 'No ./ in path allowed.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+?>

@@ -1,0 +1,14 @@
+<?php
+$wb['login_1_txt'] = 'Wollen Sie sich anmelden als Benutzer';
+$wb['login_2_txt'] = 'Wählen Sie Ja um zum Benutzerkonto zu gelangen oder Nein um zurückzukehren.';
+$wb['btn_yes_txt'] = 'Ja, anmelden als Benutzer';
+$wb['btn_back_txt'] = 'Nein, zurück zur Liste';
+$wb['udp_port_help_txt'] = 'Getrennt durch Komma';
+$wb['active_txt'] = 'Aktiv';
+$wb['firewall_error_unique'] = 'Es gibt bereits einen Firewalleintrag für diesen Server.';
+$wb['tcp_ports_error_regex'] = 'Es sind nur Zahlen in der TCP Port Definition erlaubt. ';
+$wb['udp_ports_error_regex'] = 'Es sind nur Zahlen in der UDP Port Definition erlaubt., ';
+$wb['login_as_or_logout_txt'] = 'Wollen Sie sich wieder als {UTYPE} anmelden oder sich abmelden?';
+$wb['btn_reloginas_txt'] = 'Ja, erneut als %s anmelden';
+$wb['btn_nologout_txt'] = 'Nein, abmelden';
+?>

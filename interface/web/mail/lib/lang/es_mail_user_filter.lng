@@ -1,0 +1,30 @@
+<?php
+$wb['action_txt'] = 'Acción';
+$wb['active_txt'] = 'Habilitado';
+$wb['begins_with_txt'] = 'Comienza con';
+$wb['contains_txt'] = 'Contiene';
+$wb['delete_txt'] = 'Borrar';
+$wb['domain_txt'] = 'Domain';
+$wb['ends_with_txt'] = 'Termina con';
+$wb['from_txt'] = 'De';
+$wb['header_txt'] = 'Cabecera';
+$wb['is_txt'] = 'Es';
+$wb['keep_txt'] = 'Mantener';
+$wb['limit_mailfilter_txt'] = 'Ha alcanzado el número máx. de filtros de correo.';
+$wb['localpart_txt'] = 'Parte local';
+$wb['move_stop_txt'] = 'Mover a';
+$wb['reject_txt'] = 'Rechazar';
+$wb['rulename_error_empty'] = 'El nombre está vacío.';
+$wb['rulename_txt'] = 'Nombre';
+$wb['searchterm_is_empty'] = 'Termino de búsqueda vacío.';
+$wb['size_over_txt'] = 'Tamaño del correo superior a (KB)';
+$wb['size_under_txt'] = 'Tamaño del correo inferior a (KB)';
+$wb['source_txt'] = 'Origen';
+$wb['stop_txt'] = 'Detener';
+$wb['subject_txt'] = 'Asunto';
+$wb['target_error_regex'] = 'El destino solo puede contener los siguientes caracteres: a-z, 0-9, -, ., _, y {espacio}';
+$wb['target_txt'] = 'Carpeta';
+$wb['to_txt'] = 'Para';
+$wb['move_to_txt'] = 'Move to';
+$wb['mark_read_txt'] = 'Mark as read';
+?>

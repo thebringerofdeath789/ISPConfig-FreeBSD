@@ -1,0 +1,9 @@
+<?php
+$wb['Email Account'] = 'Account e-mail';
+$wb['Overview'] = 'Panoramica';
+$wb['Password'] = 'Password';
+$wb['Autoresponder'] = 'Autorisponditore';
+$wb['Send copy'] = 'Invia copia e-mail';
+$wb['Spamfilter'] = 'Filtri spam';
+$wb['Email Filters'] = 'Filtri e-mail';
+?>

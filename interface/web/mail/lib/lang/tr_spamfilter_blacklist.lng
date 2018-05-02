@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'Sunucu';
+$wb['wb_txt'] = 'wb';
+$wb['rid_txt'] = 'Kullanıcı';
+$wb['email_txt'] = 'E-posta';
+$wb['priority_txt'] = 'Öncelik';
+$wb['active_txt'] = 'Etkin';
+$wb['limit_spamfilter_wblist_txt'] = 'Hesabınıza ekleyebileceğiniz en fazla Beyaz/Kara Liste sayısına ulaştınız.';
+$wb['10 - highest'] = '10 - en yüksek';
+$wb['5 - medium'] = '5 - orta';
+$wb['1 - lowest'] = '1 - en düşük';
+?>

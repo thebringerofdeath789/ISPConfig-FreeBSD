@@ -1,0 +1,8 @@
+<?php
+$wb['action_txt'] = 'Acción';
+$wb['active_txt'] = 'Habilitado';
+$wb['add_new_record_txt'] = 'Añadir filtro de contenido';
+$wb['list_head_txt'] = 'Comprobación de cabecera y cuerpo de Postfix';
+$wb['pattern_txt'] = 'Patrón';
+$wb['server_id_txt'] = 'Servidor';
+?>

@@ -1,0 +1,35 @@
+<?php
+$wb['Websites'] = 'Verkkotunnukset';
+$wb['Website'] = 'Verkkotunnukset';
+$wb['Subdomain'] = 'Aliverkkotunnus';
+$wb['Aliasdomain'] = 'Aliasverkkotunnus';
+$wb['Database'] = 'Tietokanta';
+$wb['Web Access'] = 'Web Access';
+$wb['FTP-User'] = 'FTP-käyttäjätunnus';
+$wb['Webdav-User'] = 'WebDAV-Users';
+$wb['Folder'] = 'Protected Folders';
+$wb['Folder users'] = 'Protected Folder Users';
+$wb['Command Line'] = 'Command Line';
+$wb['Shell-User'] = 'Shell-käyttäjä';
+$wb['Cron Jobs'] = 'Ajastetut tehtävät';
+$wb['Statistics'] = 'Tilastot';
+$wb['Web traffic'] = 'WWW-liikenne';
+$wb['Website quota (Harddisk)'] = 'Website quota (Harddisk)';
+$wb['Cron'] = 'Cron';
+$wb['Stats'] = 'Tilastot';
+$wb['Shell'] = 'Shell';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'Asetukset';
+$wb['Domain'] = 'Verkkotunnus';
+$wb['Redirect'] = 'Edelleenohjaus';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'Verkkotunnukset';
+$wb['Database User'] = 'Database Users';
+$wb['APS Installer'] = 'APS Installer';
+$wb['Available packages'] = 'Available packages';
+$wb['Installed packages'] = 'Installed packages';
+$wb['Update Packagelist'] = 'Update Packagelist';
+$wb['Subdomain (Vhost)'] = 'Subdomain (Vhost)';
+$wb['error_proxy_requires_url'] = 'Redirect Type \\"proxy\\" requires a URL as the redirect path.';
+?>

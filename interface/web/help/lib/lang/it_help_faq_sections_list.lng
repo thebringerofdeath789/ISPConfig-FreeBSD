@@ -1,0 +1,8 @@
+<?php
+$wb['faq_section_name_txt'] = 'Nome Sezione';
+$wb['faq_delete_txt'] = 'Elimina';
+$wb['faq_edit_txt'] = 'Modifica';
+$wb['faq_sections_txt'] = 'Sezioni';
+$wb['faq_faq_sections_txt'] = 'Sezioni FAQ';
+$wb['faq_new_section_txt'] = 'Aggiungi una nuova sezione';
+?>

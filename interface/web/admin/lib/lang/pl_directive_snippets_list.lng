@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Zestawy dyrektyw';
+$wb['active_txt'] = 'Aktywne';
+$wb['name_txt'] = 'Nazwa zestawu';
+$wb['type_txt'] = 'Rodzaj';
+$wb['add_new_record_txt'] = 'Dodaj nowy zestaw dyrektyw';
+$wb['customer_viewable_txt'] = 'Customer viewable';
+?>

@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'Domainek';
+$wb['add_new_record_txt'] = 'Új domain';
+$wb['domain_txt'] = 'Domain';
+$wb['user_txt'] = 'Client';
+?>

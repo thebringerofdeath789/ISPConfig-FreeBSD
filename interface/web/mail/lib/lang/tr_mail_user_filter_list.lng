@@ -1,0 +1,7 @@
+<?php
+$wb['rulename_txt'] = 'Ad';
+$wb['add_new_record_txt'] = 'Süzgeç Ekle';
+$wb['page_txt'] = 'Sayfa';
+$wb['page_of_txt'] = '/';
+$wb['delete_confirmation'] = 'Bu e-posta süzgecini silmek istediğinize emin misiniz?';
+?>

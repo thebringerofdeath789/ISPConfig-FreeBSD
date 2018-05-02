@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Varsayılan Tema Ayarları';
+$wb['list_desc_txt'] = 'Belirli varsayılan tema ayarları buradan değiştirilebilir.';
+$wb['no_settings_txt'] = 'Varsayılan tema için herhangi bir ayar yok.';
+$wb['btn_start_txt'] = 'Kaydet';
+$wb['btn_cancel_txt'] = 'Geri';
+?>

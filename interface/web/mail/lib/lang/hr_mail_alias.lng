@@ -1,0 +1,17 @@
+<?php
+$wb['email_txt'] = 'Email';
+$wb['destination_txt'] = 'Destinacija';
+$wb['active_txt'] = 'Aktivno';
+$wb['email_error_isemail'] = 'Email adresa je neispravna.';
+$wb['email_error_unique'] = 'Duplicirane email adrese.';
+$wb['no_domain_perm'] = 'Nemate dozvole za ovu domenu.';
+$wb['destination_error_isemail'] = 'Destinacija email adrese je neispravna.';
+$wb['limit_mailalias_txt'] = 'Iskorišten je maksimalan broj email aliasa.';
+$wb['duplicate_mailbox_txt'] = 'Već postoji mailbox sa ovom email adresom';
+$wb['domain_txt'] = 'Domena';
+$wb['duplicate_email_alias_txt'] = 'This email alias does already exist.';
+$wb['source_txt'] = 'Alias';
+$wb['greylisting_txt'] = 'Enable greylisting';
+$wb['send_as_txt'] = 'Send as';
+$wb['send_as_exp'] = 'Allow target to send mail using this alias as origin';
+?>

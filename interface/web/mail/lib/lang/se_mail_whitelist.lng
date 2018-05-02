@@ -1,0 +1,9 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['active_txt'] = 'Aktiv';
+$wb['source_txt'] = 'Vitlista adress';
+$wb['recipient_txt'] = 'Mottagare';
+$wb['source_error_notempty'] = 'Adressen är tom.';
+$wb['type_txt'] = 'Typ';
+$wb['limit_mailfilter_txt'] = 'Maximala antalet epostfilter för ditt konto är uppnått.';
+?>

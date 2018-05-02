@@ -1,0 +1,24 @@
+[{fpm_pool}]
+
+listen = {fpm_socket}
+listen.owner = www
+listen.group = www
+listen.mode = 0660
+
+user = {fpm_user}
+group = {fpm_group}
+
+pm = dynamic
+pm.max_children = 500
+pm.start_servers = 2
+pm.min_spare_servers = 1
+pm.max_spare_servers = 5
+
+chdir = /
+
+; php_admin_value[open_basedir] = /usr/local/ispconfig/interface:/usr/local/ispconfig/security:/usr/share:/var/lib/roundcube:/etc/roundcube:/usr/share/roundcube
+php_admin_value[session.save_path] = /usr/local/ispconfig/interface/temp
+php_admin_flag[magic_quotes_gpc] = off
+
+php_admin_value[memory_limit] = -1
+php_admin_value[max_execution_time] = 1200

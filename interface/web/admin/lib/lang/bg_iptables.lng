@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Сървър';
+$wb['multiport_txt'] = 'Много Портове';
+$wb['singleport_txt'] = 'Единичен Порт';
+$wb['protocol_txt'] = 'Протокол';
+$wb['table_txt'] = 'Table';
+$wb['target_txt'] = 'Цел';
+$wb['state_txt'] = 'State';
+$wb['destination_ip_txt'] = 'Краен адрес';
+$wb['source_ip_txt'] = 'Изходящ адрес';
+$wb['active_txt'] = 'Активен';
+$wb['iptables_error_unique'] = 'Вече има запис за защитна стена на този сървър.';
+?>

@@ -1,0 +1,12 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['wb_txt'] = 'wb';
+$wb['rid_txt'] = 'Uživatel';
+$wb['email_txt'] = 'E-mail';
+$wb['priority_txt'] = 'Priorita';
+$wb['active_txt'] = 'Aktivní';
+$wb['limit_spamfilter_wblist_txt'] = 'Byl dosažen maximální počet záznamů pro bílou / černou listinu pro Váš účet.';
+$wb['10 - highest'] = '10 - nejvyšší';
+$wb['5 - medium'] = '5 - střední';
+$wb['1 - lowest'] = '1 - nejnižší';
+?>

@@ -1,0 +1,35 @@
+<?php
+$wb['Websites'] = 'Webové stránky';
+$wb['Website'] = 'Webové stránky';
+$wb['Subdomain'] = 'Subdomény pro webové stránky';
+$wb['Aliasdomain'] = 'Přezdívky domén webové stránky';
+$wb['Database'] = 'Databáze';
+$wb['Web Access'] = 'Webové přístupy';
+$wb['FTP-User'] = 'FTP uživatelé';
+$wb['Webdav-User'] = 'WebDAV uživatelé';
+$wb['Folder'] = 'Chráněné adresáře heslem';
+$wb['Folder users'] = 'Chráněné adresáře uživatelé ';
+$wb['Command Line'] = 'Příkazová řádka';
+$wb['Shell-User'] = 'Shell uživatelé';
+$wb['Cron Jobs'] = 'Cron úlohy';
+$wb['Statistics'] = 'Statistiky';
+$wb['Web traffic'] = 'Přenesená data';
+$wb['Website quota (Harddisk)'] = 'Webové kvóty (místo na disku)';
+$wb['Cron'] = 'Cron';
+$wb['Stats'] = 'Statistiky';
+$wb['Shell'] = 'Shell';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'Volby';
+$wb['Domain'] = 'Doména';
+$wb['Redirect'] = 'Přesměrování';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'Stránky';
+$wb['Database User'] = 'Uživatelé databáze';
+$wb['APS Installer'] = 'APS instalátor';
+$wb['Available packages'] = 'Dostupné balíčky';
+$wb['Installed packages'] = 'Nainstalované balíčky';
+$wb['Update Packagelist'] = 'Aktualizace seznamu balíčků';
+$wb['Subdomain (Vhost)'] = 'Subdoména (Vhost)';
+$wb['error_proxy_requires_url'] = 'Redirect Type \\"proxy\\" requires a URL as the redirect path.';
+?>

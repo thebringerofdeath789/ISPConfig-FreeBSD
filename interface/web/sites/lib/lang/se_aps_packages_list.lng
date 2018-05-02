@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Tillgängliga paket';
+$wb['name_txt'] = 'Namn';
+$wb['version_txt'] = 'Version';
+$wb['category_txt'] = 'Kategori';
+$wb['status_txt'] = 'Olåst';
+$wb['filter_txt'] = 'Sök';
+?>

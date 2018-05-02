@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Käyttäryhmät';
+$wb['description_txt'] = 'Ryhmien kuvaukset';
+$wb['name_txt'] = 'Käyttäjäryhmä';
+$wb['add_new_record_txt'] = 'Lisää uusi tietue';
+$wb['warning_txt'] = '<b>VAROITUS:</b> Aälä muokkaa mitään käyttäjäasetuksia täällä. Käytä Asiakas- ja Jälleenmyyjä-asetuksia Asiakkaat-moduulissa. Käyttäjien tai ryhmien muokkaus tässä voi aiheuttaa tietojen katoamista!';
+?>

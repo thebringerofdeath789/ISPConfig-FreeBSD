@@ -1,0 +1,21 @@
+<?php
+$wb['dir_txt'] = 'Directorio';
+$wb['server_id_txt'] = 'Servidor';
+$wb['parent_domain_id_txt'] = 'Sitio web';
+$wb['username_txt'] = 'Nombre de usuario';
+$wb['password_txt'] = 'Contraseña';
+$wb['password_strength_txt'] = 'Fortaleza de la contraseña';
+$wb['active_txt'] = 'Habilitado';
+$wb['limit_webdav_user_txt'] = 'Ha alcanzado en su cuenta el número máx. de usuarios webdav.';
+$wb['username_error_empty'] = 'El nombre de usuario está vacío.';
+$wb['username_error_unique'] = 'El nombre de usuario debe ser único.';
+$wb['username_error_regex'] = 'El nombre de usuario contiene caracteres no permitidos.';
+$wb['directory_error_empty'] = 'El directorio está vacío.';
+$wb['parent_domain_id_error_empty'] = 'No ha seleccionado un sitio web.';
+$wb['dir_dot_error'] = 'No se permite .. en la ruta.';
+$wb['dir_slashdot_error'] = 'No se permite ./ en la ruta.';
+$wb['generate_password_txt'] = 'Generar contraseña';
+$wb['repeat_password_txt'] = 'Repetir contraseña';
+$wb['password_mismatch_txt'] = 'Las contraseñas no coinciden.';
+$wb['password_match_txt'] = 'Las contraseñas coinciden.';
+?>

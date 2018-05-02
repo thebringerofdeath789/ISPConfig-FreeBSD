@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'Instalirani paketi';
+$wb['name_txt'] = 'Naziv';
+$wb['version_txt'] = 'Verzija';
+$wb['customer_txt'] = 'Klijent';
+$wb['status_txt'] = 'Status';
+$wb['install_location_txt'] = 'Lokacija instalacije';
+$wb['pkg_delete_confirmation'] = 'Da li stvarno želite obrisati ovu instalaciju?';
+$wb['filter_txt'] = 'Traži';
+$wb['delete_txt'] = 'Obriši';
+?>

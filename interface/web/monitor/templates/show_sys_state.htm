@@ -1,0 +1,21 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+
+        <legend><tmpl_var name="monTransRefreshsq"></legend>
+            
+                <div class="form-group">
+                    <div class="col-sm-12"><select name="refreshinterval" id="refreshinterval" class="form-control" onChange="ISPConfig.loadContentRefresh('monitor/show_sys_state.php?state={tmpl_var name="state_type"}')">
+                        {tmpl_var name='refresh'}
+                    </select></div>
+                
+        
+    </div>
+  
+    <div class="pnl_formarea">
+        <p class="fieldset-legend"></p>
+            <div class="stateview"><tmpl_var name="state_data"></div>
+        
+    </div>

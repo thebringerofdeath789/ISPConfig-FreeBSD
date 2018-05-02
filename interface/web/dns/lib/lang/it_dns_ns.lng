@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['zone_txt'] = 'Zona';
+$wb['name_txt'] = 'Zona';
+$wb['type_txt'] = 'type';
+$wb['data_txt'] = 'Hostname';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Attivo';
+$wb['limit_dns_record_txt'] = 'Numero massimo record DNS raggiunto per il tuo account.';
+$wb['no_zone_perm'] = 'Non hai i permessi per aggiungere record a questa zona DNS.';
+$wb['name_error_empty'] = 'Zona vuota.';
+$wb['name_error_regex'] = 'La zona ha un formato errato.';
+$wb['data_error_empty'] = 'Nameserver vuoto';
+$wb['data_error_regex'] = 'Formato nameserver non valido';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds.';
+?>

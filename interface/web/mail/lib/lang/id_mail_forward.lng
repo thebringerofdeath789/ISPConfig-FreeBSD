@@ -1,0 +1,13 @@
+<?php
+$wb['email_txt'] = 'Email';
+$wb['destination_txt'] = 'Email Tujuan';
+$wb['active_txt'] = 'Aktif';
+$wb['limit_mailforward_txt'] = 'Jumlah maks forwarder email untuk akun Anda telah tercapai.';
+$wb['duplicate_mailbox_txt'] = 'Sudah ada mailbox untuk alamat email ini';
+$wb['domain_txt'] = 'Domain';
+$wb['source_txt'] = 'Source Email';
+$wb['greylisting_txt'] = 'Enable greylisting';
+$wb['email_error_isemail'] = 'Please enter a valid email address.';
+$wb['send_as_txt'] = 'Send as';
+$wb['send_as_exp'] = 'Allow target to send mail using this address as origin (if target is internal)';
+?>

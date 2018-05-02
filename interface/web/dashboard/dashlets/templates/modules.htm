@@ -1,0 +1,16 @@
+	<h2>{tmpl_var name='available_modules_txt'}</h2>
+	<div style='margin: 0 auto;'>
+	<ul class='modules clear'>
+	<tmpl_loop name='modules'>
+		<li>
+			<div class='clear'>
+			  <div class='icon icon-{tmpl_var name='modules_name'}'></div>
+			  <div class='left'>
+				<div class='title'>{tmpl_var name='modules_title'}</div>
+			  </div>
+			</div>
+			<a href='#' class='btn btn-default button' data-capp='{tmpl_var name="modules_name"}'>{tmpl_var name='go_to_txt'} {tmpl_var name='modules_title'}</a>
+		</li>
+	</tmpl_loop>
+	</ul>
+	</div>

@@ -1,0 +1,9 @@
+<?php
+$wb['Client Circle'] = 'Клиент Группы';
+$wb['Circle'] = 'Группа';
+$wb['circle_txt'] = 'Группа';
+$wb['circle_name_txt'] = 'Имя Группы';
+$wb['client_ids_txt'] = 'Клиенты/Реселлеры';
+$wb['description_txt'] = 'Описание';
+$wb['active_txt'] = 'Активно';
+?>

@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Zonas dns secundárias';
+$wb['active_txt'] = 'Ativo';
+$wb['server_id_txt'] = 'Servidor';
+$wb['origin_txt'] = 'Zona';
+$wb['ns_txt'] = 'NS';
+$wb['add_new_record_txt'] = 'Adicionar nova zona';
+$wb['eg_domain_tld'] = 'ex.: dominio.com.br.';
+?>

@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'Zainstalowane aplikacje';
+$wb['name_txt'] = 'Nazwa';
+$wb['version_txt'] = 'Wersja';
+$wb['customer_txt'] = 'Klient';
+$wb['status_txt'] = 'Status';
+$wb['install_location_txt'] = 'Lokalizacja instalacji';
+$wb['pkg_delete_confirmation'] = 'Na pewno chcesz usunąć tę instalację?';
+$wb['filter_txt'] = 'Szukaj';
+$wb['delete_txt'] = 'Usuń';
+?>

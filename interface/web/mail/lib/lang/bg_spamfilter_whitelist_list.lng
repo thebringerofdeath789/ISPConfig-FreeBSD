@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Спам филтър  Бял лист';
+$wb['active_txt'] = 'Активен';
+$wb['server_id_txt'] = 'Сървър';
+$wb['priority_txt'] = 'Приоритед';
+$wb['rid_txt'] = 'Потребител';
+$wb['email_txt'] = 'Whitelisted Имейл';
+$wb['add_new_record_txt'] = 'Добави Whitelist запис';
+?>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+
+  <title><tmpl_var name="company_name"><tmpl_var name="app_title"> <tmpl_var name="app_version"></title>
+
+  <meta name='viewport' content='width=device-width, user-scalable=yes'>
+  <meta name='description' lang='en' content='' />
+  <meta name='keywords' lang='en' content='' />
+  <meta name='robots' content='index, follow' />
+
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/bootstrap.min.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/fonts.min.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/ispconfig.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/pushy.min.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/bootstrap-datetimepicker.min.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/responsive.min.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/themes/default/theme.min.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/select2.css' />
+  <link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/select2-bootstrap.css' />
+  <tmpl_if name='logged_in' value='n'><link rel='stylesheet' href='themes/<tmpl_var name='current_theme'>/assets/stylesheets/login.css' /></tmpl_if>
+</head>
+
+<body>
+  <!-- off canvas -->
+  <nav class='pushy pushy-left'></nav>
+  <div class='site-overlay'></div>
+
+  <div id='container'>
+    <div id='main-wrapper'>
+      <div id='inner-wrapper'>
+        <div class='clear'>
+          <div class='left clear'>
+            <!-- off canvas menu button -->
+            <div class='menu-btn left'>&#9776;</div>
+            <!-- logo -->
+            <div id='logo' style="background: url({tmpl_var name="base64_logo_txt"}) no-repeat;width:{tmpl_var name="base64_logo_width"};height:{tmpl_var name="base64_logo_height"}"><a href='#'></a></div>
+          </div>
+          <div id='headerbar' class='clear'>
+            <!-- logout button -->
+            <tmpl_if name="cpuser">
+				<button type='button' id='logout-button' class='btn btn-sm btn-danger text-uppercase' data-load-content="login/logout.php"><tmpl_var name="logout_txt"> <tmpl_var name="cpuser"></button>
+				<tmpl_if name='usertype' op='==' value='normaluser'>
+					<!-- search field -->
+					<form action='#' method='get' id='searchform' role='form'>
+					  <div>
+						<div>
+						  <div class='input-group'>
+							<input id='globalsearch' type='text' class='form-control' placeholder='{tmpl_var name="globalsearch_searchfield_watermark_txt"}' />
+							<span class='input-group-btn'>
+							  <button class='btn btn-default' title='{tmpl_var name="globalsearch_searchfield_watermark_txt"}'>
+								<span class='icon icon-lens'></span>
+							  </button>
+							</span>
+						  </div>
+						</div>
+					  </div>
+					</form>
+				</tmpl_if>
+            </tmpl_if>
+          </div>
+                    <div class="notification" data-toggle="modal" data-target="#datalogModal" style="display: none;">
+	            <span class="notification_text">{tmpl_var name="datalog_changes_count"}</span>
+            </div>
+			<!-- Datalogstatus Modal -->
+			<div id="datalogModal" class="modal fade" role="dialog">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        <h4 class="modal-title">{tmpl_var name="datalog_changes_txt"}</h4>
+			      </div>
+			      <div class="modal-body">
+			        <ul>
+				    <tmpl_loop name="datalog_changes">
+				        <li><strong>{tmpl_var name="text"}:</strong> {tmpl_var name="count"}</li>
+				    </tmpl_loop>
+				    </ul>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">{tmpl_var name="datalog_changes_close_txt"}</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- END Datalogstatus Modal -->
+        </div>
+		<tmpl_if name='logged_in' value='y'><div id='topnav-container'>
+		</div></tmpl_if>
+		<div class='clear'>
+          <!-- content -->
+          <div id='content' class='right'>
+			<form method="post" action="" id="pageForm" name="pageForm" enctype="multipart/form-data" class='form-horizontal' role='form'>
+				<div id="pageContent" data-startpage="{tmpl_var name="startpage"}"><!-- AJAX CONTENT --></div>
+			</form>
+          </div>
+          <!-- news sidebar -->
+          <tmpl_if name='logged_in' value='y'><div id='sidebar' class='news-sidebar left'>
+          </div></tmpl_if>
+        </div>
+        <footer id='footer'>
+          powered by <a href="<tmpl_var name="app_link">" target="_blank"><tmpl_var name="app_title"></a>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src='themes/<tmpl_var name='current_theme'>/assets/javascripts/bootstrap.min.js'></script>
+  <script src='themes/<tmpl_var name='current_theme'>/assets/javascripts/bootstrap-datetimepicker.min.js'></script>
+  <script src='themes/<tmpl_var name='current_theme'>/assets/javascripts/ispconfig.js'></script>
+  <script src='themes/<tmpl_var name='current_theme'>/assets/javascripts/modernizr.custom.min.js'></script>
+  <script src='themes/<tmpl_var name='current_theme'>/assets/javascripts/pushy.min.js'></script>
+  <script src='themes/<tmpl_var name='current_theme'>/assets/javascripts/responsive.min.js'></script>
+  <script src='js/select2/select2.min.js'></script>
+  <script src='js/scrigo.js.php'></script>
+  <script type="text/javascript" src="js/jquery.ispconfigsearch.js"></script>
+  <script type="text/javascript" src="js/jquery.tipsy.js"></script>
+  <tmpl_loop name="js_d_includes">
+	<script type="text/javascript" src="js/js.d/<tmpl_var name='file'>"></script>
+  </tmpl_loop>
+  <script>
+  <!--
+	//$('.ttip').tipsy({live: true, gravity: 'ne', html: true});
+	
+	ISPConfig.tabChangeDiscard = '<tmpl_var name="tabchange_discard_enabled">';
+	ISPConfig.tabChangeWarning = '<tmpl_var name="tabchange_warning_enabled">';
+	ISPConfig.tabChangeWarningTxt = '<tmpl_var name="global_tabchange_warning_txt">';
+	ISPConfig.tabChangeDiscardTxt = '<tmpl_var name="global_tabchange_discard_txt">';
+	
+	<tmpl_if name="use_loadindicator" value="y">ISPConfig.setOption('useLoadIndicator', true);</tmpl_if>
+	<tmpl_if name="use_combobox" value="y">ISPConfig.setOption('useComboBox', true);</tmpl_if>
+	
+	$(document).ready(function() {
+		$('#globalsearch').ispconfigSearch({
+			dataSrc: '/dashboard/ajax_get_json.php?type=globalsearch',
+			resultsLimit: '$ <tmpl_var name="globalsearch_resultslimit_of_txt"> % <tmpl_var name="globalsearch_resultslimit_results_txt">',
+			noResultsText: '<tmpl_var name="globalsearch_noresults_text_txt">',
+			noResultsLimit: '<tmpl_var name="globalsearch_noresults_limit_txt">',
+			searchFieldWatermark: '<tmpl_var name="globalsearch_searchfield_watermark_txt">',
+			resultBoxPosition: ''
+		});
+        ISPConfig.loadInitContent();
+	});
+  //-->
+  </script>
+</body>
+
+</html>

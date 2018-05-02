@@ -1,0 +1,25 @@
+<?php
+$wb['database_user_txt'] = 'Database gebruiker';
+$wb['database_password_txt'] = 'Database wachtwoord';
+$wb['password_strength_txt'] = 'Wachtwoord sterkte';
+$wb['client_txt'] = 'Klant';
+$wb['active_txt'] = 'Actief';
+$wb['database_user_error_empty'] = 'Database gebruiker is leeg.';
+$wb['database_user_error_unique'] = 'Er bestaat al een database gebruiker met deze naam op deze server. Voeg bv. de domeinnaam toe aan de gebruikersnaam om een unieke combinatie te krijgen.';
+$wb['database_user_error_regex'] = 'Database gebruiker is niet correct. De gebruikersnaam mag de volgende karakters bevatten: a-z. A-Z. 0-9 en evt. een underscore. De lengte mag tussen de 2 en 64 karakters bedragen.';
+$wb['database_user_error_len'] = 'Database gebruikernaam - {user} - is te lang. De max. database gebruikernaam lengte incl. prefix is 16 karakters.';
+$wb['btn_save_txt'] = 'Opslaan';
+$wb['btn_cancel_txt'] = 'Annuleren';
+$wb['generate_password_txt'] = 'Genereer wachtwoord';
+$wb['repeat_password_txt'] = 'Herhaal wachtwoord';
+$wb['password_mismatch_txt'] = 'De wachtwoorden zijn niet gelijk.';
+$wb['password_match_txt'] = 'De wachtwoorden zijn gelijk.';
+$wb['globalsearch_resultslimit_of_txt'] = 'van';
+$wb['globalsearch_resultslimit_results_txt'] = 'resultaten';
+$wb['globalsearch_noresults_text_txt'] = 'Geen resultaten.';
+$wb['globalsearch_noresults_limit_txt'] = '0 resultaten';
+$wb['globalsearch_searchfield_watermark_txt'] = 'Zoeken';
+$wb['globalsearch_suggestions_text_txt'] = 'Suggesties';
+$wb['limit_database_user_txt'] = 'Het max. aantal database gebruikers is bereikt.';
+$wb['database_password_error_empty'] = 'Database password is empty.';
+?>

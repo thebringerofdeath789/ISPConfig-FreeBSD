@@ -1,0 +1,9 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['backup_count_txt'] = 'Cantidad de copias de seguridad';
+$wb['backup_interval_txt'] = 'Intervalo / cnt.';
+$wb['backup_server_txt'] = 'Servidor';
+$wb['backup_size_txt'] = 'Tamaño de la copia de seguridad';
+$wb['domain_txt'] = 'Email';
+$wb['list_head_txt'] = 'Estadísiticas de copia de seguridad';
+?>

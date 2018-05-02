@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'DNS Yardımcısı Kalıbı';
+$wb['visible_txt'] = 'Görünür';
+$wb['name_txt'] = 'Ad';
+$wb['add_new_record_txt'] = 'Kayıt Ekle';
+?>

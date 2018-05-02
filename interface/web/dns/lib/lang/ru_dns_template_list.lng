@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'Шаблон DNS-мастера';
+$wb['visible_txt'] = 'Видимый';
+$wb['name_txt'] = 'Имя';
+$wb['add_new_record_txt'] = 'Добавить запись';
+?>

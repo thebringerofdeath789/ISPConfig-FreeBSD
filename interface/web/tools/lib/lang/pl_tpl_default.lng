@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Ustawienia domyślnego szablonu';
+$wb['list_desc_txt'] = 'Zmień opcje specyficzne dla szablonu';
+$wb['no_settings_txt'] = 'Nie ma ustawień dla domyślnego szablonu';
+$wb['btn_start_txt'] = 'Zapisz';
+$wb['btn_cancel_txt'] = 'Wróć';
+?>

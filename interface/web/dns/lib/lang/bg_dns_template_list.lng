@@ -1,0 +1,6 @@
+<?php
+$wb['list_head_txt'] = 'DNS помощник за шаблон';
+$wb['visible_txt'] = 'Видим';
+$wb['name_txt'] = 'Име';
+$wb['add_new_record_txt'] = 'Добави нов запис';
+?>

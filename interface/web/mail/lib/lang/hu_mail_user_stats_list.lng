@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Email forgalom';
+$wb['email_txt'] = 'Email';
+$wb['this_month_txt'] = 'Tárgy havi';
+$wb['last_month_txt'] = 'Múlt havi';
+$wb['this_year_txt'] = 'Tárgy évi';
+$wb['last_year_txt'] = 'Tavalyi';
+?>

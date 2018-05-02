@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Gruppi utenti sistema';
+$wb['description_txt'] = 'Descrizione';
+$wb['name_txt'] = 'Gruppo';
+$wb['add_new_record_txt'] = 'Aggiungi nuovo gruppo';
+$wb['warning_txt'] = '<b>ATTENZIONE:</b> Non editare o modificare alcuna impostazione utente da qui. Utilizzare invece le impostazioni del modulo nella sezione Clienti- e Rivenditori. Modificare o cambiare Utenti o Gruppi in questa sezione può causare perdita di dati!';
+?>

@@ -1,0 +1,9 @@
+<?php
+$wb['faq_question_txt'] = 'Pitanja';
+$wb['faq_section_name_txt'] = 'Rubrike';
+$wb['faq_delete_txt'] = 'Obriši';
+$wb['faq_edit_txt'] = 'Izmjeni';
+$wb['faq_sections_txt'] = 'Rubrika';
+$wb['faq_faq_questions_txt'] = 'Često postavljana pitanja (FAQ)';
+$wb['faq_new_question_txt'] = 'Dodaj novo pitanje i odgovor';
+?>

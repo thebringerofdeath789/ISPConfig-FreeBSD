@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'ISPConfig-logg';
+$wb['tstamp_txt'] = 'Datum';
+$wb['server_id_txt'] = 'Server';
+$wb['loglevel_txt'] = 'Loggnivå';
+$wb['message_txt'] = 'Meddelande';
+?>

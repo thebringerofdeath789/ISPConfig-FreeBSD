@@ -1,0 +1,16 @@
+<?php
+$wb['zone_file_import_txt'] = 'Zonen Datei Import';
+$wb['server_id_txt'] = 'Server';
+$wb['client_txt'] = 'Kunde';
+$wb['btn_save_txt'] = 'Importieren';
+$wb['btn_cancel_txt'] = 'Abbrechen';
+$wb['domain_txt'] = 'Domain';
+$wb['zone_file_successfully_imported_txt'] = 'Die Zone Datei wurde erfolgreich importiert!';
+$wb['error_no_valid_zone_file_txt'] = 'Die Datei scheint keinn gültige Zonen Datei zu sein!';
+$wb['zonefile_to_import_txt'] = 'Datei auswählen';
+$wb['domain_field_desc_txt'] = 'Kann freigelassen werden, falls der Dateiname oder der Dateiinhalt die Domain enthält.';
+$wb['title'] = 'Zonen Datei importieren';
+$wb['no_file_uploaded_error'] = 'Keine Datei hochgeladen';
+$wb['error_no_server_id'] = 'No server provided.';
+$wb['error_not_allowed_server_id'] = 'The selected server is not allowed for this account.';
+?>

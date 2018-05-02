@@ -1,0 +1,34 @@
+<?php
+$wb['pass_reset_txt'] = 'Nowe hasło zostanie wygenerowane i wysłane na Twój adres e-mail, jeśli podany adres e-mail będzie pasował do tego w ustawieniach Twojego profilu.';
+$wb['pw_reset'] = 'Nowe hasło zostało wygenerowane i wysłane na Twój adres e-mail.';
+$wb['pw_error'] = 'Nazwa użytkownika lub e-mail nie pasują do siebie.';
+$wb['pw_error_noinput'] = 'Podaj nazwę użytkownika i adres e-mail.';
+$wb['pw_reset_mail_msg'] = 'Hasło do Twojego panelu w ISPConfig 3 zostało zresetowane. Twoje nowe hasło to: ';
+$wb['pw_reset_mail_title'] = 'Hasło do panelu w ISPConfig 3 zostało zresetowane.';
+$wb['user_regex_error'] = 'Nazwa użytkownika zawiera niedozwolone znaki lub jest dłuższa niż 64 znaki.';
+$wb['pw_error_length'] = 'Długość hasła jest > 256 znaki.';
+$wb['error_user_password_empty'] = 'Pusta nazwa użytkownika lub hasło.';
+$wb['error_user_password_incorrect'] = 'Niepoprawna nazwa użytownika lub hasło.';
+$wb['error_user_blocked'] = 'Konto użytkownika zostało zablokowane.';
+$wb['error_user_too_many_logins'] = 'Zbyt dużo niepoprawnych logowań. Prosimy spróbować ponownie za 15 minut.';
+$wb['username_txt'] = 'Nazwa użytkownika';
+$wb['password_txt'] = 'Hasło';
+$wb['login_button_txt'] = 'Zaloguj';
+$wb['login_txt'] = 'Zaloguj';
+$wb['pw_lost_txt'] = 'Zapomniałem hasła';
+$wb['pw_reset_txt'] = 'Reset hasła';
+$wb['pw_button_txt'] = 'Prześlij hasło ponownie';
+$wb['email_txt'] = 'E-mail';
+$wb['error_maintenance_mode'] = 'Ta instalacja ISPConfig jest aktualnie w trakcje modernizacji. Wracamy niebawem - proszę o cierpliwość.';
+$wb['theme_not_compatible'] = 'Wybrany temat nie jest kompatybilny z aktualną wersją ISPConfig. Proszę wybrać nową wersję tematu.<br />Został aktywowany automatycznie domyślny temat.';
+$wb['back_txt'] = 'Wstecz';
+$wb['email_error'] = 'E-mail zawiera niedozwolone znaki lub ma nieprawidłowy format.';
+$wb['stay_logged_in_txt'] = 'Pozostaw mnie zalogowanym';
+$wb['lost_password_function_disabled_txt'] = 'Funkcja utraconego hasła nie jest dostępna dla tego użytkownika.';
+$wb['pw_reset_act'] = 'Został wysłany link aktywacyjny. Przejdź do linku, aby potwierdzić prośbę o podanie hasła.';
+$wb['pw_reset_act_mail_title'] = 'Confirm ISPConfig 3 Control panel password reset';
+$wb['pw_reset_act_mail_msg'] = 'Please confirm that your want to reset your ISPConfig 3 control panel account password by visiting the following activation link: ';
+$wb['lost_password_function_wait_txt'] = 'Nie możesz jeszcze zażądać nowego hasła. Poczekaj kilka minut.';
+$wb['lost_password_function_expired_txt'] = 'Link aktywacyjny wygasł. Poproś o nowy.';
+$wb['lost_password_function_denied_txt'] = 'Ten link aktywacyjny jest nieprawidłowy.';
+?>

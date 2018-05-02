@@ -1,0 +1,18 @@
+<?php
+$wb['tpl_default_admin_head_txt'] = 'Глобальные параметры шаблона по умолчанию';
+$wb['tpl_default_admin_desc_txt'] = 'Глобальные параметры шаблона по умолчанию для клиентов';
+$wb['server_id_txt'] = 'Сервер';
+$wb['client_id_txt'] = 'ID Клиента';
+$wb['name_txt'] = 'Имя PHP';
+$wb['Name'] = 'Имя';
+$wb['FastCGI Settings'] = 'Параметры FastCGI';
+$wb['PHP-FPM Settings'] = 'Параметры PHP-FPM';
+$wb['Additional PHP Versions'] = 'Дополнительные версии PHP';
+$wb['Form to edit additional PHP versions'] = 'Форма для редактирования дополнительных версий PHP';
+$wb['server_php_name_error_empty'] = 'Поле имени не должно быть пустым.';
+$wb['php_fastcgi_binary_txt'] = 'Путь к бинарнику PHP FastCGI';
+$wb['php_fastcgi_ini_dir_txt'] = 'Путь к каталогу php.ini FastCGI';
+$wb['php_fpm_init_script_txt'] = 'Путь к скрипту нициализации PHP-FPM';
+$wb['php_fpm_ini_dir_txt'] = 'Путь к каталогу php.ini PHP-FPM';
+$wb['php_fpm_pool_dir_txt'] = 'Путь до каталога пула PHP-FPM';
+?>

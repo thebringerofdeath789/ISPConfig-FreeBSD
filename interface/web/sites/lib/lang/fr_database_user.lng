@@ -1,0 +1,25 @@
+<?php
+$wb['database_user_txt'] = 'Database user';
+$wb['database_password_txt'] = 'Database password';
+$wb['password_strength_txt'] = 'Password strength';
+$wb['client_txt'] = 'Client';
+$wb['active_txt'] = 'Active';
+$wb['database_user_error_empty'] = 'Database user is empty.';
+$wb['database_user_error_unique'] = 'There is already a database user with this name on the server. To get a unique name, e.g. prepend your domain name to the username.';
+$wb['database_user_error_regex'] = 'Invalid database user name. The username may contain these characters: a-z, A-Z, 0-9 and the underscore. Length: 2 - 64 characters.';
+$wb['database_user_error_len'] = 'Database username - {user} - too long. The max. database username length incl. prefix is 16 chars.';
+$wb['btn_save_txt'] = 'Save';
+$wb['btn_cancel_txt'] = 'Cancel';
+$wb['generate_password_txt'] = 'Générer un mot de passe';
+$wb['repeat_password_txt'] = 'Répéter le mot de passe';
+$wb['password_mismatch_txt'] = 'Les mots de passe ne correspondent pas.';
+$wb['password_match_txt'] = 'Les mots de passe correspondent.';
+$wb['globalsearch_resultslimit_of_txt'] = 'de';
+$wb['globalsearch_resultslimit_results_txt'] = 'résultats';
+$wb['globalsearch_noresults_text_txt'] = 'Aucun résultat';
+$wb['globalsearch_noresults_limit_txt'] = '0 résultats';
+$wb['globalsearch_searchfield_watermark_txt'] = 'Search';
+$wb['globalsearch_suggestions_text_txt'] = 'Suggestions';
+$wb['limit_database_user_txt'] = 'Le nombre maximum d\'utilisateurs base de données a été atteint.';
+$wb['database_password_error_empty'] = 'Le mot de passe de la base de données est vide.';
+?>

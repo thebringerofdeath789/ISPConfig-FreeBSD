@@ -1,0 +1,9 @@
+<?php
+$wb['products_txt'] = 'Mijn producten';
+$wb['name_txt'] = 'Naam';
+$wb['price_txt'] = 'Prijs';
+$wb['next_payment_date_txt'] = 'Volgende factuur';
+$wb['no_products_txt'] = 'Geen producten gevonden.';
+$wb['edit_txt'] = 'Bewerken';
+$wb['cancellation_date_txt'] = 'Geannuleerd door';
+?>

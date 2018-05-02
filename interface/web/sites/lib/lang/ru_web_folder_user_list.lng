@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Пользователь папки';
+$wb['active_txt'] = 'Активно';
+$wb['web_folder_id_txt'] = 'Папка';
+$wb['username_txt'] = 'Логин';
+$wb['add_new_record_txt'] = 'Добавить нового пользователя папки';
+?>

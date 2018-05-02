@@ -1,0 +1,35 @@
+<?php
+$wb['Websites'] = 'Siti';
+$wb['Website'] = 'Siti';
+$wb['Subdomain'] = 'Sottodomini';
+$wb['Aliasdomain'] = 'Alias dominio';
+$wb['Database'] = 'Databases';
+$wb['Web Access'] = 'Web Access';
+$wb['FTP-User'] = 'Utente FTP';
+$wb['Webdav-User'] = 'Utente Webdav';
+$wb['Folder'] = 'Cartelle Protette';
+$wb['Folder users'] = 'Utenti Cartelle Protette';
+$wb['Command Line'] = 'Linea di Comando';
+$wb['Shell-User'] = 'Utente Shell';
+$wb['Cron Jobs'] = 'Cron Jobs';
+$wb['Statistics'] = 'Statistiche';
+$wb['Web traffic'] = 'Traffico web';
+$wb['Website quota (Harddisk)'] = 'Quota sito web (Harddisk)';
+$wb['Cron'] = 'Cron';
+$wb['Stats'] = 'Statistiche';
+$wb['Shell'] = 'Shell';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'Opzioni';
+$wb['Domain'] = 'Dominio';
+$wb['Redirect'] = 'Redirect';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'Sito web';
+$wb['Database User'] = 'Utente Database';
+$wb['APS Installer'] = 'APS Installer';
+$wb['Available packages'] = 'Pacchetti disponibili';
+$wb['Installed packages'] = 'Pacchetti  Installati';
+$wb['Update Packagelist'] = 'Aggiorna Elenco Pacchetti';
+$wb['Subdomain (Vhost)'] = 'Sottodominio (Vhost)';
+$wb['error_proxy_requires_url'] = 'Tipo reinderizzamento \\"proxy\\" richiede una URL come percorso del reinderizzamento.';
+?>

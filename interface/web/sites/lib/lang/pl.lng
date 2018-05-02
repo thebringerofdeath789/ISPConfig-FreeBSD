@@ -1,0 +1,35 @@
+<?php
+$wb['Database'] = 'Baza danych';
+$wb['Options'] = 'Opcje';
+$wb['Domain'] = 'Strona www';
+$wb['Redirect'] = 'Przekierowanie';
+$wb['SSL'] = 'SSL';
+$wb['Subdomain'] = 'Subdomena';
+$wb['Sites'] = 'Strony';
+$wb['Aliasdomain'] = 'Alias domeny';
+$wb['FTP-User'] = 'Użytkownik FTP';
+$wb['FTP'] = 'FTP';
+$wb['Shell-User'] = 'Użytkownik Shell';
+$wb['Shell'] = 'Shell';
+$wb['Websites'] = 'Strony www';
+$wb['Stats'] = 'Statystyki';
+$wb['Website'] = 'Strona www';
+$wb['Cron'] = 'Cron';
+$wb['Cron Jobs'] = 'Zadania Cron';
+$wb['Statistics'] = 'Statystyki';
+$wb['Web traffic'] = 'Ruch na stronie';
+$wb['Webdav-User'] = 'Użytkownik Webdav';
+$wb['Webdav'] = 'Webdav';
+$wb['Website quota (Harddisk)'] = 'Użycie miejsca dla strony';
+$wb['Database User'] = 'Użytkownicy bazy danych';
+$wb['Web Access'] = 'Dostęp WWW';
+$wb['Folder'] = 'Foldery chronione';
+$wb['Folder users'] = 'Użytkownicy chronionych folderów';
+$wb['Command Line'] = 'Linia poleceń';
+$wb['APS Installer'] = 'Instalator APS';
+$wb['Available packages'] = 'Dostępne pakiety';
+$wb['Installed packages'] = 'Zainstalowane pakiety';
+$wb['Update Packagelist'] = 'Uaktualnij listę pakietów';
+$wb['Subdomain (Vhost)'] = 'Subdomena (Vhost)';
+$wb['error_proxy_requires_url'] = 'Rodzaj przekierowania ';
+?>

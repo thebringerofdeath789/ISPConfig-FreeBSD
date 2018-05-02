@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Utente Cartella';
+$wb['active_txt'] = 'Attivo';
+$wb['web_folder_id_txt'] = 'Cartella';
+$wb['username_txt'] = 'Nome Utente';
+$wb['add_new_record_txt'] = 'Aggiungi nuovo utente cartella';
+?>

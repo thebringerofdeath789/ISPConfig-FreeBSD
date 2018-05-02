@@ -1,0 +1,19 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['zone_txt'] = 'Zone';
+$wb['name_txt'] = 'Hostname';
+$wb['type_txt'] = 'type';
+$wb['data_txt'] = 'Text';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Active';
+$wb['limit_dns_record_txt'] = 'Numarul maxim de inregistrari DNS pentru contul dumneavoastra a fost atins';
+$wb['no_zone_perm'] = 'Nu aveti dreptul de a adauga inregistrari la aceasta zona DNS';
+$wb['name_error_empty'] = 'Hostname este necompletat';
+$wb['name_error_regex'] = 'Hostname in format gresit';
+$wb['data_error_empty'] = 'Text necompletat';
+$wb['data_error_regex'] = 'Format text invalid';
+$wb['ttl_range_error'] = 'Min. TTL time is 60 seconds.';
+$wb['invalid_type_dkim'] = 'DKIM is not allowed. Use the DKIM button';
+$wb['invalid_type_dmarc'] = 'DMARC is not allowed. Use the DMARC button';
+$wb['invalid_type_spf'] = 'SPF is not allowed. Use the SPF button.';
+?>

@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Diğer PHP Sürümleri';
+$wb['server_id_txt'] = 'Sunucu';
+$wb['add_new_record_txt'] = 'PHP Sürümü Ekle';
+$wb['client_id_txt'] = 'Müşteri';
+$wb['name_txt'] = 'PHP Adı';
+?>

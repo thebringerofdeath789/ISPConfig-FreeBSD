@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'epostalias';
+$wb['email_txt'] = 'epost';
+$wb['destination_txt'] = 'Mål';
+$wb['active_txt'] = 'Aktiv';
+$wb['source_txt'] = 'Källa';
+$wb['add_new_record_txt'] = 'Lägg till nytt epostalias';
+?>

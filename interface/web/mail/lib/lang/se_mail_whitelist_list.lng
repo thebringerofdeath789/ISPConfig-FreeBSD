@@ -1,0 +1,10 @@
+<?php
+$wb['list_head_txt'] = 'Vitlistning epost';
+$wb['server_id_txt'] = 'Server';
+$wb['add_new_record_txt'] = 'Lägg till ny vitlistad epostadress';
+$wb['active_txt'] = 'Aktiv';
+$wb['source_txt'] = 'Vitlistad adress';
+$wb['type_txt'] = 'Typ';
+$wb['recipient_txt'] = 'Mottagare';
+$wb['access_txt'] = 'åtkomst';
+?>

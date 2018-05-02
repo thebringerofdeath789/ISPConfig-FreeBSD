@@ -1,0 +1,14 @@
+<?php
+$wb['login_1_txt'] = 'Wil je inloggen als gebruiker';
+$wb['login_2_txt'] = 'Wanneer je doorgaat kun je terugkeren door op afmelden te klikken.';
+$wb['btn_yes_txt'] = 'Ja, log me in als deze klant';
+$wb['btn_back_txt'] = 'Nee, terug naar het overzicht';
+$wb['udp_port_help_txt'] = 'Gescheiden door komma';
+$wb['active_txt'] = 'Active';
+$wb['firewall_error_unique'] = 'There is already a firewall record for this server.';
+$wb['tcp_ports_error_regex'] = 'Character not allowed in tcp port definition. Allowed characters are numbers, \\":\\" and \\",\\".';
+$wb['udp_ports_error_regex'] = 'Character not allowed in udp port definition. Allowed characters are numbers, \\":\\" and \\",\\".';
+$wb['login_as_or_logout_txt'] = 'Do you want to re-login as {UTYPE} or logout?';
+$wb['btn_reloginas_txt'] = 'Yes, re-login as %s';
+$wb['btn_nologout_txt'] = 'No, logout';
+?>

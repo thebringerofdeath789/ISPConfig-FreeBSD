@@ -1,0 +1,12 @@
+<?php
+$wb['page_head_txt'] = 'Paramètres des boîtes aux lettres';
+$wb['page_desc_txt'] = 'Ici vous pouvez modifier les paramètres des comptes de messagerie.';
+$wb['email_txt'] = 'Adresse e-mail';
+$wb['login_txt'] = 'Nom d’utilisateur';
+$wb['server_address_txt'] = 'Adresse du serveur de messagerie';
+$wb['cc_txt'] = 'Envoyer une copie à (CC)';
+$wb['quota_txt'] = 'Taille de la boîte aux lettres';
+$wb['unlimited_txt'] = 'Illimité';
+$wb['mb_txt'] = 'Mo';
+$wb['none_txt'] = 'Aucune';
+?>

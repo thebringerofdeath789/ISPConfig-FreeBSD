@@ -1,0 +1,12 @@
+<?php
+$wb['list_head_txt'] = 'Contas de e-mail';
+$wb['email_txt'] = 'e-mail';
+$wb['autoresponder_txt'] = 'Autoresposta';
+$wb['add_new_record_txt'] = 'Adicionar novo e-mail';
+$wb['name_txt'] = 'Nome real';
+$wb['login_txt'] = 'acesso';
+$wb['postfix_txt'] = 'Recebendo';
+$wb['disablesmtp_txt'] = 'SMTP (envio)';
+$wb['disableimap_txt'] = 'IMAP';
+$wb['disablepop3_txt'] = 'POP3';
+?>

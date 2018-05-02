@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Destek İletileri';
+$wb['sender_id_txt'] = 'Gönderen';
+$wb['subject_txt'] = 'Konu';
+$wb['add_new_record_txt'] = 'Destek İletisi Ekle';
+$wb['date_txt'] = 'Tarih';
+?>

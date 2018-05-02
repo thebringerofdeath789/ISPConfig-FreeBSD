@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Načítať e-maily z externých POP3 / IMAP serverov';
+$wb['active_txt'] = 'Aktívne';
+$wb['server_id_txt'] = 'Server';
+$wb['source_server_txt'] = 'Externý Server';
+$wb['source_username_txt'] = 'Užívateľské meno';
+$wb['destination_txt'] = 'Cieľ';
+$wb['add_new_record_txt'] = 'Pridať nový účet';
+?>

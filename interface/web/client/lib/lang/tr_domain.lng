@@ -1,0 +1,6 @@
+<?php
+$wb['domain_error_empty'] = 'Alan adı boş olamaz';
+$wb['domain_error_unique'] = 'Aynı alan adı zaten var';
+$wb['domain_error_regex'] = 'Bu alan adına izin verilmiyor';
+$wb['Domain'] = 'Alan Adı';
+?>

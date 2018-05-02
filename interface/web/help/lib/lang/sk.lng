@@ -1,0 +1,14 @@
+<?php
+$wb['Support Message'] = 'Správa pre podporu';
+$wb['Message'] = 'Správa';
+$wb['Send message'] = 'Odoslať správu';
+$wb['View messages'] = 'Prezrieť správy';
+$wb['Support'] = 'Podpora';
+$wb['About ISPConfig'] = 'O ISPConfig';
+$wb['Version'] = 'Verzia';
+$wb['Frequently Asked Questions'] = 'Frequently Asked Questions';
+$wb['FAQ Sections'] = 'FAQ Sections';
+$wb['Manage Sections'] = 'Manage Sections';
+$wb['Add a Question & Answer Pair'] = 'Add a Question & Answer Pair';
+$wb['Manage Questions'] = 'Manage Questions';
+?>

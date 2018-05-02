@@ -1,0 +1,35 @@
+<?php
+$wb['Websites'] = 'Web-сайты';
+$wb['Website'] = 'Web-сайты';
+$wb['Subdomain'] = 'Поддомен';
+$wb['Aliasdomain'] = 'Алиас домена';
+$wb['Database'] = 'База данных';
+$wb['Web Access'] = 'Веб-Доступ';
+$wb['FTP-User'] = 'Пользователь FTP';
+$wb['Webdav-User'] = 'WebDAV-пользователи';
+$wb['Folder'] = 'Защищённые папки';
+$wb['Folder users'] = 'Пользователи защищённой папки';
+$wb['Command Line'] = 'Командная строка';
+$wb['Shell-User'] = 'Пользователь Shell';
+$wb['Cron Jobs'] = 'Задания планировщика задач';
+$wb['Statistics'] = 'Статистика';
+$wb['Web traffic'] = 'Трафик Web';
+$wb['Website quota (Harddisk)'] = 'Квота веб-сайта (Жёсткий диск)';
+$wb['Cron'] = 'Планировщик задач';
+$wb['Stats'] = 'Статистика';
+$wb['Shell'] = 'Shell';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'Параметры';
+$wb['Domain'] = 'Домен';
+$wb['Redirect'] = 'Редирект';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'Сайты';
+$wb['Database User'] = 'Пользователи базы данных';
+$wb['APS Installer'] = 'Установщик APS';
+$wb['Available packages'] = 'Доступные пакеты';
+$wb['Installed packages'] = 'Установленные пакеты';
+$wb['Update Packagelist'] = 'Обновить список пакетов';
+$wb['Subdomain (Vhost)'] = 'Поддомен (Vhost)';
+$wb['error_proxy_requires_url'] = 'Тип редиректа "proxy" требует URL в качестве пути перенаправления.';
+?>

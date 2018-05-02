@@ -1,0 +1,34 @@
+<?php
+$wb['error_user_password_empty'] = 'Kullanıcı adı ya da parola boş';
+$wb['error_user_password_incorrect'] = 'Kullanıcı adı ya da parola hatalı';
+$wb['error_user_blocked'] = 'Kullanıcı engellenmiş.';
+$wb['error_user_too_many_logins'] = 'Fazla sayıda hatalı oturum açmayı denediniz, Lütfen 15 dakika sonra yeniden deneyin.';
+$wb['pass_reset_txt'] = 'Yazdığınız e-posta adresi hesabınızdakine uyarsa, yeni bir parola oluşturularak e-posta adresinize gönderilir.';
+$wb['pw_reset'] = 'Parolanız sıfırlandı ve e-posta adresinize gönderildi.';
+$wb['pw_error'] = 'Kullanıcı adı ya da e-posta adresiniz doğru değil.';
+$wb['pw_error_noinput'] = 'Lütfen e-posta adresinizi ya da kullanıcı adınızı yazın.';
+$wb['pw_reset_mail_msg'] = 'ISPConfig 3 Kontrol Paneli parolanız sıfırlandı. Yeni parolanız: ';
+$wb['pw_reset_mail_title'] = 'ISPConfig 3 Kontrol Paneli parolanız sıfırlandı';
+$wb['user_regex_error'] = 'Kullanıcı adınız izin verilmeyen karakterlerden oluşuyor ya da 64 karakterden uzun.';
+$wb['pw_error_length'] = 'Parola 64 karakterden uzun.';
+$wb['email_error'] = 'E-posta adresi izin verilmeyen karakterlerden oluşuyor ya da biçimi hatalı.';
+$wb['login_txt'] = 'Oturum Aç';
+$wb['username_txt'] = 'Kullanıcı Adı';
+$wb['password_txt'] = 'Parola';
+$wb['login_button_txt'] = 'Oturum Aç';
+$wb['pw_lost_txt'] = 'Parolamı Unuttum';
+$wb['pw_reset_txt'] = 'Parola Sıfırlama';
+$wb['pw_button_txt'] = 'Parolayı Yeniden Gönder';
+$wb['email_txt'] = 'E-posta';
+$wb['back_txt'] = 'Geri';
+$wb['error_maintenance_mode'] = 'ISPConfig bakımda. Kısa bir süre sonra yeniden çalışıyor olacak, sabrınız için teşekkürler.';
+$wb['theme_not_compatible'] = 'Seçilmiş tema geçerli ISPConfig sürümü ile uyumlu değil. Lütfen temanın yeni sürümünü araştırın.<br />Varsayılan tema etkinleştirildi.';
+$wb['stay_logged_in_txt'] = 'Oturumum açık kalsın';
+$wb['pw_reset_act'] = 'You have been sent an activation link. Please visit the link to confirm your password request.';
+$wb['pw_reset_act_mail_title'] = 'Confirm ISPConfig 3 Control panel password reset';
+$wb['pw_reset_act_mail_msg'] = 'Please confirm that your want to reset your ISPConfig 3 control panel account password by visiting the following activation link: ';
+$wb['lost_password_function_disabled_txt'] = 'The lost password function is not available for this user.';
+$wb['lost_password_function_wait_txt'] = 'You cannot request a new password, yet. Please wait a few minutes.';
+$wb['lost_password_function_expired_txt'] = 'This activation link has expired. Please request a new one.';
+$wb['lost_password_function_denied_txt'] = 'This activation link is not valid.';
+?>

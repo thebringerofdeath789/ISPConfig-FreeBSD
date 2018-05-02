@@ -1,0 +1,31 @@
+<?php
+$wb['rulename_txt'] = 'Name';
+$wb['action_txt'] = 'Aktion';
+$wb['target_txt'] = 'Verzeichnis';
+$wb['active_txt'] = 'Aktiv';
+$wb['rulename_error_empty'] = 'Name ist leer.';
+$wb['searchterm_is_empty'] = 'Suchbegriff ist leer.';
+$wb['source_txt'] = 'Quelle';
+$wb['target_error_regex'] = 'Das Ziel beinhaltet wahrscheinlich diese Zeichen: a-z, 0-9, -, ., _, und {raum}';
+$wb['limit_mailfilter_txt'] = 'Die maximale Anzahl an E-Mail Filtern für Ihr Konto wurde erreicht.';
+$wb['subject_txt'] = 'Betreff';
+$wb['from_txt'] = 'Von';
+$wb['to_txt'] = 'An';
+$wb['contains_txt'] = 'Enthält';
+$wb['is_txt'] = 'Ist';
+$wb['begins_with_txt'] = 'Beginnt mit';
+$wb['ends_with_txt'] = 'Endet mit';
+$wb['move_stop_txt'] = 'Verschieben nach';
+$wb['delete_txt'] = 'Löschen';
+$wb['header_txt'] = 'Header';
+$wb['size_over_txt'] = 'Email ist größer als (KB)';
+$wb['size_under_txt'] = 'Email ist kleiner als (KB)';
+$wb['localpart_txt'] = 'Localpart';
+$wb['domain_txt'] = 'Domain';
+$wb['keep_txt'] = 'Behalten';
+$wb['reject_txt'] = 'Abweisen';
+$wb['stop_txt'] = 'Stop';
+$wb['move_to_txt'] = 'Verschiebe nach';
+$wb['mark_read_txt'] = 'Als gelesen markieren';
+$wb['detail_txt'] = 'Detail-Angabe des Empfängers (user+detail@domain.com)';
+?>

@@ -1,0 +1,11 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['tcp_port_txt'] = 'Apri porte TCP';
+$wb['udp_port_txt'] = 'Apri porte UDP';
+$wb['tcp_port_help_txt'] = 'Separate dalla virgola';
+$wb['udp_port_help_txt'] = 'Separate dalle virgola';
+$wb['active_txt'] = 'Attivo';
+$wb['firewall_error_unique'] = 'Esiste già  un record firewall per questo server.';
+$wb['tcp_ports_error_regex'] = 'Carattere non ammesso nella definizione di tcp port. Caratteri ammessi sono numeri, : e ,.';
+$wb['udp_ports_error_regex'] = 'Carattere non ammesso nella definizione di udp port. Caratteri ammessi sono numeri, : and ,.';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['faq_section_name_txt'] = 'Имя раздела';
+$wb['faq_delete_txt'] = 'Удалить';
+$wb['faq_edit_txt'] = 'Изменить';
+$wb['faq_sections_txt'] = 'Разделы';
+$wb['faq_faq_sections_txt'] = 'Разделы FAQ';
+$wb['faq_new_section_txt'] = 'Добавить новый раздел';
+?>

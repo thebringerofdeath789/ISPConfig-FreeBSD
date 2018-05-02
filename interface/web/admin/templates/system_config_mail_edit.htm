@@ -1,0 +1,100 @@
+<div class='page-header'>
+	<h1><tmpl_var name="list_head_txt"></h1>
+</div>
+<p><tmpl_var name="list_desc_txt"></p>
+
+
+        
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='enable_custom_login_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='enable_custom_login'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='mailbox_show_autoresponder_tab_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='mailbox_show_autoresponder_tab'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='mailbox_show_mail_filter_tab_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='mailbox_show_mail_filter_tab'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='mailbox_show_custom_rules_tab_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='mailbox_show_custom_rules_tab'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='mailbox_show_backup_tab_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='mailbox_show_backup_tab'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='mailboxlist_webmail_link_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='mailboxlist_webmail_link'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="webmail_url" class="col-sm-3 control-label">{tmpl_var name='webmail_url_txt'}</label>
+                <div class="col-sm-6"><input type="text" name="webmail_url" id="webmail_url" value="{tmpl_var name='webmail_url'}" class="form-control" />&nbsp;{tmpl_var name='webmail_url_note_txt'} <a href="javascript:void(0);" class="addPlaceholder">[SERVERNAME]</a></div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='mailmailinglist_link_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='mailmailinglist_link'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mailmailinglist_url" class="col-sm-3 control-label">{tmpl_var name='mailmailinglist_url_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="mailmailinglist_url" id="mailmailinglist_url" value="{tmpl_var name='mailmailinglist_url'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="admin_mail" class="col-sm-3 control-label">{tmpl_var name='admin_mail_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="admin_mail" id="admin_mail" value="{tmpl_var name='admin_mail'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="admin_name" class="col-sm-3 control-label">{tmpl_var name='admin_name_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="admin_name" id="admin_name" value="{tmpl_var name='admin_name'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label">{tmpl_var name='smtp_enabled_txt'}</label>
+                <div class="col-sm-9">
+                    {tmpl_var name='smtp_enabled'}
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="smtp_host" class="col-sm-3 control-label">{tmpl_var name='smtp_host_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="smtp_host" id="smtp_host" value="{tmpl_var name='smtp_host'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="smtp_port" class="col-sm-3 control-label">{tmpl_var name='smtp_port_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="smtp_port" id="smtp_port" value="{tmpl_var name='smtp_port'}" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="smtp_user" class="col-sm-3 control-label">{tmpl_var name='smtp_user_txt'}</label>
+                <div class="col-sm-9"><input type="text" name="smtp_user" id="smtp_user" value="{tmpl_var name='smtp_user'}" autocomplete="off" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="smtp_pass" class="col-sm-3 control-label">{tmpl_var name='smtp_pass_txt'}</label>
+                <div class="col-sm-9"><input type="password" name="smtp_pass" id="smtp_pass" value="" autocomplete="off" class="form-control" /></div></div>
+            <div class="form-group">
+                <label for="smtp_crypt" class="col-sm-3 control-label">{tmpl_var name='smtp_crypt_txt'}</label>
+                <div class="col-sm-9"><select name="smtp_crypt" id="smtp_crypt" class="form-control">
+                    {tmpl_var name='smtp_crypt'}
+                </select></div>
+            </div>
+            <div class="form-group">
+                <label for="default_mailserver" class="col-sm-3 control-label">{tmpl_var name='default_mailserver_txt'}</label>
+                <div class="col-sm-9"><select name="default_mailserver" id="default_mailserver" class="form-control">
+                    {tmpl_var name='default_mailserver'}
+                </select></div>
+            </div>
+        
+            
+        <input type="hidden" name="id" value="{tmpl_var name='id'}">
+            
+        <div class="clear"><div class="right">
+            <button class="btn btn-default formbutton-success" type="button" value="{tmpl_var name='btn_save_txt'}" data-submit-form="pageForm" data-form-action="admin/system_config_edit.php">{tmpl_var name='btn_save_txt'}</button>
+            <button class="btn btn-default formbutton-default" type="button" value="{tmpl_var name='btn_cancel_txt'}" data-load-content="admin/users_list.php">{tmpl_var name='btn_cancel_txt'}</button>
+        </div></div>

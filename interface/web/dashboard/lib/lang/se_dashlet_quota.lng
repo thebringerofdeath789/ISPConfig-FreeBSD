@@ -1,0 +1,8 @@
+<?php
+$wb['quota_txt'] = 'Webbsidornas hårddiskkvot';
+$wb['domain_txt'] = 'Domän / Webbsida';
+$wb['used_txt'] = 'Använt utrymme';
+$wb['hard_txt'] = 'Hård gräns';
+$wb['soft_txt'] = 'Mjuk gräns';
+$wb['no_sites_txt'] = 'Ingen webbsida hittades.';
+?>

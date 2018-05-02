@@ -1,0 +1,9 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['source_txt'] = 'Adresa bílé listiny';
+$wb['recipient_txt'] = 'Příjemce (adresát)';
+$wb['active_txt'] = 'Aktivní';
+$wb['source_error_notempty'] = 'Adresa je prázdná.';
+$wb['type_txt'] = 'Typ';
+$wb['limit_mailfilter_txt'] = 'Byl dosažen maximální počet e-mail filtrů pro Váš účet.';
+?>

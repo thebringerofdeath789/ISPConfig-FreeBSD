@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'Database gebruikers';
+$wb['database_user_txt'] = 'Database gebruiker';
+$wb['add_new_record_txt'] = 'Toevoegen nieuwe gebruiker';
+?>

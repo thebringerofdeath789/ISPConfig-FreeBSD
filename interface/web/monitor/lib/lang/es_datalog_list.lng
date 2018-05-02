@@ -1,0 +1,8 @@
+<?php
+$wb['action_txt'] = 'Acción';
+$wb['dbtable_txt'] = 'Tabla de la Base de Datos';
+$wb['list_head_txt'] = 'Cola de trabajo';
+$wb['server_id_txt'] = 'Servidor';
+$wb['status_txt'] = 'Estado';
+$wb['tstamp_txt'] = 'Fecha';
+?>

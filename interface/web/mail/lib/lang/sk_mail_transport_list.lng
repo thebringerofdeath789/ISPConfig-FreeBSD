@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Pokročilé Email Smerovanie';
+$wb['active_txt'] = 'Aktívny';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Doména';
+$wb['transport_txt'] = 'Transport';
+$wb['sort_order_txt'] = 'Zoradiť podľa';
+$wb['add_new_record_txt'] = 'Pridať nové smerovanie';
+?>

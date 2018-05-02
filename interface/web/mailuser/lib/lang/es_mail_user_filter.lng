@@ -1,0 +1,21 @@
+<?php
+$wb['action_txt'] = 'Acción';
+$wb['active_txt'] = 'Habilitado';
+$wb['begins_with_txt'] = 'Comienza con';
+$wb['contains_txt'] = 'Contiene';
+$wb['delete_txt'] = 'Borrar';
+$wb['ends_with_txt'] = 'Termina con';
+$wb['from_txt'] = 'De';
+$wb['is_txt'] = 'Es';
+$wb['limit_mailfilter_txt'] = 'Se ha alcanzado el número máximo de filtros de correo.';
+$wb['move_to_txt'] = 'Mover a';
+$wb['rulename_error_empty'] = 'El nombre esta vacío.';
+$wb['rulename_txt'] = 'Nombre';
+$wb['searchterm_is_empty'] = 'El término de búsqueda está vacío.';
+$wb['source_txt'] = 'Origen';
+$wb['subject_txt'] = 'Asunto';
+$wb['target_error_regex'] = 'La carpeta solo debe contener estos caracteres: a-z, 0-9, -, ., _, y {espacio}';
+$wb['target_txt'] = 'Carpeta';
+$wb['to_txt'] = 'Para';
+$wb['mailbox_filter_txt'] = 'Mailbox filter';
+?>

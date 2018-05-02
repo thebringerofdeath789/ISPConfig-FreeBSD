@@ -1,0 +1,16 @@
+<?php
+$wb['answer_to_support_request_sent_txt'] = 'Su respuesta a la petición de soporte fue enviada. Por favor no responda a este mensaje.';
+$wb['answer_to_support_request_txt'] = 'Usted ha recibido una respuesta a su petición de soporte. Por favor no responda a este mensaje, puede comprobar la información en el panel de control ISPConfig.';
+$wb['date_txt'] = 'Fecha';
+$wb['message_txt'] = 'Mensaje';
+$wb['recipient_id_txt'] = 'ID del receptor';
+$wb['recipient_or_sender_email_address_not_valid_txt'] = 'El mensaje no pudo ser enviado ya que el correo del remitente y/o el correo del destinatario no es correcto.';
+$wb['reply_txt'] = 'Respuesta';
+$wb['sender_id_txt'] = 'ID del remitente';
+$wb['subject_txt'] = 'Asunto';
+$wb['support_request_sent_txt'] = 'Su petición de soporte ha sido enviada. Por favor no responda este mensaje.';
+$wb['support_request_subject_txt'] = 'Petición de soporte';
+$wb['support_request_txt'] = 'Usted ha recibido una petición de soporte. Por favor no responda a este correo, puede comprobar la petición en el panel de control ISPConfig.';
+$wb['tstamp_txt'] = 'Marca de tiempo';
+$wb['subject_is_empty'] = 'The subject can not be empty.';
+?>

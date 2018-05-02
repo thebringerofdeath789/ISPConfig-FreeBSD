@@ -1,0 +1,4 @@
+<?php
+$wb['available_modules_txt'] = 'Dostupné moduly';
+$wb['go_to_txt'] = 'Vstoupit do sekce:';
+?>

@@ -1,0 +1,18 @@
+<?php
+$wb['list_head_txt'] = 'Subdomeinen';
+$wb['active_txt'] = 'Actief';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['domain_txt'] = 'Subdomein';
+$wb['domain_error_empty'] = 'Domein is niet ingvuld.';
+$wb['domain_error_unique'] = 'Domein moet uniek zijn.';
+$wb['domain_error_regex'] = 'Domeinnaam ongeldig.';
+$wb['no_redirect_txt'] = 'Geen redirect';
+$wb['no_flag_txt'] = 'Geen vlag';
+$wb['none_txt'] = 'Geen';
+$wb['add_new_subdomain_txt'] = 'Nieuw subdomein toevoegen';
+$wb['add_new_aliasdomain_txt'] = 'Nieuw aliasdomein toevoegen';
+$wb['aliasdomain_list_head_txt'] = 'Aliasdomeinen';
+$wb['subdomain_list_head_txt'] = 'Subdomeinen';
+$wb['domain_error_acme_invalid'] = 'Domeinnaam acme.invalid niet toegestaan.';
+?>

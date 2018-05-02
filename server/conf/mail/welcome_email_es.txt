@@ -1,0 +1,4 @@
+From: ISPConfig <postmaster@localhost.localdomain>
+Subject: Bienvenido a su nueva cuenta de correo
+
+Bienvenido a su nueva cuenta de correo. Su administrador.

@@ -1,0 +1,35 @@
+<?php
+$wb['Websites'] = 'Web Sitesi';
+$wb['Website'] = 'Web Sitesi';
+$wb['Subdomain'] = 'Alt Alan Adı';
+$wb['Aliasdomain'] = 'Başka Alan Adı';
+$wb['Database'] = 'Veritabanı';
+$wb['Database User'] = 'Veritabanı Kullanıcıları';
+$wb['Web Access'] = 'Web Erişimi';
+$wb['FTP-User'] = 'FTP Kullanıcıları';
+$wb['Webdav-User'] = 'WebDAV Kullanıcıları';
+$wb['Folder'] = 'Korunmuş Klasörler';
+$wb['Folder users'] = 'Korunmuş Klasör Kullanıcıları';
+$wb['Command Line'] = 'Komut Satırı';
+$wb['Shell-User'] = 'Kabuk Kullanıcıları';
+$wb['Cron Jobs'] = 'Zamanlanmış Görevler';
+$wb['Statistics'] = 'İstatistikler';
+$wb['Web traffic'] = 'Web Trafiği';
+$wb['Website quota (Harddisk)'] = 'Web Sitesi Kotası (Disk)';
+$wb['Cron'] = 'Zamanlanmış Görev';
+$wb['Stats'] = 'İstatistikler';
+$wb['Shell'] = 'Kabuk';
+$wb['Webdav'] = 'WebDAV';
+$wb['FTP'] = 'FTP';
+$wb['Options'] = 'Ayarlar';
+$wb['Domain'] = 'Alan Adı';
+$wb['Redirect'] = 'Yönlendirme';
+$wb['SSL'] = 'SSL';
+$wb['Sites'] = 'Siteler';
+$wb['APS Installer'] = 'APS Yükleyici';
+$wb['Available packages'] = 'Kullanılabilecek Paketler';
+$wb['Installed packages'] = 'Yüklü Paketler';
+$wb['Update Packagelist'] = 'Güncelleme Paketi Listesi';
+$wb['Subdomain (Vhost)'] = 'Alt alan adı (SSunucu)';
+$wb['error_proxy_requires_url'] = '\\"Vekil Sunucu\\" yönlendirme tipi için, yönlendirilecek yolu gösteren bir İnternet adresi gereklidir.';
+?>

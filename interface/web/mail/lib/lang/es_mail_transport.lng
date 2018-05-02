@@ -1,0 +1,11 @@
+<?php
+$wb['active_txt'] = 'Habilitado';
+$wb['destination_txt'] = 'Destino';
+$wb['domain_txt'] = 'Dominio';
+$wb['limit_mailrouting_txt'] = 'Ha alcanzado el número máx. de enrutadores permitidos para su cuenta.';
+$wb['mx_txt'] = 'No buscar registros MX';
+$wb['server_id_txt'] = 'Servidor';
+$wb['sort_order_txt'] = 'Ordenar por';
+$wb['transport_txt'] = 'Transporte';
+$wb['type_txt'] = 'Tipo';
+?>

@@ -1,0 +1,35 @@
+<?php
+$wb['username_txt'] = 'Потребителско име';
+$wb['username_err'] = 'Потребителското име е твърде дълго или съдържа непозволени символи.';
+$wb['username_empty'] = 'Полето с потребителското име е празно.';
+$wb['username_unique'] = 'Вече съществува потребител с това потребителско име.';
+$wb['passwort_txt'] = 'Парола';
+$wb['password_strength_txt'] = 'Сила на паролата';
+$wb['modules_txt'] = 'Модул';
+$wb['startmodule_txt'] = 'Старт модул';
+$wb['app_theme_txt'] = 'Дезайн';
+$wb['typ_txt'] = 'Тип';
+$wb['active_txt'] = 'Активен';
+$wb['language_txt'] = 'Език';
+$wb['name_txt'] = 'Име';
+$wb['vorname_txt'] = 'Фамилия';
+$wb['unternehmen_txt'] = 'Фирма';
+$wb['strasse_txt'] = 'Улица';
+$wb['ort_txt'] = 'Град';
+$wb['plz_txt'] = 'П.Код';
+$wb['land_txt'] = 'Старана';
+$wb['email_txt'] = 'Email';
+$wb['url_txt'] = 'Url';
+$wb['telefon_txt'] = 'Телефон';
+$wb['fax_txt'] = 'Факс';
+$wb['groups_txt'] = 'Групи';
+$wb['default_group_txt'] = 'Група по подразбиране';
+$wb['startmodule_err'] = 'Start module is not within modules.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['username_error_collision'] = 'The username may not be web or web plus a number.\\"';
+$wb['client_not_admin_err'] = 'A user that belongs to a client can not be set to type: admin';
+$wb['lost_password_function_txt'] = 'Forgot password function is available';
+?>

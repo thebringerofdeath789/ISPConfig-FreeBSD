@@ -1,0 +1,11 @@
+<?php
+$wb['domain_txt'] = 'Domena';
+$wb['destination_txt'] = 'Odredište';
+$wb['active_txt'] = 'Aktivno';
+$wb['domain_error_unique'] = 'Već postoji catchall zapis za ovu domenu.';
+$wb['no_domain_perm'] = 'Nemate dozvole za ovu domenu.';
+$wb['domain_error_regex'] = 'Neispravan naziv domene ili naziv sadrži nedozvoljene znakove.';
+$wb['limit_mailcatchall_txt'] = 'Iskorišten ja maksimalan broj email catchall računa.';
+$wb['source_txt'] = 'Source';
+$wb['destination_error_isemail'] = 'Destination is no valid email address.';
+?>

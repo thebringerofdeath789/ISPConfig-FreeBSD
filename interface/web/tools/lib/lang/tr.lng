@@ -1,0 +1,13 @@
+<?php
+$wb['User Settings'] = 'Kullanıcı Ayarları';
+$wb['Settings'] = 'Ayarlar';
+$wb['ISPConfig Tools'] = 'ISPConfig Araçları';
+$wb['Interface'] = 'Arayüz';
+$wb['Password and Language'] = 'Parola ve Dil';
+$wb['ispconfig_tools_note'] = 'Bu modül parola ve dilin değiştirilmesini sağlayarak DNS kayıtları eşleştirmesini başlatır.';
+$wb['Sync Tools'] = 'Eşleştirme Araçları';
+$wb['Resync'] = 'Eşleştirme';
+$wb['Import'] = 'Al';
+$wb['ISPConfig 3 mail'] = 'ISPConfig 3 postası';
+$wb['PDNS Tupa'] = 'PowerDNS Tupa Yöneticisi';
+?>

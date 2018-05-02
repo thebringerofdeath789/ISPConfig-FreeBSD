@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Serwer';
+$wb['client_id_txt'] = 'Klient';
+$wb['name_txt'] = 'Nazwa PHP';
+$wb['Name'] = 'Nazwa';
+$wb['FastCGI Settings'] = 'Ustawienia FastCGI';
+$wb['PHP-FPM Settings'] = 'Ustawienia PHP-FPM';
+$wb['Additional PHP Versions'] = 'Dodatkowe wersje PHP';
+$wb['Form to edit additional PHP versions'] = 'Formularz do edycji dodatkowych wersji PHP';
+$wb['server_php_name_error_empty'] = 'Pole Nazwa nie może być puste';
+$wb['php_fastcgi_binary_txt'] = 'Ścieżka do binarki PHP FastCGI';
+$wb['php_fastcgi_ini_dir_txt'] = 'Ścieżka do katalogu php.ini';
+$wb['php_fpm_init_script_txt'] = 'Ścieżka do skryptu inicjującego PHP-FPM';
+$wb['php_fpm_ini_dir_txt'] = 'Ścieżka do katalogu php.ini';
+$wb['php_fpm_pool_dir_txt'] = 'Ścieżka do katalogu pool PHP-FPM';
+?>

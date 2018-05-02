@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Epost vidarebefordran';
+$wb['active_txt'] = 'Aktiv';
+$wb['email_txt'] = 'Epost';
+$wb['destination_txt'] = 'Mottagare';
+$wb['add_new_record_txt'] = 'Lägg till ny vidarebefordran';
+$wb['source_txt'] = 'källa';
+?>

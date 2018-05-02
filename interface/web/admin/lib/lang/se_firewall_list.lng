@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Brandvägg';
+$wb['active_txt'] = 'Aktiv';
+$wb['server_id_txt'] = 'Server';
+$wb['tcp_port_txt'] = 'Öppna TCP-portar';
+$wb['udp_port_txt'] = 'Öppna UDP-portar';
+$wb['add_new_record_txt'] = 'Lägg till brandväggsinlägg';
+?>

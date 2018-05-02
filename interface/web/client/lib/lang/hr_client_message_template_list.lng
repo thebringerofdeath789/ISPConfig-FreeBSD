@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'Email predlošci';
+$wb['template_type_txt'] = 'Poruka za';
+$wb['template_name_txt'] = 'Naziv predloška';
+?>

@@ -1,0 +1,21 @@
+<?php
+$wb['rulename_txt'] = 'Namn';
+$wb['action_txt'] = 'Händelse';
+$wb['target_txt'] = 'Katalog';
+$wb['active_txt'] = 'Aktiv';
+$wb['rulename_error_empty'] = 'Namnfältet är tomt.';
+$wb['searchterm_is_empty'] = 'Sökfältet är tomt.';
+$wb['source_txt'] = 'Källa';
+$wb['target_error_regex'] = 'Målet får endast innehålla dessa tecken: a-z, 0-9, -, ., _,och {mellanslag}';
+$wb['limit_mailfilter_txt'] = 'Det maximala antalet epostfilter är uppnått.';
+$wb['subject_txt'] = 'Ämne';
+$wb['from_txt'] = 'Från';
+$wb['to_txt'] = 'Till';
+$wb['contains_txt'] = 'Innehåller';
+$wb['is_txt'] = 'Är';
+$wb['begins_with_txt'] = 'Börjar med';
+$wb['ends_with_txt'] = 'Slutar med';
+$wb['move_to_txt'] = 'Flytta till';
+$wb['delete_txt'] = 'Radera';
+$wb['mailbox_filter_txt'] = 'Mailbox filter';
+?>

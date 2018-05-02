@@ -1,0 +1,5 @@
+<?php
+$wb['list_head_txt'] = 'Шаблоны виртуальных машин OpenVZ';
+$wb['active_txt'] = 'Активно';
+$wb['template_name_txt'] = 'Имя шаблона';
+?>

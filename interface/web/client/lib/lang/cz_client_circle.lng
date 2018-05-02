@@ -1,0 +1,9 @@
+<?php
+$wb['Client Circle'] = 'Skupina klientů';
+$wb['Circle'] = 'Skupina';
+$wb['circle_txt'] = 'Skupina';
+$wb['circle_name_txt'] = 'Název skupiny';
+$wb['client_ids_txt'] = 'Klienti/Distributoři';
+$wb['description_txt'] = 'Popis';
+$wb['active_txt'] = 'Aktivní';
+?>

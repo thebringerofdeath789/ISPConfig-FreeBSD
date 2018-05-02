@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Sunucu';
+$wb['priority_txt'] = 'Öncelik';
+$wb['policy_id_txt'] = 'Kural';
+$wb['email_txt'] = 'E-posta (Desen)';
+$wb['fullname_txt'] = 'Ad';
+$wb['local_txt'] = 'Yerel';
+$wb['email_error_notempty'] = 'E-posta adresi boş olamaz.';
+$wb['fullname_error_notempty'] = 'Ad boş olamaz.';
+$wb['10 - highest'] = '10 - en yüksek';
+$wb['5 - medium'] = '5 - orta';
+$wb['1 - lowest'] = '1 - en düşük';
+?>

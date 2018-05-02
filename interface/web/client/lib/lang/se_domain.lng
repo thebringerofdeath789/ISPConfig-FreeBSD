@@ -1,0 +1,6 @@
+<?php
+$wb['domain_error_empty'] = 'Domännamnet är tomt';
+$wb['domain_error_unique'] = 'Domänen finns redan';
+$wb['domain_error_regex'] = 'Denna domän är ogiltig';
+$wb['Domain'] = 'Domän';
+?>

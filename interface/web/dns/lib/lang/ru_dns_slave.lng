@@ -1,0 +1,17 @@
+<?php
+$wb['server_id_txt'] = 'Сервер';
+$wb['origin_txt'] = 'DNS-зона';
+$wb['ns_txt'] = 'NS';
+$wb['active_txt'] = 'Активно';
+$wb['limit_dns_slave_zone_txt'] = 'Макс. количество вторичных DNS-зон для вашей учётной записи достигнуто.';
+$wb['client_txt'] = 'Клиент';
+$wb['xfer_txt'] = 'Allow zone transfers to <br>these IPs (comma separated list)';
+$wb['server_id_error_empty'] = 'Сервер не выбран';
+$wb['origin_error_empty'] = 'Зона пуста.';
+$wb['origin_error_unique'] = 'Для этой зоны уже есть запись.';
+$wb['origin_error_regex'] = 'Зона имеет неправильный формат.';
+$wb['ns_error_regex'] = 'NS имеет неправильный формат.';
+$wb['eg_domain_tld'] = 'Например, domain.tld.';
+$wb['ipv4_form_txt'] = 'Separate multiple IPs with commas';
+$wb['secondary_zone_txt'] = 'Вторичная DNS-зона';
+?>

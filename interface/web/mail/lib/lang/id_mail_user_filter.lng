@@ -1,0 +1,30 @@
+<?php
+$wb['rulename_txt'] = 'Nama';
+$wb['action_txt'] = 'Tindakan';
+$wb['target_txt'] = 'Direktori';
+$wb['active_txt'] = 'Aktif';
+$wb['rulename_error_empty'] = 'Nama kosong.';
+$wb['searchterm_is_empty'] = 'Lema pencarian kosong.';
+$wb['source_txt'] = 'Sumber';
+$wb['target_error_regex'] = 'Target hanya boleh berisi karakter berikut ini: a-z, 0-9, -, ., _, dan {space}';
+$wb['limit_mailfilter_txt'] = 'The max. number of mailfilters is reached.';
+$wb['subject_txt'] = 'Subject';
+$wb['from_txt'] = 'From';
+$wb['to_txt'] = 'To';
+$wb['contains_txt'] = 'Contains';
+$wb['is_txt'] = 'Is';
+$wb['begins_with_txt'] = 'Begins with';
+$wb['ends_with_txt'] = 'Ends with';
+$wb['delete_txt'] = 'Delete';
+$wb['move_stop_txt'] = 'Move to';
+$wb['header_txt'] = 'Header';
+$wb['size_over_txt'] = 'Email size over (KB)';
+$wb['size_under_txt'] = 'Email size under (KB)';
+$wb['localpart_txt'] = 'Localpart';
+$wb['domain_txt'] = 'Domain';
+$wb['keep_txt'] = 'Keep';
+$wb['reject_txt'] = 'Reject';
+$wb['stop_txt'] = 'Stop';
+$wb['move_to_txt'] = 'Move to';
+$wb['mark_read_txt'] = 'Mark as read';
+?>

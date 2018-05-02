@@ -1,0 +1,12 @@
+<?php
+$wb['Directive Snippets'] = 'Заготовки директив';
+$wb['name_txt'] = 'Имя заготовки';
+$wb['type_txt'] = 'Тип';
+$wb['snippet_txt'] = 'Заготовка';
+$wb['active_txt'] = 'Активно';
+$wb['directive_snippets_name_empty'] = 'Пожалуйста, укажите имя заготовки.';
+$wb['directive_snippets_name_error_unique'] = 'Уже есть заготовка директив с таким именем.';
+$wb['variables_txt'] = 'Переменные:';
+$wb['customer_viewable_txt'] = 'Видимый клиентам';
+$wb['required_php_snippets_txt'] = 'Обязательная PHP-заготовка';
+?>

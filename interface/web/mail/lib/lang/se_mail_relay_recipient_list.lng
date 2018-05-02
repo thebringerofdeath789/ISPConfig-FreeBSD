@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Relämottagare';
+$wb['active_txt'] = 'Aktiv';
+$wb['server_id_txt'] = 'Server';
+$wb['source_txt'] = 'Mottagaradress';
+$wb['recipient_txt'] = 'Mottagare';
+$wb['add_new_record_txt'] = 'Lägg till ny relämottagare';
+$wb['access_txt'] = 'åtkomst';
+?>

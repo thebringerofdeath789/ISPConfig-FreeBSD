@@ -1,0 +1,11 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domän';
+$wb['destination_txt'] = 'Destination';
+$wb['type_txt'] = 'Typ';
+$wb['mx_txt'] = 'Inget MX-uppslag';
+$wb['sort_order_txt'] = 'Sortera på';
+$wb['active_txt'] = 'Aktiv';
+$wb['limit_mailrouting_txt'] = 'Det maximala antalet epostrutter för ditt konto är uppnått.';
+$wb['transport_txt'] = 'Transport';
+?>

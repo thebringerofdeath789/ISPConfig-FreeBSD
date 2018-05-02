@@ -1,0 +1,17 @@
+<?php
+$wb['email_txt'] = 'メールアドレス';
+$wb['destination_txt'] = '転送先';
+$wb['active_txt'] = '有効';
+$wb['email_error_isemail'] = 'メールアドレスが不正です。';
+$wb['email_error_unique'] = 'メールアドレスが重複しています。';
+$wb['no_domain_perm'] = 'このドメイン向けのエイリアスを設定する権限がありません。';
+$wb['destination_error_isemail'] = '転送先メールアドレスが不正です。';
+$wb['limit_mailalias_txt'] = 'メールエイリアスが最大数に達したため、これ以上追加できません。';
+$wb['duplicate_mailbox_txt'] = 'このメールアドレス向けのメールボックスが既に存在します。';
+$wb['domain_txt'] = 'Domain';
+$wb['duplicate_email_alias_txt'] = 'This email alias does already exist.';
+$wb['source_txt'] = 'Alias';
+$wb['greylisting_txt'] = 'Enable greylisting';
+$wb['send_as_txt'] = 'Send as';
+$wb['send_as_exp'] = 'Allow target to send mail using this alias as origin';
+?>

@@ -1,0 +1,11 @@
+<?php
+$wb['template_type_txt'] = 'Tipo de e-mail';
+$wb['template_name_txt'] = 'Nome do gabarito';
+$wb['subject_txt'] = 'Assunto';
+$wb['message_txt'] = 'Mensagem';
+$wb['Email template'] = 'Gabarito do e-mail';
+$wb['Settings'] = 'Configuração';
+$wb['variables_txt'] = 'Variáveis';
+$wb['variables_description_txt'] = '(As variáveis usuário e senha estão disponíveis apenas em e-mails de boas vindas.)';
+$wb['duplicate_welcome_error'] = 'Disponível apenas para o gabarito padrão de e-mail de boas vindas. Por favor edite o gabarito existente ou adicione um novo gabarito.';
+?>

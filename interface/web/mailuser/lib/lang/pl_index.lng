@@ -1,0 +1,12 @@
+<?php
+$wb['page_head_txt'] = 'Ustawienia skrzynki';
+$wb['page_desc_txt'] = 'Możesz tutaj edytować ustawienia swojego konta e-mail.';
+$wb['email_txt'] = 'Adres e-mail';
+$wb['login_txt'] = 'Login';
+$wb['server_address_txt'] = 'Adres serwera poczty';
+$wb['cc_txt'] = 'Wyślij kopię do (CC)';
+$wb['quota_txt'] = 'Wielkość skrzynki';
+$wb['unlimited_txt'] = 'Bez limitu';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'Brak';
+?>

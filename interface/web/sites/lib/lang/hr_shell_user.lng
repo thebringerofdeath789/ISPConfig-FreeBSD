@@ -1,0 +1,36 @@
+<?php
+$wb['puser_txt'] = 'Web korisničko ime';
+$wb['pgroup_txt'] = 'Web grupa';
+$wb['shell_txt'] = 'Shell';
+$wb['dir_txt'] = 'Direktorij';
+$wb['server_id_txt'] = 'Server';
+$wb['parent_domain_id_txt'] = 'Web stranica';
+$wb['username_txt'] = 'Korisničko ime';
+$wb['password_txt'] = 'Šifra';
+$wb['password_strength_txt'] = 'Jačina šifre';
+$wb['chroot_txt'] = 'Chroot shell';
+$wb['quota_size_txt'] = 'Kvota';
+$wb['active_txt'] = 'Aktivno';
+$wb['username_error_empty'] = 'Korisničko ime je prazno.';
+$wb['username_error_unique'] = 'Izabrano korisničko ime već postoji na serveru.';
+$wb['username_error_regex'] = 'Korisničko ime sadrži nedozvoljene znakove.';
+$wb['quota_size_error_empty'] = 'Kvota je prazna.';
+$wb['uid_error_empty'] = 'GID je prazan.';
+$wb['directory_error_empty'] = 'Direktorij je prazan.';
+$wb['limit_shell_user_txt'] = 'Iskorišten je maksimalan broj shell korisnika.';
+$wb['parent_domain_id_error_empty'] = 'Nije izabrana web stranica.';
+$wb['ssh_rsa_txt'] = 'SSH-RSA javni ključ (za logiranje ključevima)';
+$wb['dir_dot_error'] = 'Nije dozvoljeno koristiti .. u putanji.';
+$wb['dir_slashdot_error'] = 'Nije dozvoljeno koristiti ./ u putanji.';
+$wb['generate_password_txt'] = 'Generiraj šifru';
+$wb['repeat_password_txt'] = 'Ponovi šifru';
+$wb['password_mismatch_txt'] = 'Šifre nisu identične.';
+$wb['password_match_txt'] = 'Šifre su identične.';
+$wb['username_must_not_exceed_32_chars_txt'] = 'Korisničko ime ne može biti duže od 32 znaka.';
+$wb['username_not_allowed_txt'] = 'Izabrano korisničko ime nije dozvoljeno.';
+$wb['invalid_system_user_or_group_txt'] = 'Neispravan sistemski korisnik ili grupa';
+$wb['directory_error_regex'] = 'Neispravan direktorij';
+$wb['shell_error_regex'] = 'Neispravan shell';
+$wb['invalid_username_txt'] = 'Neispravno korisničko ime';
+$wb['directory_error_notinweb'] = 'Direktorij treba biti unutar web početne putanje (root).';
+?>

@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Advanced Email Routing';
+$wb['active_txt'] = 'Активен';
+$wb['server_id_txt'] = 'Сървър';
+$wb['domain_txt'] = 'Домейн';
+$wb['transport_txt'] = 'Транспорт';
+$wb['sort_order_txt'] = 'Сортирай по';
+$wb['add_new_record_txt'] = 'Добави нов Транспорт';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['mailquota_txt'] = 'Epostkontonas kvota';
+$wb['email_txt'] = 'Epostadress';
+$wb['name_txt'] = 'Namn';
+$wb['used_txt'] = 'Använt utrymme';
+$wb['quota_txt'] = 'Kvot';
+$wb['no_email_accounts_txt'] = 'Inga epostkonton hittades';
+?>

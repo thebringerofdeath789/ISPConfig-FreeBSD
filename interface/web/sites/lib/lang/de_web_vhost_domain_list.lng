@@ -1,0 +1,14 @@
+<?php
+$wb['list_head_txt'] = 'Domains';
+$wb['domain_id_txt'] = 'Domain ID';
+$wb['active_txt'] = 'Aktiv';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domain';
+$wb['add_new_record_txt'] = 'Neue Domain hinzufügen';
+$wb['add_new_subdomain_txt'] = 'Neue Subdomain hinzufügen';
+$wb['add_new_aliasdomain_txt'] = 'Neue Aliasdomain hinzufügen';
+$wb['parent_domain_id_txt'] = 'Webseite';
+$wb['domain_list_head_txt'] = 'Websites';
+$wb['aliasdomain_list_head_txt'] = 'Aliasdomains (Vhost)';
+$wb['subdomain_list_head_txt'] = 'Subdomains (Vhost)';
+?>

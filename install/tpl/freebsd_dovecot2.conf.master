@@ -1,0 +1,108 @@
+## ISPConfig3 Template file.
+## This file was installed by ISPConfig3
+## It will be replaced if ISPConfig3 is updated.
+
+## Dovecot configuration file
+base_dir = /var/run/dovecot/
+
+listen = *,[::]
+protocols = imap pop3
+disable_plaintext_auth = no
+log_timestamp = "%Y-%m-%d %H:%M:%S "
+
+# ssl_cert_file = /etc/ssl/_.my-domain.tld/_.my-domain.tld.crt
+# ssl_key_file = /etc/ssl/_.my-domain.tld/_.my-domain.tld.key
+
+ssl_cert = /usr/local/etc/postfix/smtpd.cert
+ssl_key = /usr/local/etc/postfix/smtpd.key
+
+mail_privileged_group = mail
+
+login_greeting = MailServer managed by ISPConfig
+
+## IMAP specific settings
+protocol imap {
+  mail_executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/imap
+  mail_plugins = quota imap_quota
+}
+
+## POP3 specific settings
+protocol pop3 {
+  mail_executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/pop3
+  pop3_uidl_format = %08Xu%08Xv
+  mail_plugins = quota
+}
+
+## LDA specific settings
+protocol lda {
+  # Address to use when sending rejection mails.
+  postmaster_address = postmaster@my-domain.tld
+
+  # Support for dynamically loadable plugins. mail_plugins is a space separated
+  # list of plugins to load.
+  mail_plugin_dir = /usr/local/libexec/dovecot/modules/lda
+
+  # UNIX socket path to master authentication server to find users.
+  auth_socket_path = /var/run/dovecot/auth-master
+
+  # Enabling Sieve plugin for server-side mail filtering
+  mail_plugins = sieve quota
+}
+
+
+## Plugin settings
+plugin {
+  quota = dict:user::file:/var/vmail/%d/%n/.quotausage
+  # Because the mail quota is called in the user query 
+  # the maildir quota does not need to be set.
+  # You do not need: quota = maildir
+
+  sieve=/var/vmail/%d/%n/.sieve
+}
+
+
+## Authentication processes
+
+# Executable location
+#auth_executable = /usr/local/libexec/dovecot/dovecot-auth
+auth default {
+  mechanisms = plain login
+
+  # SQL database <doc/wiki/AuthDatabase.SQL.txt>
+  passdb sql {
+    # Path for SQL configuration file
+    args = /usr/local/etc/dovecot/dovecot-sql.conf
+  }
+
+# new quota support:
+  userdb prefetch {
+  }
+
+  userdb sql {
+    args = /usr/local/etc/dovecot/dovecot-sql.conf
+  }
+
+
+  ## dovecot-lda specific settings
+  ##
+  socket listen {
+    master {
+      path = /var/run/dovecot/auth-master
+      mode = 0600
+      user = vmail # User running Dovecot LDA
+      #group = vmail # Or alternatively mode 0660 + LDA user in this group
+    }
+  client {
+          path = /var/spool/postfix/private/auth
+          mode = 0660
+          user = postfix
+          group = postfix
+        }
+  }
+
+}
+
+mail_location = maildir:/var/vmail/%d/%n/Maildir
+
+mail_uid = 5000
+mail_gid = 5000

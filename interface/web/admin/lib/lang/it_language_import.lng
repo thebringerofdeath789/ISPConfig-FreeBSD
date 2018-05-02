@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Importa file di lingua';
+$wb['language_import_txt'] = 'Seleziona file di lingua';
+$wb['btn_save_txt'] = 'Importa il file di lingua selezionato';
+$wb['language_overwrite_txt'] = 'Sovrascrivi file, se esiste';
+$wb['btn_cancel_txt'] = 'Annulla';
+$wb['ignore_version_txt'] = 'Tralascia controllo versione ISPconfig';
+$wb['list_desc_txt'] = 'WARNING: Do not import language files from untrustworthy sources.';
+?>

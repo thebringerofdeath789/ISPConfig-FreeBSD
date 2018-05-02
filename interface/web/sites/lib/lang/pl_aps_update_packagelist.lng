@@ -1,0 +1,7 @@
+<?php
+$wb['head_txt'] = 'Aktualizacja listy pakietów';
+$wb['list_desc_txt'] = '';
+$wb['btn_start_txt'] = 'Uaktualnij listę';
+$wb['btn_cancel_txt'] = 'Anuluj';
+$wb['legend_txt'] = 'Tutaj możesz uaktualnić listę dostępnych pakietów. Może to zająć nawet do pięciu minut. Możesz opuścić tę stronę jeżeli chcesz - proces aktualizacji wykona się w tle.';
+?>

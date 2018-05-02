@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Хард диск квота за сайт';
+$wb['domain_txt'] = 'Домейн / Уебсайт';
+$wb['system_user_txt'] = 'Linux потребител';
+$wb['used_txt'] = 'Използвано място';
+$wb['hard_txt'] = 'Твърд лимит';
+$wb['soft_txt'] = 'Мек лимит';
+$wb['files_txt'] = 'Single files';
+?>

@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'DNS zones';
+$wb['active_txt'] = 'Actief';
+$wb['server_id_txt'] = 'Server';
+$wb['origin_txt'] = 'Zone';
+$wb['ns_txt'] = 'NS';
+$wb['mbox_txt'] = 'E-mail';
+$wb['add_new_record_wizard_txt'] = 'Toevoegen nieuwe DNS Zone met wizard';
+$wb['add_new_record_txt'] = 'Toevoegen nieuwe DNS Zone (handmatig)';
+$wb['import_zone_file_txt'] = 'Importeer zone bestand';
+?>

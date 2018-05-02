@@ -1,0 +1,8 @@
+<?php
+$wb['name_txt'] = 'Nombre';
+$wb['no_products_txt'] = 'No se han encontrado productos.';
+$wb['order_txt'] = 'Orden';
+$wb['price_txt'] = 'Precio';
+$wb['setup_fee_txt'] = 'Coste de Instalación';
+$wb['shop_txt'] = 'Orden';
+?>

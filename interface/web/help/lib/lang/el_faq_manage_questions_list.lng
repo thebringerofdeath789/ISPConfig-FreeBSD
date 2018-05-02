@@ -1,0 +1,9 @@
+<?php
+$wb['faq_question_txt'] = 'Ερώτηση';
+$wb['faq_section_name_txt'] = 'Ενότητα';
+$wb['faq_delete_txt'] = 'Διαγραφή';
+$wb['faq_edit_txt'] = 'Επεξεργασία';
+$wb['faq_sections_txt'] = 'Ενότητα';
+$wb['faq_faq_questions_txt'] = 'Συχνές Ερωτήσεις';
+$wb['faq_new_question_txt'] = 'Προσθήκη ζεύγους Ερώτησης - Απάντησης';
+?>

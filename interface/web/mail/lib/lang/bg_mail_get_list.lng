@@ -1,0 +1,9 @@
+<?php
+$wb['list_head_txt'] = 'Прехвани емайли от външни  POP3 / IMAP сървъри';
+$wb['active_txt'] = 'Активен';
+$wb['server_id_txt'] = 'Сървър';
+$wb['source_server_txt'] = 'Външен сървър';
+$wb['source_username_txt'] = 'Потребител';
+$wb['destination_txt'] = 'Направление';
+$wb['add_new_record_txt'] = 'Добави нов Акаунт';
+?>

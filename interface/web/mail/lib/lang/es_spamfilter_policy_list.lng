@@ -1,0 +1,9 @@
+<?php
+$wb['add_new_record_txt'] = 'Añadir nueva política';
+$wb['bad_header_lover_txt'] = 'Aceptar cabeceras incorrectas';
+$wb['banned_files_lover_txt'] = 'Aceptar archivos bloqueados';
+$wb['list_head_txt'] = 'Políticas de filtro de spam';
+$wb['policy_name_txt'] = 'Nombre';
+$wb['spam_lover_txt'] = 'Aceptar spam';
+$wb['virus_lover_txt'] = 'Aceptar virus';
+?>

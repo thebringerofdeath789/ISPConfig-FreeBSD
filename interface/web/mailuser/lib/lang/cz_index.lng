@@ -1,0 +1,12 @@
+<?php
+$wb['page_head_txt'] = 'Nastavení e-mailové schránky';
+$wb['page_desc_txt'] = 'Zde můžete upravit nastavení pro e-mailový účet.';
+$wb['email_txt'] = 'E-mailová adresa';
+$wb['login_txt'] = 'Přihlášen';
+$wb['server_address_txt'] = 'Adresa e-mailového serveru';
+$wb['cc_txt'] = 'Poslat kopii na e-mail (CC)';
+$wb['quota_txt'] = 'Velikost poštovní schránky';
+$wb['unlimited_txt'] = 'Neomezený';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'Nenastaveno';
+?>

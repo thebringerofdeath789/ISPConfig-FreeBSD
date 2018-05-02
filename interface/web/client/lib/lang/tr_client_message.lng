@@ -1,0 +1,20 @@
+<?php
+$wb['page_head_txt'] = 'Müşterilere Bilgi Gönderme';
+$wb['btn_send_txt'] = 'E-posta Gönder';
+$wb['btn_cancel_txt'] = 'Geri';
+$wb['sender_txt'] = 'Gönderen e-posta adresi';
+$wb['subject_txt'] = 'Konu';
+$wb['message_txt'] = 'İleti';
+$wb['form_legend_client_txt'] = 'Müşterilere e-posta gönderin.';
+$wb['form_legend_admin_txt'] = 'Müşteri ve bayilere e-posta gönderin.';
+$wb['sender_invalid_error'] = 'Gönderen e-posta adresi geçersiz.';
+$wb['subject_invalid_error'] = 'Konu boş olamaz.';
+$wb['message_invalid_error'] = 'İleti boş olamaz.';
+$wb['email_sent_to_txt'] = 'E-posta alıcıları:';
+$wb['recipient_txt'] = 'Alıcı';
+$wb['all_clients_resellers_txt'] = 'Tüm müşteri ve bayiler';
+$wb['all_clients_txt'] = 'Tüm müşteriler';
+$wb['variables_txt'] = 'Değişkenler:';
+$wb['gender_m_txt'] = 'Bay';
+$wb['gender_f_txt'] = 'Bayan';
+?>

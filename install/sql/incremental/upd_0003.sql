@@ -1,0 +1,1 @@
+ALTER TABLE `client` ADD `customer_no` VARCHAR( 64 ) NULL AFTER `contact_name` , ADD `vat_id` VARCHAR( 64 ) NULL AFTER `customer_no`;

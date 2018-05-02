@@ -1,0 +1,13 @@
+<?php
+$wb['mailbox_autoresponder_txt'] = 'Autoresponder';
+$wb['autoresponder_subject'] = 'Poza biurem';
+$wb['autoresponder_text_txt'] = 'Tekst';
+$wb['autoresponder_txt'] = 'Aktywny';
+$wb['autoresponder_start_date_txt'] = 'Start';
+$wb['autoresponder_start_date_isfuture'] = 'Data startu nie może być z przeszłości';
+$wb['autoresponder_end_date_txt'] = 'Koniec';
+$wb['autoresponder_end_date_isgreater'] = 'Data końcowa musi być ustawiona i być późniejsza niż startu.';
+$wb['autoresponder_active'] = 'Włącz autoresponder';
+$wb['now_txt'] = 'Teraz';
+$wb['autoresponder_subject_txt'] = 'Temat';
+?>

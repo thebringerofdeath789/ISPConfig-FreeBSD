@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Beschikbare pakketten';
+$wb['name_txt'] = 'Naam';
+$wb['version_txt'] = 'Versie';
+$wb['category_txt'] = 'Categorie';
+$wb['status_txt'] = 'Beschikbaar';
+$wb['filter_txt'] = 'Zoeken';
+?>

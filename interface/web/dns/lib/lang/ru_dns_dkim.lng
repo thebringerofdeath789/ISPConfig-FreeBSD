@@ -1,0 +1,13 @@
+<?php
+$wb['public_key_txt'] = 'Публичный ключ';
+$wb['ttl_txt'] = 'TTL';
+$wb['active_txt'] = 'Активно';
+$wb['record_exists_txt'] = 'DNS-запись уже существует';
+$wb['dkim_disabled_txt'] = 'DKIM отключен для этого почтового домена';
+$wb['limit_dns_record_txt'] = 'Макс. количество DNS-записей для вашей учетной записи достигнуто.';
+$wb['no_zone_perm'] = 'У Вас нет прав добавлять эту запись.';
+$wb['ttl_range_error'] = 'Мин. время <b>TTL</b> 60 секунд.';
+$wb['selector_txt'] = 'DKIM-селектор';
+$wb['data_error_empty'] = 'Public-Key missing';
+$wb['dkim_selector_empty_txt'] = 'DKIM-Selector is empty';
+?>

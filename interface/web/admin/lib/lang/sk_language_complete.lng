@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Zlúčiť jazyk';
+$wb['list_desc_txt'] = 'Zlúčiť vybraný súbor s jazykom angličtina master súbor. <br /> dopĺňa chýbajúce reťazce z anglického súboru  jazyka do zvoleného jazyka.';
+$wb['language_select_txt'] = 'Vyber jazyk';
+$wb['btn_save_txt'] = 'Zlúčiť súbory teraz';
+$wb['btn_cancel_txt'] = 'Späť';
+?>

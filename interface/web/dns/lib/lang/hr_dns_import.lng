@@ -1,0 +1,16 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['client_txt'] = 'Klijent';
+$wb['btn_save_txt'] = 'Importiraj zonsku datoteku';
+$wb['btn_cancel_txt'] = 'Odustani';
+$wb['domain_txt'] = 'Domena';
+$wb['zone_file_successfully_imported_txt'] = 'The zone file has successfully been imported!';
+$wb['error_no_valid_zone_file_txt'] = 'This appears to be no valid zone file!';
+$wb['zonefile_to_import_txt'] = 'Zonska datoteka';
+$wb['domain_field_desc_txt'] = 'Can be left empty if domain name is in the filename or the zone-file content.';
+$wb['title'] = 'Importiraj zonske datoteka';
+$wb['no_file_uploaded_error'] = 'Nije prenešena zonska datoteka';
+$wb['zone_file_import_txt'] = 'Importiraj zonsku datoteku';
+$wb['error_no_server_id'] = 'No server provided.';
+$wb['error_not_allowed_server_id'] = 'The selected server is not allowed for this account.';
+?>

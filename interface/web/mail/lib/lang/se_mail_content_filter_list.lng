@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Postfix huvud- och innehållskontroll';
+$wb['active_txt'] = 'Aktiv';
+$wb['server_id_txt'] = 'Server';
+$wb['pattern_txt'] = 'Mönster';
+$wb['action_txt'] = 'Händelse';
+$wb['add_new_record_txt'] = 'Lägg till nytt innehållsfilter';
+?>

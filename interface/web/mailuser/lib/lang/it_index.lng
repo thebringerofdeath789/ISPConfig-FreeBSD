@@ -1,0 +1,12 @@
+<?php
+$wb['page_head_txt'] = 'Impostazioni casela di posta';
+$wb['page_desc_txt'] = 'Qui puoi editare le impostazioni per gli account email.';
+$wb['email_txt'] = 'Indirizzo Email ';
+$wb['login_txt'] = 'Accedi';
+$wb['server_address_txt'] = 'Indirizzo server di posta';
+$wb['cc_txt'] = 'Manda copia a (CC)';
+$wb['quota_txt'] = 'Dimensione casella di posta';
+$wb['unlimited_txt'] = 'Illimitato';
+$wb['mb_txt'] = 'MB';
+$wb['none_txt'] = 'Nessuno';
+?>

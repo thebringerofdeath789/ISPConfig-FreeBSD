@@ -1,0 +1,9 @@
+<?php
+$wb['Email Account'] = 'Почтовый аккаунт';
+$wb['Overview'] = 'Обзор';
+$wb['Password'] = 'Пароль';
+$wb['Autoresponder'] = 'Автоответчик';
+$wb['Send copy'] = 'Отправить копию';
+$wb['Spamfilter'] = 'СПАМ-фильтр';
+$wb['Email Filters'] = 'Почтовые фильтры';
+?>

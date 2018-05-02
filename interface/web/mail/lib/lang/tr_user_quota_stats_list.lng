@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Posta Kutusu Kotası';
+$wb['quota_txt'] = 'Kota';
+$wb['name_txt'] = 'Ad';
+$wb['email_txt'] = 'E-posta Adresi';
+$wb['used_txt'] = 'Kullanılan Alan';
+$wb['percentage_txt'] = 'Kullanılan %';
+?>

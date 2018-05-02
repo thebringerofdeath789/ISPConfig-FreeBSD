@@ -1,0 +1,85 @@
+listen = *,[::]
+protocols = imap pop3
+auth_mechanisms = plain login
+disable_plaintext_auth = no
+log_timestamp = "%Y-%m-%d %H:%M:%S "
+mail_privileged_group = vmail
+ssl_cert = </etc/postfix/smtpd.cert
+ssl_key = </etc/postfix/smtpd.key
+ssl_protocols = !SSLv2 !SSLv3
+mail_max_userip_connections = 100
+passdb {
+  args = /etc/dovecot/dovecot-sql.conf
+  driver = sql
+}
+userdb {
+  driver = prefetch
+}
+userdb {
+  args = /etc/dovecot/dovecot-sql.conf
+  driver = sql
+}
+plugin {
+  quota = dict:user::file:/var/vmail/%d/%n/.quotausage
+  sieve=/var/vmail/%d/%n/.sieve
+  sieve_max_redirects = 25
+}
+service auth {
+  unix_listener /var/spool/postfix/private/auth {
+    group = postfix
+    mode = 0660
+    user = postfix
+  }
+  unix_listener auth-userdb {
+    group = vmail
+    mode = 0600
+    user = vmail
+  }
+  user = root
+}
+service lmtp {
+  unix_listener /var/spool/postfix/private/dovecot-lmtp {
+   group = postfix
+   mode = 0600
+   user = postfix
+   # For higher volume sites, it may be desirable to increase the number of active listener processes. 
+   # A range of 5 to 20 is probably good for most sites
+#   process_min_avail = 5
+  }
+}
+service imap-login {
+  client_limit = 1000
+  process_limit = 512
+}
+protocol imap {
+  mail_plugins = quota imap_quota
+}
+protocol pop3 {
+  pop3_uidl_format = %08Xu%08Xv
+  mail_plugins = quota
+}
+protocol lda {
+  postmaster_address = webmaster@localhost
+  mail_plugins = sieve quota
+}
+protocol lmtp {
+  postmaster_address = webmaster@localhost
+  mail_plugins = quota sieve
+}
+mail_plugins = $mail_plugins quota
+imap_capability=+SEPCIAL-USE XLIST
+namespace inbox {
+  inbox = yes
+  mailbox Drafts {
+    special_use = \Drafts
+  }
+  mailbox Junk {
+    special_use = \Junk
+  }
+  mailbox Sent {
+    special_use = \Sent
+  }
+  mailbox Trash {
+    special_use = \Trash
+  }
+}

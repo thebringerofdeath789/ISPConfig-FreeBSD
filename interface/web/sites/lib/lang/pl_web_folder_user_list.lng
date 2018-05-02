@@ -1,0 +1,7 @@
+<?php
+$wb['list_head_txt'] = 'Użytkownik katalogu';
+$wb['active_txt'] = 'Aktywny';
+$wb['web_folder_id_txt'] = 'Katalog';
+$wb['username_txt'] = 'Login';
+$wb['add_new_record_txt'] = 'Add new Folder User';
+?>

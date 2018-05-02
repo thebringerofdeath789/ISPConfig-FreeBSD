@@ -1,0 +1,23 @@
+<?php
+$wb['head_txt'] = 'Importera epostkonfiguration från ISPConfig 3';
+$wb['legend_txt'] = 'Fjärrserverns anslutningsuppgifter';
+$wb['legend2_txt'] = 'Import era epostdomän';
+$wb['resync_sites_txt'] = 'Synka webbsidor';
+$wb['resync_ftp_txt'] = 'Synka FTP-användare';
+$wb['resync_shell_txt'] = 'Synka shell-användare';
+$wb['resync_cron_txt'] = 'Synka cron-jobb';
+$wb['resync_db_txt'] = 'Resync clientdb config';
+$wb['resync_mailbox_txt'] = 'Synka epostkonton';
+$wb['resync_dns_txt'] = 'Synka DNS-inlägg';
+$wb['btn_start_txt'] = 'Starta import';
+$wb['btn_connect_txt'] = 'Anslut till fjärrserver';
+$wb['btn_cancel_txt'] = 'Avbryt';
+$wb['client_group_id_txt'] = 'Lokal kund';
+$wb['mail_domain_txt'] = 'Fjärrepostdomän';
+$wb['import_mailbox_txt'] = 'Imporera epostkonto';
+$wb['import_aliasdomain_txt'] = 'Importera aliasdomän';
+$wb['import_alias_txt'] = 'Importera epostalias';
+$wb['import_forward_txt'] = 'Importera vidarebefordring';
+$wb['import_user_filter_txt'] = 'Importera användarfilter';
+$wb['import_spamfilter_txt'] = 'Importera spamfilter';
+?>

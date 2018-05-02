@@ -1,0 +1,14 @@
+<?php
+$wb['list_head_txt'] = 'Web stranice';
+$wb['domain_id_txt'] = 'ID';
+$wb['active_txt'] = 'Aktivno';
+$wb['server_id_txt'] = 'Server';
+$wb['domain_txt'] = 'Domena';
+$wb['add_new_record_txt'] = 'Dodaj novu web stranicu';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['add_new_subdomain_txt'] = 'Add new subdomain';
+$wb['add_new_aliasdomain_txt'] = 'Add new aliasdomain';
+$wb['domain_list_head_txt'] = 'Websites';
+$wb['aliasdomain_list_head_txt'] = 'Aliasdomains (Vhost)';
+$wb['subdomain_list_head_txt'] = 'Subdomains (Vhost)';
+?>

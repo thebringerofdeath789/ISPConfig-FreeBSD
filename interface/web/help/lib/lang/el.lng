@@ -1,0 +1,14 @@
+<?php
+$wb['Support Message'] = 'Αίτημα υποστήριξης';
+$wb['Message'] = 'Μήνυμα';
+$wb['Send message'] = 'Αποστολή μηνύματος';
+$wb['View messages'] = 'Προβολή μηνυμάτων';
+$wb['Support'] = 'Υποστήριξη';
+$wb['About ISPConfig'] = 'Πληροφορίες για το ISPConfig';
+$wb['Version'] = 'Έκδοση';
+$wb['Frequently Asked Questions'] = 'Συχνές Ερωτήσεις';
+$wb['FAQ Sections'] = 'Ενότητες Ερωτήσεων';
+$wb['Manage Sections'] = 'Διαχείριση Ενοτήτων';
+$wb['Add a Question & Answer Pair'] = 'Προσθήκη ζεύγους Ερώτησης - Απάντησης';
+$wb['Manage Questions'] = 'Διαχείριση Ερωτήσεων';
+?>

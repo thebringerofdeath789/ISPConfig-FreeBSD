@@ -1,0 +1,6 @@
+<?php
+$wb['name_txt'] = 'Име';
+$wb['fields_txt'] = 'Полета';
+$wb['template_txt'] = 'Шаблон';
+$wb['visible_txt'] = 'Видим';
+?>

@@ -1,0 +1,8 @@
+<?php
+$wb['list_head_txt'] = 'Epost filtreringsregler';
+$wb['rulename_txt'] = 'Namn';
+$wb['add_new_record_txt'] = 'Lägg till nytt filter';
+$wb['page_txt'] = 'Sida';
+$wb['page_of_txt'] = 'av';
+$wb['delete_confirmation'] = 'Vill du verkligen radera epostfiltret?';
+?>

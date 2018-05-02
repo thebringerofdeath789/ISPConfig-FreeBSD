@@ -1,0 +1,15 @@
+<?php
+$wb['list_head_txt'] = 'A-запись';
+$wb['active_txt'] = 'Активно';
+$wb['server_id_txt'] = 'Сервер';
+$wb['zone_txt'] = 'Зона';
+$wb['name_txt'] = 'Имя';
+$wb['data_txt'] = 'Данные';
+$wb['type_txt'] = 'Тип';
+$wb['add_new_record_txt'] = 'Добавить DNS A-запись';
+$wb['aux_txt'] = 'Приоритет';
+$wb['ttl_txt'] = 'TTL';
+$wb['page_txt'] = 'Страница';
+$wb['page_of_txt'] = 'из';
+$wb['delete_confirmation'] = 'Вы действительно хотите удалить эту запись?';
+?>

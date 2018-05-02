@@ -1,0 +1,13 @@
+<?php
+$wb['server_id_txt'] = 'Server';
+$wb['priority_txt'] = 'Prioritet';
+$wb['policy_id_txt'] = 'Policy';
+$wb['email_txt'] = 'Epost (Mönster)';
+$wb['fullname_txt'] = 'Namn';
+$wb['local_txt'] = 'Lokal';
+$wb['email_error_notempty'] = 'Fältet för epostadress kan inte vara tomt..';
+$wb['fullname_error_notempty'] = 'Fältet för namn kan inte vara tomt.';
+$wb['10 - highest'] = '10 - högsta';
+$wb['5 - medium'] = '5 - medium';
+$wb['1 - lowest'] = '1 - lägsta';
+?>

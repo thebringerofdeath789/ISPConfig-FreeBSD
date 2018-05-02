@@ -1,0 +1,7 @@
+<?php
+$wb['head_txt'] = 'Pakketten bijwerken';
+$wb['list_desc_txt'] = '';
+$wb['btn_start_txt'] = 'Pakketten bijwerken';
+$wb['btn_cancel_txt'] = 'Annuleren';
+$wb['legend_txt'] = 'Via deze pagina is het mogelijk om de pakkettenlijst bij te werken. Let op dat het bijwerken meer dan 5 minuten kan duren. Je kunt deze pagina verlaten, op de achtergrond zal het bijwerken dan afgerond worden.';
+?>

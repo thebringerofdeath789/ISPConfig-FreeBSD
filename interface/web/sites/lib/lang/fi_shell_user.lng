@@ -1,0 +1,36 @@
+<?php
+$wb['shell_txt'] = 'Shell';
+$wb['dir_txt'] = 'Kansio';
+$wb['server_id_txt'] = 'Palvelin';
+$wb['parent_domain_id_txt'] = 'Sivusto';
+$wb['username_txt'] = 'Käyttäjätunnus';
+$wb['password_txt'] = 'Salasana';
+$wb['chroot_txt'] = 'Chroot Shell';
+$wb['quota_size_txt'] = 'Levytila';
+$wb['active_txt'] = 'Käytössä';
+$wb['username_error_empty'] = 'Käyttäjätunnus on tyhjä.';
+$wb['username_error_unique'] = 'Käyttäjänimen pitää olla yksilöllinen.';
+$wb['username_error_regex'] = 'Käyttäjätunnus sisältää kiellettyjä merkkejä.';
+$wb['quota_size_error_empty'] = 'Levytila-kenttä on tyhjä.';
+$wb['uid_error_empty'] = 'Käyttäjä-ID-kenttä on tyhjä.';
+$wb['directory_error_empty'] = 'Kansio-kenttä on tyhjä.';
+$wb['limit_shell_user_txt'] = 'Shell-käyttäjien määrä on ylitetty.';
+$wb['password_strength_txt'] = 'Salasanan vahvuus';
+$wb['parent_domain_id_error_empty'] = 'Ei www-sivua valittuna.';
+$wb['puser_txt'] = 'Web Username';
+$wb['pgroup_txt'] = 'Web Group';
+$wb['ssh_rsa_txt'] = 'SSH-RSA Public Key (for key-based logins)';
+$wb['dir_dot_error'] = 'No .. in path allowed.';
+$wb['dir_slashdot_error'] = 'No ./ in path allowed.';
+$wb['generate_password_txt'] = 'Generate Password';
+$wb['repeat_password_txt'] = 'Repeat Password';
+$wb['password_mismatch_txt'] = 'The passwords do not match.';
+$wb['password_match_txt'] = 'The passwords do match.';
+$wb['username_must_not_exceed_32_chars_txt'] = 'The username must not exceed 32 characters.';
+$wb['username_not_allowed_txt'] = 'The username is not allowed.';
+$wb['invalid_system_user_or_group_txt'] = 'Invalid system user or group';
+$wb['directory_error_regex'] = 'Invalid directory';
+$wb['shell_error_regex'] = 'Invalid shell';
+$wb['invalid_username_txt'] = 'Invalid Username';
+$wb['directory_error_notinweb'] = 'The directory has to be inside the web root.';
+?>

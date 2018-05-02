@@ -1,0 +1,11 @@
+<?php
+$wb['list_head_txt'] = 'Database';
+$wb['active_txt'] = 'Actief';
+$wb['remote_access_txt'] = 'Externe toegang';
+$wb['server_id_txt'] = 'Server';
+$wb['database_user_txt'] = 'Database gebruiker';
+$wb['database_name_txt'] = 'Database naam';
+$wb['add_new_record_txt'] = 'Toevoegen nieuwe database';
+$wb['parent_domain_id_txt'] = 'Website';
+$wb['type_txt'] = 'Type';
+?>
