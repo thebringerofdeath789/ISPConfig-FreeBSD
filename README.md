@@ -10,8 +10,10 @@
 - Open Source software (BSD license)
 
 # Installation instructions
-- In your FreeBSD shell, as root, type 'pkg install git' and install git
-- When the repo is downloaded, type 'cd ISPConfig-FreeBSD' and 'sh freebsd_installer.sh'
+- In your FreeBSD shell, as root, enter the following commands
+- # pkg install git
+- # git clone https://github.com/thebringerofdeath789/ISPConfig-FreeBSD.git
+- # cd ISPConfig-FreeBSD &&  sh freebsd_installer.sh
 - The installer script will install all necessary packages for you
 - The admin user/password will be admin:admin at http(s)://yourip:8080
 
