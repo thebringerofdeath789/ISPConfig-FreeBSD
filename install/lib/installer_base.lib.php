@@ -405,7 +405,7 @@ class installer_base {
 	public function detect_ips(){
 		global $conf;
 
-		exec("ifconfig|grep inet|awk {'print $2'}|grep -v '127.0.0.1'|grep -v '::1'|grep -v 'fe80:'", $output, $retval);
+		exec("ifconfig | grep inet | grep -v '127.0.0.1' | grep -v '::1' | grep -v 'fe80:' | cut -f2 -d' '", $output, $retval);
 
 		if($retval == 0){
 			if(is_array($output) && !empty($output)){
