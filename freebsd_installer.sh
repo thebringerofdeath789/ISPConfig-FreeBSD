@@ -77,8 +77,6 @@ ln -s /usr/local/bin/bash /bin/bash
 mkdir /usr/local/etc/amavis
 
 ### INSTALL ISPCONFIG ###
-git clone https://git.ispconfig.org/mra/ispconfig3.git
-cd ispc*
 cd install
 php -q install.php
 
