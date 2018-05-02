@@ -92,7 +92,7 @@ $conf['web']['website_path'] = '/var/www/clients/client[client_id]/web[website_i
 $conf['web']['website_symlinks'] = '/var/www/[website_domain]/:/var/www/clients/client[client_id]/[website_domain]/';
 
 //* Apps base settings
-$conf['web']['apps_vhost_ip'] = '_default_';
+$conf['web']['apps_vhost_ip'] = '0.0.0.0';
 $conf['web']['apps_vhost_port'] = '8081';
 $conf['web']['apps_vhost_servername'] = '';
 $conf['web']['apps_vhost_user'] = 'ispapps';
