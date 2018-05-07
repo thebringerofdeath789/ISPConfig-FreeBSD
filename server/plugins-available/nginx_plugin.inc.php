@@ -1881,16 +1881,16 @@ class nginx_plugin {
 			$nginx_online_status_before_restart = $this->_checkTcp('localhost', 80);
 			$app->log('nginx status is: '.($nginx_online_status_before_restart === true? 'running' : 'down'), LOGLEVEL_DEBUG);
 
-			$retval = $app->services->restartService('httpd', 'restart'); // $retval['retval'] is 0 on success and > 0 on failure
+			$retval = $app->services->restartService('nginx', 'restart'); // $retval['retval'] is 0 on success and > 0 on failure
 			$app->log('nginx restart return value is: '.$retval['retval'], LOGLEVEL_DEBUG);
 
 			// wait a few seconds, before we test the apache status again
-			sleep(2);
+			sleep(10);
 
 			//* Check if nginx restarted successfully if it was online before
 			$nginx_online_status_after_restart = $this->_checkTcp('localhost', 80);
 			$app->log('nginx online status after restart is: '.($nginx_online_status_after_restart === true? 'running' : 'down'), LOGLEVEL_DEBUG);
-			if($nginx_online_status_before_restart && !$nginx_online_status_after_restart || $retval['retval'] > 0) {
+			if($nginx_online_status_before_restart && !$nginx_online_status_after_restart /*|| $retval['retval'] > 0*/) {
 				$app->log('nginx did not restart after the configuration change for website '.$data['new']['domain'].'. Reverting the configuration. Saved non-working config as '.$vhost_file.'.err', LOGLEVEL_WARN);
 				if(is_array($retval['output']) && !empty($retval['output'])){
 					$app->log('Reason for nginx restart failure: '.implode("\n", $retval['output']), LOGLEVEL_WARN);
@@ -1947,11 +1947,11 @@ class nginx_plugin {
 					$app->log('nginx did not restart after the configuration change for website '.$data['new']['domain'].' Reverting the SSL configuration. Saved non-working SSL files with .err extension.', LOGLEVEL_WARN);
 				}
 
-				$app->services->restartService('httpd', 'restart');
+				$app->services->restartService('nginx', 'restart');
 			}
 		} else {
 			//* We do not check the nginx config after changes (is faster)
-			$app->services->restartServiceDelayed('httpd', 'reload');
+			$app->services->restartServiceDelayed('nginx', 'reload');
 		}
 
 		//* The vhost is written and apache has been restarted, so we
