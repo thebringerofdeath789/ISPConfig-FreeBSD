@@ -2931,6 +2931,7 @@ class installer_base {
 		}
 
 		$root_cron_jobs = array(
+			"SHELL=/bin/bash",
 			"* * * * * ".$install_dir."/server/server.sh 2>&1 | while read line; do echo `/bin/date` \"\$line\" >> ".$conf['ispconfig_log_dir']."/cron.log; done",
 			"* * * * * ".$install_dir."/server/cron.sh 2>&1 | while read line; do echo `/bin/date` \"\$line\" >> ".$conf['ispconfig_log_dir']."/cron.log; done"
 		);
