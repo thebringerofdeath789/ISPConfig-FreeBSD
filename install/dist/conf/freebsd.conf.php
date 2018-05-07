@@ -76,8 +76,8 @@ $conf['mysql']['master_ispconfig_password'] = md5(uniqid(rand()));
 
 //* Apache
 $conf['apache']['installed'] = false; // will be detected automatically during installation
-$conf['apache']['user'] = 'www-data';
-$conf['apache']['group'] = 'www-data';
+$conf['apache']['user'] = 'www';
+$conf['apache']['group'] = 'www';
 $conf['apache']['init_script'] = 'apache2';
 $conf['apache']['version'] = '2.4';
 $conf['apache']['vhost_conf_dir'] = '/usr/local/etc/apache2/sites-available';
