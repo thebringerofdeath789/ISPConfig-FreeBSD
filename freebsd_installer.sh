@@ -1,6 +1,6 @@
 #!/bin/sh
 ### PACKAGE INSTALLATION ### 
-pkg install maildrop nano git bash php72 nginx wget php72-session php72-filter php72-simplexml php72-curl php72-bcmath php72-bz2 php72-ftp php72-gd php72-imap php72-json php72-mysqli php72-mbstring php72-pdo php72-pdo_mysql php72-zlib php72-xml php72-sqlite3 php72-soap php72-openssl mysql80-client mysql80-server postfix-sasl awstats webalizer dovecot jailkit py27-fail2ban py27-certbot py27-certbot-nginx cyrus-sasl-saslauthd amavisd-new amavisd-milter clamav clamav-milter pure-ftpd bind912 postgrey
+pkg install maildrop nano git bash php72 nginx wget php72-zip php72-session php72-filter php72-simplexml php72-curl php72-bcmath php72-bz2 php72-ftp php72-gd php72-imap php72-json php72-mysqli php72-mbstring php72-pdo php72-pdo_mysql php72-zlib php72-xml php72-sqlite3 php72-soap php72-openssl mysql80-client mysql80-server postfix-sasl awstats webalizer dovecot jailkit py27-fail2ban py27-certbot py27-certbot-nginx cyrus-sasl-saslauthd amavisd-new amavisd-milter clamav clamav-milter pure-ftpd bind912 postgrey
 
 
 
