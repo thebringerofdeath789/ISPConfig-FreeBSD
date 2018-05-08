@@ -291,7 +291,7 @@ class php_fpm_jailkit_plugin {
             $app->system->web_folder_protection($web["document_root"], false);
             $app->system->chmod($web["document_root"], 0755);
             $app->system->chown($web["document_root"], 'root');
-            $app->system->chgrp($web["document_root"], 'root');
+            $app->system->chgrp($web["document_root"], 'wheel');
             $app->system->web_folder_protection($web["document_root"], true);
         }
     }
