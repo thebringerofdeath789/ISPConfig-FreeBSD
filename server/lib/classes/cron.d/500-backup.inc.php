@@ -141,7 +141,7 @@ class cronjob_backup extends cronjob {
 							if($retval == 0 || ($backup_mode != 'userzip' && $retval == 1) || ($backup_mode == 'userzip' && $retval == 12)) { // tar can return 1, zip can return 12(due to harmless warings) and still create valid backups  
 								if(is_file($web_backup_dir.'/'.$web_backup_file)){
 									$backupusername = ($global_config['backups_include_into_web_quota'] == 'y') ? $web_user : 'root';
-									$backupgroup = ($global_config['backups_include_into_web_quota'] == 'y') ? $web_group : 'root';
+									$backupgroup = ($global_config['backups_include_into_web_quota'] == 'y') ? $web_group : 'wheel';
 									chown($web_backup_dir.'/'.$web_backup_file, $backupusername);
 									chgrp($web_backup_dir.'/'.$web_backup_file, $backupgroup);
 									chmod($web_backup_dir.'/'.$web_backup_file, 0750);
@@ -237,7 +237,7 @@ class cronjob_backup extends cronjob {
 							if(!is_dir($db_backup_dir)) mkdir($db_backup_dir, 0750);
 							chmod($db_backup_dir, 0750);
 							$backupusername = 'root';
-							$backupgroup = 'root';
+							$backupgroup = 'wheel';
 							if ($global_config['backups_include_into_web_quota'] == 'y') {
 								$sql = "SELECT * FROM web_domain WHERE domain_id = ".$rec['parent_domain_id'];
 								$webdomain = $app->db->queryOneRecord($sql);

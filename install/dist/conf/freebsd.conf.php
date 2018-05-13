@@ -57,7 +57,7 @@ $conf['services']['firewall'] = false;
 //* MySQL
 $conf['mysql']['installed'] = false; // will be detected automatically during installation
 $conf['mysql']['init_script'] = 'mysql';
-$conf['mysql']['host'] = 'localhost';
+$conf['mysql']['host'] = '127.0.0.1';
 $conf['mysql']['ip'] = '127.0.0.1';
 $conf['mysql']['port'] = '3306';
 $conf['mysql']['database'] = 'dbispconfig';
@@ -99,7 +99,7 @@ $conf['web']['apps_vhost_user'] = 'ispapps';
 $conf['web']['apps_vhost_group'] = 'ispapps';
 
 //* Fastcgi
-$conf['fastcgi']['fastcgi_phpini_path'] = '/etc/';
+$conf['fastcgi']['fastcgi_phpini_path'] = '/usr/local/etc/php.ini';
 $conf['fastcgi']['fastcgi_starter_path'] = '/var/www/php-fcgi-scripts/[system_user]/';
 $conf['fastcgi']['fastcgi_bin'] = '/usr/local/bin/php-cgi';
 

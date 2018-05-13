@@ -273,8 +273,8 @@ class installer_base {
 
 		global $conf;
 
-		if($conf['mysql']['host'] == 'localhost') {
-			$from_host = 'localhost';
+		if($conf['mysql']['host'] == '127.0.0.1') {
+			$from_host = '127.0.0.1'; // localhost creates errors if mysql socket not defined
 		} else {
 			$from_host = $conf['hostname'];
 		}
@@ -1838,7 +1838,7 @@ class installer_base {
             $this->error('Unable to create MySQL database: '.$conf['prosody']['storage_database'].'.');
         }
         if($conf['mysql']['host'] == 'localhost') {
-            $from_host = 'localhost';
+            $from_host = '127.0.0.1';
         } else {
             $from_host = $conf['hostname'];
         }
