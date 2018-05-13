@@ -110,7 +110,7 @@ class cronjob_backup extends cronjob {
 							chgrp($web_backup_dir, $rec['system_group']);
 							/*} else {
 								chown($web_backup_dir, 'root');
-								chgrp($web_backup_dir, 'root');
+								chgrp($web_backup_dir, 'wheel');
 							}*/
 						
 							$backup_excludes = '';
