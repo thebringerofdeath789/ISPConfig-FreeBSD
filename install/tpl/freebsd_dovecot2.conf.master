@@ -13,22 +13,25 @@ log_timestamp = "%Y-%m-%d %H:%M:%S "
 # ssl_cert_file = /etc/ssl/_.my-domain.tld/_.my-domain.tld.crt
 # ssl_key_file = /etc/ssl/_.my-domain.tld/_.my-domain.tld.key
 
-ssl_cert = /usr/local/etc/postfix/smtpd.cert
-ssl_key = /usr/local/etc/postfix/smtpd.key
+ssl_cert =</usr/local/etc/postfix/smtpd.cert
+ssl_key =</usr/local/etc/postfix/smtpd.key
 
 mail_privileged_group = mail
 
 login_greeting = MailServer managed by ISPConfig
 
 ## IMAP specific settings
-protocol imap {
-  mail_executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/imap
-  mail_plugins = quota imap_quota
+service imap {
+ executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/imap
 }
-
+service pop3 {
+ executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/pop3
+}
+protocol imap {
+ mail_plugins = quota imap_quota
+}
 ## POP3 specific settings
 protocol pop3 {
-  mail_executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/pop3
   pop3_uidl_format = %08Xu%08Xv
   mail_plugins = quota
 }
@@ -65,42 +68,40 @@ plugin {
 
 # Executable location
 #auth_executable = /usr/local/libexec/dovecot/dovecot-auth
-auth default {
-  mechanisms = plain login
+auth_mechanisms = plain login
 
   # SQL database <doc/wiki/AuthDatabase.SQL.txt>
-  passdb sql {
-    # Path for SQL configuration file
-    args = /usr/local/etc/dovecot/dovecot-sql.conf
-  }
+passdb {
+  args = /usr/local/etc/dovecot/dovecot-sql.conf
+  driver = sql
+}
 
 # new quota support:
-  userdb prefetch {
-  }
+userdb {
+  driver = prefetch
+}
 
-  userdb sql {
+userdb {
+    driver = sql
     args = /usr/local/etc/dovecot/dovecot-sql.conf
-  }
+}
 
 
   ## dovecot-lda specific settings
   ##
-  socket listen {
-    master {
-      path = /var/run/dovecot/auth-master
+  service auth {
+    unix_listener auth-master {
       mode = 0600
       user = vmail # User running Dovecot LDA
       #group = vmail # Or alternatively mode 0660 + LDA user in this group
     }
-  client {
-          path = /var/spool/postfix/private/auth
+  unix_listener /var/spool/postfix/private/auth {
           mode = 0660
           user = postfix
           group = postfix
         }
   }
 
-}
 
 mail_location = maildir:/var/vmail/%d/%n/Maildir
 
