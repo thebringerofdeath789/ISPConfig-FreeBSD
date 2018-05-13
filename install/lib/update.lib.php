@@ -92,7 +92,7 @@ function prepareDBDump() {
 		copy('existing_powerdns_db.sql', $backup_db_name);
 		chmod($backup_db_name, 0700);
 		chown($backup_db_name, 'root');
-		chgrp($backup_db_name, 'root');
+		chgrp($backup_db_name, 'wheel');
 	}
 }
 
