@@ -1,8 +1,23 @@
 #!/bin/sh
 ### PACKAGE INSTALLATION ### 
-pkg install maildrop nano git bash php72 nginx wget php72-zip php72-session php72-filter php72-simplexml php72-curl php72-bcmath php72-bz2 php72-ftp php72-gd php72-imap php72-json php72-mysqli php72-mbstring php72-pdo php72-pdo_mysql php72-zlib php72-xml php72-sqlite3 php72-soap php72-openssl mysql80-client mysql80-server postfix-sasl awstats webalizer dovecot jailkit py27-fail2ban py27-certbot py27-certbot-nginx cyrus-sasl-saslauthd amavisd-new amavisd-milter clamav clamav-milter pure-ftpd bind912 postgrey
+pkg install maildrop nano git bash php72 nginx wget php72-zip php72-session php72-filter php72-simplexml php72-curl php72-bcmath php72-bz2 php72-ftp php72-gd php72-imap php72-json php72-mysqli php72-mbstring php72-pdo php72-pdo_mysql php72-zlib php72-xml php72-sqlite3 php72-soap php72-openssl mysql80-client mysql80-server awstats webalizer jailkit py27-fail2ban py27-certbot py27-certbot-nginx cyrus-sasl-saslauthd amavisd-new amavisd-milter clamav-milter pure-ftpd bind912 postgrey
 
+#download ports
+portsnap fetch extract
 
+#copy ports custom config to db
+
+cp ports/* /var/db/ports
+
+#build dovecot with SQL support
+cd /usr/ports/mail/dovecot2
+echo "[+] Building Dovecot, this will take awhile"
+make >/dev/null && make install
+
+#build postfix
+echo "[+] Building Postfix, this will take awhile"
+cd /usr/ports/mail/postfix
+make >/dev/null && make install
 
 ### DOVECOT CONFIGURATION ###
 cp -R /usr/local/etc/dovecot/example-config/* \
@@ -115,4 +130,5 @@ chmod o=rx /usr/local/ispconfig/interface/web/themes/default/assets/fonts/*
 service nginx restart
 service mysql-server restart
 service php-fpm restart
-
+sa-update
+service amavisd restart
