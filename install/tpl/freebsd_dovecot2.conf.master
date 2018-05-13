@@ -21,8 +21,8 @@ mail_privileged_group = mail
 login_greeting = MailServer managed by ISPConfig
 
 ## IMAP specific settings
-protocol imap {
-  mail_executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/imap
+service imap {
+ mail_executable = /usr/local/libexec/dovecot/rawlog /usr/local/libexec/dovecot/imap
   mail_plugins = quota imap_quota
 }
 
@@ -69,10 +69,10 @@ auth default {
   mechanisms = plain login
 
   # SQL database <doc/wiki/AuthDatabase.SQL.txt>
-  passdb sql {
-    # Path for SQL configuration file
-    args = /usr/local/etc/dovecot/dovecot-sql.conf
-  }
+passdb {
+  args = /usr/local/etc/dovecot/dovecot-sql.conf
+  driver = sql
+}
 
 # new quota support:
   userdb prefetch {
