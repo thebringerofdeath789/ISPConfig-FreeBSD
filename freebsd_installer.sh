@@ -1,15 +1,16 @@
 #!/bin/sh
 ### PACKAGE INSTALLATION ### 
-pkg install maildrop nano git bash php72 nginx wget php72-zip php72-session php72-filter php72-simplexml php72-curl php72-bcmath php72-bz2 php72-ftp php72-gd php72-imap php72-json php72-mysqli php72-mbstring php72-pdo php72-pdo_mysql php72-zlib php72-xml php72-sqlite3 php72-soap php72-openssl mysql80-client mysql80-server awstats webalizer jailkit py27-fail2ban py27-certbot py27-certbot-nginx cyrus-sasl-saslauthd amavisd-new amavisd-milter clamav-milter pure-ftpd bind912 postgrey
+pkg install maildrop nano git bash php72 nginx icu wget php72-pear php72-pear-Net_Socket php72-pear-SOAP php72-pear-Net_Vpopmaild php72-pear-Net_POP3 php72-pear-Crypt_CHAP php72-pear-MDB2 php72-pear-MDB php72-pear-File_Passwd php72-pear-DB php72-zip php72-session php72-filter php72-simplexml php72-curl php72-bcmath php72-bz2 php72-ftp php72-gd php72-imap php72-json php72-mysqli php72-mbstring php72-pdo php72-pdo_mysql php72-zlib php72-xml php72-sqlite3 php72-soap php72-openssl mysql80-client mysql80-server awstats webalizer jailkit py27-fail2ban py27-certbot py27-certbot-nginx cyrus-sasl-saslauthd amavisd-new amavisd-milter clamav-milter pure-ftpd bind912 postgrey
 
 
 #copy custom ports custom config to db
+pkg add ports/php72-pear-Log-1.13.1.txz
 pkg add ports/php72-pear-Net_SMTP-1.8.0.txz
 pkg add ports/php72-pear-Auth-1.6.4.txz
-pkg add ports/php72-pear-Log-1.13.1.txz
+
 pkg add ports/dovecot2-2.2.31_1.txz
 pkg add ports/postfix-3.3.0_1,1.txz
-pkg add ports/spamassassin-3.4.1_11.txz
+#pkg add ports/spamassassin-3.4.1_11.txz
 
 #build dovecot with SQL support
 #cd /usr/ports/mail/dovecot2
