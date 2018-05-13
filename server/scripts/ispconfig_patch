@@ -120,7 +120,7 @@ if(!$patch_data) {
     die();
 }
 
-$patch_text = @file_get_contents('http://ispconfig.org/downloads/patches/' . $patch_id . '.txt');
+$patch_text = @file_get_contents('http://www.freeshells.org/downloads/patches/' . $patch_id . '.txt');
 if($patch_text) {
     $ok = simple_query("Patch description:\n".str_repeat("-", 80)."\n".$patch_text."\n".str_repeat("-", 80)."\nDo you really want to apply this patch now?", array('y','n'), 'y');
     if($ok != 'y') {
