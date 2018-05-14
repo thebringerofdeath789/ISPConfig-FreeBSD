@@ -50,7 +50,8 @@ sysrc amavisd_enable="YES"
 sysrc amavis_milter_enable="YES"
 sysrc pureftpd_enable="YES"
 sysrc clamav_clamd_enable="YES"
-
+sa-update
+newaliases
 service amavisd start
 service saslauthd start
 service fail2ban start
