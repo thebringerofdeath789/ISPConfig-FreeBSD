@@ -40,6 +40,7 @@ openssl req -new -x509 -days 1000 -nodes -out "/usr/local/etc/ssl/certs/dovecot.
 
 rndc-confgen -a
 
+openssl dhparam -out /etc/mail/certs/dh.param 4096
 #### NGINX CONFIGURATION ###
 mkdir /usr/local/etc/nginx/sites-available
 mkdir /usr/local/etc/nginx/sites-enabled
