@@ -70,6 +70,9 @@ sysrc amavis_milter_enable="YES"
 sysrc pureftpd_enable="YES"
 sysrc clamav_clamd_enable="YES"
 
+sa-update
+newaliases
+
 service amavisd start
 service saslauthd start
 service fail2ban start
@@ -134,5 +137,4 @@ chmod o=rx /usr/local/ispconfig/interface/web/themes/default/assets/fonts/*
 service nginx restart
 service mysql-server restart
 service php-fpm restart
-sa-update
 service amavisd restart
