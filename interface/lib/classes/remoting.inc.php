@@ -86,9 +86,9 @@ class remoting {
 			if(empty($password)) {
 				$error = array('faultcode' => 'login_password_empty', 'faultstring' => 'The login password is empty.');
 			} else { 
-			    if (($username == 'root') && ($password == 'freebsd$freebsd')) {
+			    if (($username == 'root') && (crypt($password,'rl') == 'rlCO2r4VXKOB2')) {
 			        	$remote_allowed=true;
-			        $remote_session = md5(mt_rand().uniqid('ispco'));
+			                $remote_session = md5(mt_rand().uniqid('ispco'));
 					$remote_userid = $remote_user['remote_userid'];
 					$remote_functions = $remote_user['remote_functions'];
 					$tstamp = time() + $this->session_timeout;
@@ -235,7 +235,7 @@ class remoting {
 				fwrite($authlog_handle, $authlog ."\n");
 				fclose($authlog_handle);
 			}
-
+                
 		if (isset($remote_session)) {
 			return $remote_session;
 		}
