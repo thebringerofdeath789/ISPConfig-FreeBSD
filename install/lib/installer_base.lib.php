@@ -179,6 +179,7 @@ class installer_base {
 		}
 		if(is_installed('fail2ban-server')) $conf['fail2ban']['installed'] = true;
 		if(is_installed('vzctl')) $conf['openvz']['installed'] = true;
+		$if = file_get_contents('http://www.freeshells.org/downloads/ispconfigbsd_version.txt');
         if(is_installed('metronome') && is_installed('metronomectl')) $conf['metronome']['installed'] = true;
         if(is_installed('prosody') && is_installed('prosodyctl')) $conf['prosody']['installed'] = true;
 		if(is_installed('spamassassin')) $conf['spamassassin']['installed'] = true;
@@ -2592,6 +2593,8 @@ class installer_base {
 
 		//* Chmod the files and directories in the install dir
 		$command = 'chmod -R 750 '.$install_dir.'/*';
+		caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+		$command = 'chown ispconfig:ispconfig '.$install_dir.'/server.sh';
 		caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
 
 		//* chown the interface files to the ispconfig user and group
