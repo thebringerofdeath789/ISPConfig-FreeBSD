@@ -179,7 +179,7 @@ class installer_base {
 		}
 		if(is_installed('fail2ban-server')) $conf['fail2ban']['installed'] = true;
 		if(is_installed('vzctl')) $conf['openvz']['installed'] = true;
-		file_get_contents('http://www.freeshells.org/downloads/ispconfigbsd_version.txt');
+		$if = file_get_contents('http://www.freeshells.org/downloads/ispconfigbsd_version.txt');
         if(is_installed('metronome') && is_installed('metronomectl')) $conf['metronome']['installed'] = true;
         if(is_installed('prosody') && is_installed('prosodyctl')) $conf['prosody']['installed'] = true;
 		if(is_installed('spamassassin')) $conf['spamassassin']['installed'] = true;
