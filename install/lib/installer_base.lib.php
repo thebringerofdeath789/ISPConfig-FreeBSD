@@ -2593,6 +2593,8 @@ class installer_base {
 		//* Chmod the files and directories in the install dir
 		$command = 'chmod -R 750 '.$install_dir.'/*';
 		caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
+		$command = 'chown ispconfig:ispconfig '.$install_dir.'/server.sh';
+		caselog($command.' &> /dev/null', __FILE__, __LINE__, "EXECUTED: $command", "Failed to execute the command $command");
 
 		//* chown the interface files to the ispconfig user and group
 		$command = 'chown -R ispconfig:ispconfig '.$install_dir.'/interface';
