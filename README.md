@@ -10,6 +10,7 @@
 - Open Source software (BSD license)
 
 # Installation instructions
+- Install a Fresh, Clean Copy of FreeBSD 11.1-RELEASE
 - In your FreeBSD shell, as root, enter the following commands
 - $ pkg install git
 - $ git clone https://github.com/thebringerofdeath789/ISPConfig-FreeBSD.git
