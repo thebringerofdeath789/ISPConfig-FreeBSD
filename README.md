@@ -22,3 +22,5 @@
 
 - This will set up Nginx, PHP 7.2/PHP-FPM, Mysql 8, Postfix, Dovecot, Pure-Ftpd, Phpmyadmin, Mailman
 - This does not support Apache2 or installation on a Linux System. Some normal functionality is missing such as quota's, firewall configuration and containers
+
+Update 6/28/2019 - Soon to update this repo and create better FreeBSD functionality.
